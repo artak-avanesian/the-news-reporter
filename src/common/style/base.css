@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Glyphter';
+    src: url('../fonts/Glyphter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.black-main-bg {
+    background-color: rgba(0, 0, 0, 0.9);  
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.lines {
+    background-image: url(lines.jpg);
+}
+.white-bg {
+    width: 1200px;
+    background-color: #fff;
+    margin: auto;
+}
+.container {
+    margin: auto;
+    width: 1150px;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}

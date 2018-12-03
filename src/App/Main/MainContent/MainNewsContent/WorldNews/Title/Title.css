@@ -1,0 +1,36 @@
+.world-news .title {
+    margin-top: 0;
+}
+.title {
+    width: 530px;
+    margin-top: 30px;
+    border-bottom: 4px solid #cf0000;
+    position: relative;
+    margin-bottom: 15px;
+}
+.title p {
+    color: #202021;
+    font-family: 'Bebas';
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding-bottom: 7px;
+}
+.more {
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #cf0000;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}

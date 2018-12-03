@@ -1,0 +1,7 @@
+main {
+    padding-bottom: 40px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}

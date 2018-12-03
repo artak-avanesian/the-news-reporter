@@ -1,0 +1,16 @@
+.main-menu ul {
+    list-style: none;
+    padding-top: 50px;
+    display: flex;
+}
+.main-menu ul li a {
+    color: #CF0000;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+}
+.main-menu ul li a:not(last-child) {
+    border-right: 1px solid #515152; 
+    padding-right: 12px;
+    padding-left: 12px;
+}

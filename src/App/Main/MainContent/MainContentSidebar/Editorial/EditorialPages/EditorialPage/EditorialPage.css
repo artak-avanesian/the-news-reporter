@@ -1,0 +1,28 @@
+.editorial-page .editorial-image {
+    height: 122px;
+    width: 240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.editorial-page-wrapper:first-child .editorial-image {
+    background: url(editorial-1.jpg) no-repeat 60%;
+    background-size: cover;
+}
+.editorial-page-wrapper:nth-child(2) .editorial-image {
+    background: url(editorial-2.jpg) no-repeat;
+    background-size: cover;
+}
+.editorial-page-wrapper:nth-child(3) .editorial-image {
+    background: url(editorial-3.jpg) no-repeat;
+    background-size: cover;
+}
+.editorial-page-wrapper:last-child .editorial-image {
+    background: url(editorial-2.jpg) no-repeat;
+    background-size: cover;
+}
+.editorial-description {
+    color: #cf0000;
+}
+.editorial-page a {
+    text-decoration: none;
+}

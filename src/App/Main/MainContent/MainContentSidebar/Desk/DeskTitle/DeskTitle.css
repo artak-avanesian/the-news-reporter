@@ -1,0 +1,12 @@
+.desk-title, .editorial-title {
+    width: 240px;
+    border-bottom: 4px solid #cf0000;
+}
+.desk .desk-title p, .editorial-title p {
+    font-family: Bebas;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #202021;
+    word-spacing: 5px;
+    margin-bottom: 5px;
+}

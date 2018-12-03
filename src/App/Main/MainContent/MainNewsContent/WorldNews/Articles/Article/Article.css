@@ -1,0 +1,20 @@
+h5 {
+    font-family: Arial;
+}
+.description p, .descript, .author, .comments, [class^='desk-'] p {
+    font-family: Arial;
+    font-size: 12px;
+    color: #202021;
+    margin-bottom: 10px;
+}
+.read-more {
+    text-transform: uppercase;
+    color: #cf0000;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10px;
+}
+.all-news .articles .article-wrapper .article .image {
+    background-size: cover;
+}

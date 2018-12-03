@@ -1,0 +1,26 @@
+.news-menu {
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+}
+.news-menu li a {
+    color: white;
+    text-decoration: none;
+    background: black;
+    font-family: Bebas;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 15px;
+    padding-right: 31px;
+    padding-left: 30px;
+    display: block;
+    cursor: pointer;
+    margin-left: -4px;
+}
+.news-menu li:first-child a {
+    word-spacing: 5px;
+    margin-left: 0;
+}
+.news-menu li a:hover {
+    background: #cf0000;
+}

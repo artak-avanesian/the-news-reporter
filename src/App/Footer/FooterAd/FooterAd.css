@@ -1,0 +1,12 @@
+.ad-in-footer {
+    border-top: 1px dotted #202021;
+    border-bottom: 1px dotted #202021;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.banner {
+    width: 728px;
+    margin: auto;
+    background: url(ad-2.jpg) no-repeat;
+    height: 92px;
+}

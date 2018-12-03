@@ -1,0 +1,27 @@
+.video-block {
+    margin-top: 10px;
+    height: 70px;
+    width: 80px;
+    background: #0f52a3;
+    display: inline-block;
+    margin-left: 20px;
+}
+.video-block span {
+    font-family: Glyphter;
+    font-size: 25px;
+    color: #bcbcbc;
+    padding-left: 30px;
+    line-height: 70px;
+}
+.video-block+a {
+    color: #202021;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 40px;
+}

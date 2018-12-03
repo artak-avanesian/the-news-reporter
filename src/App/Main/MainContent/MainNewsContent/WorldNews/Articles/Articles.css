@@ -1,0 +1,24 @@
+.articles {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+}
+.articles .article-wrapper:last-child {
+    margin-right: 0;
+}
+.article-wrapper {
+    width: 170px;
+}
+.world-news .article-wrapper:first-child .image {
+    background: url(world-news-1.jpeg) no-repeat 50%;
+}
+.world-news .article-wrapper:nth-child(2) .image {
+    background: url(world-news-2.jpg) no-repeat;
+}
+.world-news .article-wrapper:last-child .image {
+    background: url(world-news-3.jpg) no-repeat;
+}
+.article-wrapper .image {
+    width: inherit;
+    height: 140px;
+}

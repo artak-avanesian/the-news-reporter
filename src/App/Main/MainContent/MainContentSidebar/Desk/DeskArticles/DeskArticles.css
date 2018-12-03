@@ -1,0 +1,7 @@
+.desk-article-wrapper {
+    padding-top: 19px;
+    padding-bottom: 20px;
+}
+.desk-article-wrapper:first-child, .desk-article-wrapper:nth-child(2) {
+    border-bottom: 1px dotted #202021;
+}

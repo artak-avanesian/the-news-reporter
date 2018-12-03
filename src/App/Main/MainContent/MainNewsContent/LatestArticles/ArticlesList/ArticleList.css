@@ -1,0 +1,9 @@
+.latest-articles .article-wrapper:first-child .image {
+    background: url(latest-articles-1.jpg) no-repeat;
+}
+.latest-articles .article-wrapper:nth-child(2) .image {
+    background: url(latest-articles-2.jpg) no-repeat;
+}
+.latest-articles .article-wrapper:last-child .image {
+    background: url(latest-articles-3.jpg) no-repeat;
+}

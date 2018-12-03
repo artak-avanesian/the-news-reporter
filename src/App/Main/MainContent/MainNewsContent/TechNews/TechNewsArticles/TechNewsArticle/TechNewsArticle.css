@@ -1,0 +1,15 @@
+.tech-news-article p:first-of-type {
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+span.red-text {
+    color: #cf0000;
+}
+.author {
+    float: left;
+    padding-right: 15px;
+    border-right: 1px solid #202021;
+}
+.comments {
+    padding-left: 98px;
+}

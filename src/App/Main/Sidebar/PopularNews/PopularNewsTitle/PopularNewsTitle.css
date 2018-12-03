@@ -1,0 +1,21 @@
+.popular-news-title {
+    width: 325px;
+    margin-top: 30px;
+    border-bottom: 4px solid #cf0000;
+    margin-bottom: 15px;
+}
+.popular-news-title p {
+    color: #202021;
+    font-family: Bebas;
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding-bottom: 7px;
+}
+.popular-news-title p:first-child {
+    float: left;
+    color: #cf0000;
+}
+.most-read {
+    float: right;
+}

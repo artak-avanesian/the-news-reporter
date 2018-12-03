@@ -1,0 +1,12 @@
+footer p  {
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+    color: #202021;
+    line-height: 20px;
+}
+footer p:last-child {
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+}

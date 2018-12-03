@@ -1,0 +1,18 @@
+.date {
+    font-style: italic;
+    font-family: Arial;
+    font-size: 11px;
+}
+.popular-description {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #202021;
+}
+.popular-article-wrapper:last-of-type .popular-description {
+    border-bottom: none;
+}
+.popular-description a {
+    margin-left: 10px;
+}

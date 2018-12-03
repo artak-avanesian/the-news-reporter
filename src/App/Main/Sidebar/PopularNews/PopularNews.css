@@ -1,0 +1,6 @@
+.popular-article-wrapper:not(:first-child) {
+    margin-top: 15px;
+}
+.popular-more {
+    position: static;
+}

@@ -1,0 +1,14 @@
+.logo {
+    padding-top: 25px;
+}
+.logo-title, .logo-news {
+    font-family: Georgia;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.logo-news {
+    font-size: 30px;
+}
+.logo-news span {
+    color: #CF0000;
+}
