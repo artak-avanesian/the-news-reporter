@@ -1,3 +1,4 @@
 .article-image-2 {
     background: url(../world-news-2.jpg);
+    background-size: cover;
 }

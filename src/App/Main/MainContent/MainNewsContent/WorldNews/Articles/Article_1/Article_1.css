@@ -1,12 +1,13 @@
 .article-image {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     float: left;
     margin-top: 20px;
     margin-right: 20px;
 }
 .article-image-1 {
     background: url(../world-news-1.jpeg);
+    background-size: cover;
 }
 .article-text {
     font-size: 18px;

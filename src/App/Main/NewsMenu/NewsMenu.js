@@ -1,20 +1,21 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './NewsMenu.css'
 
 const NewsMenu = () => {
     return (
         <nav>
             <ul className='news-menu'>
-                <li><a href="#">World news</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Tech</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Entertainment</a></li>
-                <li><a href="#">Culture</a></li>
-                <li><a href="#">Books</a></li>
-                <li><a href="#">Classifieds</a></li>
-                <li><a href="#">Blogs</a></li>
+                <li><Link to="/world-news">World news</Link></li>
+                <li><Link to="#">Sports</Link></li>
+                <li><Link to="#">Tech</Link></li>
+                <li><Link to="#">Business</Link></li>
+                <li><Link to="#">Movies</Link></li>
+                <li><Link to="#">Entertainment</Link></li>
+                <li><Link to="#">Culture</Link></li>
+                <li><Link to="#">Books</Link></li>
+                <li><Link to="#">Classifieds</Link></li>
+                <li><Link to="#">Blogs</Link></li>
             </ul>
         </nav>
     )
