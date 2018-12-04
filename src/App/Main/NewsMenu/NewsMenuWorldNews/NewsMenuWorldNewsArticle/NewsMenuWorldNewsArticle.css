@@ -1,0 +1,35 @@
+.news-menu-world-news-wrapper:first-child .news-menu-world-news-image {
+    background: url(../news-menu-world-news-1.jpg) no-repeat;
+    background-size: cover;
+}
+.news-menu-world-news-wrapper:nth-child(2) .news-menu-world-news-image {
+    background: url(../news-menu-world-news-2.jpg) no-repeat;
+    background-size: cover;
+}
+.news-menu-world-news-wrapper:nth-child(3) .news-menu-world-news-image {
+    background: url(../news-menu-world-news-3.jpg) no-repeat;
+    background-size: cover;
+}
+.news-menu-world-news-wrapper:nth-child(4) .news-menu-world-news-image {
+    background: url(../news-menu-world-news-4.jpg) no-repeat;
+    background-size: cover;
+}
+.news-menu-world-news-wrapper:nth-child(5) .news-menu-world-news-image {
+    background: url(../news-menu-world-news-5.jpg) no-repeat;
+    background-size: cover;
+}
+.news-menu-world-news-wrapper:last-child .news-menu-world-news-image {
+    background: url(../news-menu-world-news-6.jpg) no-repeat;
+    background-size: cover;
+}
+.news-menu-world-news-wrapper a {
+    text-decoration: none;
+    color: black;
+}
+.news-menu-world-news-image {
+    width: 200px;
+    height: 100px;
+}
+.news-menu-world-news-description {
+    width: 200px;
+}
