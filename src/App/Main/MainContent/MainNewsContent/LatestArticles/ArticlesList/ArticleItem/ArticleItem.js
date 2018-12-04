@@ -11,7 +11,7 @@ const ArticleItem = ({
             <div className="description">
                 <h5>{art_list_title}</h5>
                 <p>{art_list_description}</p>
-                <a href="article_1.html" target='_blank' className="read-more">Read more</a>
+                <a href="#" className="read-more">Read more</a>
             </div>
         </div>
     )

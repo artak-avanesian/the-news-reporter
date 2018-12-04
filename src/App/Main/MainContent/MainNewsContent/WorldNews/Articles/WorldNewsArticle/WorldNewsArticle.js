@@ -1,9 +1,11 @@
 import React from 'react'
-import './Article.css'
+import {Link} from 'react-router-dom'
+import './WorldNewsArticle.css'
 
 const Article = ({
     title,
     description,
+    world_news_article
 }) => {
     return (
         <div className='article'>
@@ -11,7 +13,7 @@ const Article = ({
             <div className="description">
                 <h5>{title}</h5>
                 <p>{description}</p>
-                <a href="article_1.html" target='_blank' className="read-more">Read more</a>
+                <Link to={world_news_article} className="read-more">Read more</Link>
             </div>
         </div>
     )

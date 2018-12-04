@@ -1,5 +1,5 @@
 import React from 'react'
-import Article from './Article/Article'
+import WorldNewsArticle from './WorldNewsArticle/WorldNewsArticle'
 import articlesBlock from './articlesBlock'
 import './Articles.css'
 
@@ -12,11 +12,13 @@ const Articles = () => {
                 title,
                 description,
                 id,
+                world_news_article,
             }) => (
                 <div className='article-wrapper' key={id}>
-                    <Article
+                    <WorldNewsArticle
                         title={title}
                         description={description}
+                        world_news_article={world_news_article}
                     />
                 </div>
             ))
