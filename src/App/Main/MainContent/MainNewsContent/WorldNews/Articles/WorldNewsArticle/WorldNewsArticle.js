@@ -5,7 +5,7 @@ import './WorldNewsArticle.css'
 const Article = ({
     title,
     description,
-    world_news_article
+    id
 }) => {
     return (
         <div className='article'>
@@ -13,7 +13,7 @@ const Article = ({
             <div className="description">
                 <h5>{title}</h5>
                 <p>{description}</p>
-                <Link to={world_news_article} className="read-more">Read more</Link>
+                <Link to={`world-news-articles/${id}`} className="read-more">Read more</Link>
             </div>
         </div>
     )
