@@ -10,7 +10,7 @@ const MainMenu = () => {
                 <li><Link to="#">About us</Link></li>
                 <li><Link to="#">Contact us</Link></li>
                 <li><Link to="#">Subscribe</Link></li>
-                <li><Link to='#'>Favourites</Link></li>
+                <li><Link to='/favourites'>Favourites</Link></li>
                 <li><Link to="#">Login</Link></li>
             </ul>
         </nav>

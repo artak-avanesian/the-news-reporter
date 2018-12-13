@@ -14,7 +14,15 @@ h5 {
     font-family: Arial;
     font-weight: bold;
     font-size: 10px;
+    float: left;
 }
 .all-news .articles .article-wrapper .article .image {
     background-size: cover;
+}
+.like {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    height: 20px;
+    margin-top: -10px;
 }

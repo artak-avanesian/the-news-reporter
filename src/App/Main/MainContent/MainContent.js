@@ -4,12 +4,20 @@ import MainNewsContent from './MainNewsContent/MainNewsContent'
 import MainContentSidebar from './MainContentSidebar/MainContentSidebar'
 import './MainContent.css'
 
-const MainContent = () => {
+const MainContent = ({
+    isLiked,
+    likeOn,
+    likeOff
+}) => {
     return (
         <div className='main-content'>
             <BreakingNews/>
             <div className="flex-container">
-                <MainNewsContent/>
+                <MainNewsContent
+                    isLiked={isLiked}
+                    likeOn={likeOn}
+                    likeOff={likeOff}
+                />
                 <MainContentSidebar/>
             </div>
         </div>

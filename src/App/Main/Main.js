@@ -6,16 +6,36 @@ import NewsMenuWorldNews from './NewsMenu/NewsMenuWorldNews/NewsMenuWorldNews'
 import Sidebar from './Sidebar/Sidebar'
 import WorldNewsPage from './MainContent/MainNewsContent/WorldNews/WorldNewsPage/WorldNewsPage'
 import './Main.css'
+import Favourites from '../../common/features/Favourites/Favourites';
 
-const Main = () => {
+const Main = ({
+    isLiked,
+    likeOn,
+    likeOff
+}) => {
     return (
         <main>
             <div className='container'>
                 <NewsMenu/>
                 <div className="flex-container">
-                    <Route path='/' exact component={MainContent}/>
+                    <Route path='/' exact render={() => {
+                        return (
+                            <MainContent
+                                isLiked={isLiked}
+								likeOn={likeOn}
+								likeOff={likeOff}
+                            />
+                        )
+                    }}/>
                     <Route path='/world-news-articles/:worldNewsArticleId' component={WorldNewsPage}/>
                     <Route path='/world-news' component={NewsMenuWorldNews}/>
+                    <Route path='/favourites' render={() => {
+                        return (
+                            <Favourites
+                                isLiked={isLiked}
+                            />
+                        )
+                    }}/>
                     <Sidebar/>
                 </div>
             </div>
