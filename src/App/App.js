@@ -5,28 +5,28 @@ import Footer from './Footer/Footer'
 import '../common/style/base.css'
 
 class App extends Component {
-	state = {
-        isLiked: {
+	// state = {
+    //     isLiked: {
 			
-		}
-    }
+	// 	}
+    // }
     
-    likeOn = (likeId) => {
-        this.setState((prevState) => ({
-            isLiked: {
-				...prevState.isLiked,
-				[likeId]: true,
-			}
-        }))
-    }
-    likeOff = (likeId) => {
-        this.setState((prevState) => ({
-            isLiked: {
-				...prevState.isLiked,
-				[likeId]: false,
-			}
-        }))
-	}
+    // likeOn = (likeId) => {
+    //     this.setState((prevState) => ({
+    //         isLiked: {
+	// 			...prevState.isLiked,
+	// 			[likeId]: true,
+	// 		}
+    //     }))
+    // }
+    // likeOff = (likeId) => {
+    //     this.setState((prevState) => ({
+    //         isLiked: {
+	// 			...prevState.isLiked,
+	// 			[likeId]: false,
+	// 		}
+    //     }))
+	// }
 	
 	render() {
 		return (
@@ -36,9 +36,9 @@ class App extends Component {
 						<div className='App'>
 							<Header/>
 							<Main
-								isLiked={this.state.isLiked}
-								likeOn={this.likeOn}
-								likeOff={this.likeOff}
+								// isLiked={this.state.isLiked}
+								// likeOn={this.likeOn}
+								// likeOff={this.likeOff}
 							/>
 							<Footer/>
 						</div>

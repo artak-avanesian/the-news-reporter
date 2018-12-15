@@ -5,18 +5,14 @@ import Gallery from './Gallery/Gallery'
 import TechNews from './TechNews/TechNews'
 import './MainNewsContent.css'
 
-const MainNewsContent = ({
-    isLiked,
-    likeOn,
-    likeOff
-}) => {
+const MainNewsContent = () => {
     return (
         <div className="main-news-content">
             <div className="all-news">
                 <WorldNews
-                    isLiked={isLiked}
-                    likeOn={likeOn}
-                    likeOff={likeOff}
+                    // isLiked={isLiked}
+                    // likeOn={likeOn}
+                    // likeOff={likeOff}
                 />
                 <LatestArticles/>
                 <Gallery/>

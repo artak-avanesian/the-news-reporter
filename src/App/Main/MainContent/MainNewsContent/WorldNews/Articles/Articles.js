@@ -4,11 +4,7 @@ import articlesBlock from './articlesBlock'
 import './Articles.css'
 
 
-const Articles = ({
-    isLiked,
-    likeOn,
-    likeOff
-}) => {
+const Articles = () => {
     return (
         <div className='articles'>
         {
@@ -22,9 +18,9 @@ const Articles = ({
                         title={title}
                         description={description}
                         id={id}
-                        isLiked={isLiked}
-                        likeOn={likeOn}
-                        likeOff={likeOff}
+                        // isLiked={isLiked}
+                        // likeOn={likeOn}
+                        // likeOff={likeOff}
                     />
                 </div>
             ))
