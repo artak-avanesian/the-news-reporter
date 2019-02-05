@@ -16,3 +16,11 @@
 .popular-description a {
     margin-left: 10px;
 }
+.popular-read-more {
+    text-transform: uppercase;
+    color: #cf0000;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 10px;
+}
