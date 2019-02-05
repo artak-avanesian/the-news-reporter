@@ -9,19 +9,6 @@ const Favourites = ({
     isLiked,
     favouritesMap = getWorldNewsMap(articlesBlock)
 }) => {
-    console.log(isLiked)
-    // const like = () => {
-    //     var likeActiveArray = [];
-    //     for (var key in isLiked) {
-    //         if (isLiked[key] === true) likeActiveArray.push(key);
-    //         else {
-    //             for (var i = 0; i < likeActiveArray.length; i++) {
-    //                 if (key === likeActiveArray[i]) likeActiveArray.splice(i, 1);
-    //             }
-    //         }
-    //     }
-    //     return likeActiveArray;
-    // }
     const isLikedProduct = keys(isLiked).filter((likeId) => {
         if (isLiked[likeId] === true) return true;
         else return false;
@@ -45,7 +32,7 @@ const Favourites = ({
 
 const mapStateToProps = (state, props) => {
     return {
-        isLiked: state[props]
+        isLiked: state[props.id]
     }
 }
 
