@@ -19,6 +19,7 @@ const Favourites = ({
             isLikedProduct.map((likeId) => (
                 <div key={likeId}>
                     <FavouriteArticle
+                        favouriteId={favouritesMap[likeId].id}
                         favouriteArticleImage={favouritesMap[likeId].img_src}
                         favouriteArticleTitle={favouritesMap[likeId].title}
                         favouriteArticleDescription={favouritesMap[likeId].description}
@@ -30,9 +31,9 @@ const Favourites = ({
     )
 }
 
-const mapStateToProps = (state, props) => {
+const mapStateToProps = (state) => {
     return {
-        isLiked: state[props.id]
+        isLiked: state.likedProducts    
     }
 }
 

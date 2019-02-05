@@ -37,7 +37,7 @@ class Article extends Component {
 
 const mapStateToProps = (state, props) => {
     return {
-        isLiked: state[props.id]
+        isLiked: state.likedProducts[props.id]
     }
 }
 
