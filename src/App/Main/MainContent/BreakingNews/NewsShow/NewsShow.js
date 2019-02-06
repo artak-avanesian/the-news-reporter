@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { keys } from 'lodash'
+import news, { getNewsMap } from './../news'
 import './NewsShow.css'
 
 const NewsShow = ({
@@ -17,8 +18,11 @@ const NewsShow = ({
 }
 
 const mapStateToProps = (state) => {
+    let currentId = keys(state.currentNews);
+    let newsMap = getNewsMap(news);
     return {
-        newsId: keys(state.currentNews)
+        newsId: currentId,
+        newsShowTitle: newsMap[currentId].breaking_news_title
     }
 }
 

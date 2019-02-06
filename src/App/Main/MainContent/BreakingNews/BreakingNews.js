@@ -3,16 +3,13 @@ import NewsShow from './NewsShow/NewsShow'
 import BreakingNewsTitle from './BreakingNewsTitle/BreakingNewsTitle'
 import BreakingNewsImage from './BreakingNewsImage/BreakingNewsImage'
 import news from './news'
-import newsShow from './newsShow'
 
 import './BreakingNews.css'
 
 const BreakingNews = () => {
     return (
         <section className="breaking-news">
-            <NewsShow
-                newsShowTitle={newsShow.newsShowTitle}
-            />
+            <NewsShow/>
             <BreakingNewsTitle/>
             <div>
             {

@@ -17,4 +17,11 @@ const news = [
     },
 ];
 
+export const getNewsMap = (array) => {
+    return array.reduce((map, news) => ({
+        ...map,
+        [news.breaking_news_id]: news
+    }), {})
+}
+
 export default news
