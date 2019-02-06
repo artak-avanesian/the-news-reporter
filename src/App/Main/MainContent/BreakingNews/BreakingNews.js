@@ -1,6 +1,8 @@
 import React from 'react'
 import NewsShow from './NewsShow/NewsShow'
 import BreakingNewsTitle from './BreakingNewsTitle/BreakingNewsTitle'
+import BreakingNewsImage from './BreakingNewsImage/BreakingNewsImage'
+import news from './news'
 import newsShow from './newsShow'
 
 import './BreakingNews.css'
@@ -12,12 +14,23 @@ const BreakingNews = () => {
                 newsShowTitle={newsShow.newsShowTitle}
             />
             <BreakingNewsTitle/>
-            <div className="current-news-show"></div>
-            <div className="another-news-1"></div>
-            <div className="another-news-2"></div>
-            <div className="another-news-3"></div>
+            <div>
+            {
+                news.map(({
+                    breaking_news_id
+                }) => (
+                    <div className='breaking-news-wrapper' key={breaking_news_id}>
+                        <BreakingNewsImage
+                            breaking_news_id={breaking_news_id}
+                        />
+                    </div>
+                ))
+            }
+            </div>
         </section>
     )
 }
+
+
 
 export default BreakingNews

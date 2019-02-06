@@ -7,26 +7,3 @@
     position: relative;
     margin-bottom: 30px;
 }
-.another-news-1 {
-    background: url(news-1.jpeg) no-repeat;
-}
-.another-news-2 {
-    background: url(news-2.jpeg) no-repeat;
-}
-.another-news-3 {
-    background: url(news-3.jpeg) no-repeat;
-}
-.current-news-show, .another-news-1, .another-news-2, .another-news-3 {
-    width: 150px;
-    height: 71px;
-    float: right;
-    margin-right: 17px;
-    margin-top: 5px;
-    background-size: cover;
-}
-.current-news-show {
-    margin-top: 15px;
-    border: 2px solid #cf0000;
-    background: url(news-show-small.jpg) no-repeat 50% 30%;
-    background-size: cover;
-}

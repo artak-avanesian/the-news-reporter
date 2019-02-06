@@ -1,11 +1,25 @@
-.news-show {
+[class^='breaking-news-show-'] {
     width: 600px;
     height: 300px;
-    background: url(news-show.jpg) no-repeat 50% 30%;
     margin: 15px;
     border: 4px solid black;
     position: relative;
     float: left;
+}
+.breaking-news-show-1 {
+    background: url(news-show.jpg) no-repeat 50% 30%;
+}
+.breaking-news-show-2 {
+    background: url(../BreakingNewsImage/news-1.jpeg) no-repeat;
+    background-size: cover;
+}
+.breaking-news-show-3 {
+    background: url(../BreakingNewsImage/news-2.jpeg) no-repeat;
+    background-size: cover;
+}
+.breaking-news-show-4 {
+    background: url(../BreakingNewsImage/news-3.jpeg) no-repeat ;
+    background-size: cover;
 }
 .news-show-description {
     position: absolute;

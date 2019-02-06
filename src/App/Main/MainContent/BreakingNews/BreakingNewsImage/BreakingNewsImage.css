@@ -1,0 +1,27 @@
+.breaking-news-wrapper:first-of-type .breaking-news-image {
+    margin-top: 15px;
+    background: url(news-show-small.jpg) no-repeat 50% 30%;
+    background-size: cover;
+}
+.breaking-news-wrapper:nth-of-type(2) .breaking-news-image {
+    background: url(news-1.jpeg) no-repeat;
+    background-size: cover;
+}
+.breaking-news-wrapper:nth-of-type(3) .breaking-news-image {
+    background: url(news-2.jpeg) no-repeat;
+    background-size: cover;
+}
+.breaking-news-wrapper:last-of-type .breaking-news-image {
+    background: url(news-3.jpeg) no-repeat;
+    background-size: cover;
+}
+.breaking-news-image {
+    width: 150px;
+    height: 71px;
+    float: right;
+    margin-right: 17px;
+    margin-top: 5px;
+}
+.red-border {
+    border: 2px solid #cf0000;
+}
