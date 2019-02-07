@@ -28,13 +28,13 @@
     height: 50px;
     background: rgba(0, 0, 0, 0.8);
 }
-.news-show-description p{
+.news-show-description p {
     color: white;
     width: 592px;
     padding-left: 180px;
     padding-right: 50px;
     padding-top: 10px;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 12px;
     word-wrap: break-word;
 }
