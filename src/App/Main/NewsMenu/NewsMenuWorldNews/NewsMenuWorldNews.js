@@ -8,12 +8,12 @@ const NewsMenuWorldNews = () => {
         <div className='news-menu-world-news-articles'>
             {
                 newsMenuWorldNewsArticles.map(({
-                    newsMenuWorldNewsDescription,
+                    newsMenuWorldNewsTitle,
                     newsMenuWorldNewsId,
                 }) => (
                     <div className='news-menu-world-news-wrapper' key={newsMenuWorldNewsId}>
                         <NewsMenuWorldNewsArticle
-                        newsMenuWorldNewsDescription={newsMenuWorldNewsDescription}
+                        newsMenuWorldNewsTitle={newsMenuWorldNewsTitle}
                     />
                     </div>
                 ))

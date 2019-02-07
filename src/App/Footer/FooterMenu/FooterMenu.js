@@ -1,20 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './FooterMenu.css'
 
 const FooterMenu = () => {
     return (
         <nav>
             <ul className="footer-menu">
-                <li><a href="">World News</a></li>
-                <li><a href="">Sports</a></li>
-                <li><a href="">Technology</a></li>
-                <li><a href="">Business</a></li>
-                <li><a href="">Movies</a></li>
-                <li><a href="">Entertainment</a></li>
-                <li><a href="">Culture</a></li>
-                <li><a href="">Books</a></li>
-                <li><a href="">Classifieds</a></li>
-                <li><a href="">Blogs</a></li>
+                <li><Link to="/world-news">World News</Link></li>
+                <li><Link to="/sports">Sports</Link></li>
+                <li><Link to="/tech">Technology</Link></li>
+                <li><Link to="/business">Business</Link></li>
+                <li><Link to="/movies">Movies</Link></li>
+                <li><Link to="/entertainment">Entertainment</Link></li>
+                <li><Link to="/culture">Culture</Link></li>
+                <li><Link to="/books">Books</Link></li>
+                <li><Link to="/classfieds">Classifieds</Link></li>
+                <li><Link to="/blogs">Blogs</Link></li>
             </ul>
         </nav>
     )

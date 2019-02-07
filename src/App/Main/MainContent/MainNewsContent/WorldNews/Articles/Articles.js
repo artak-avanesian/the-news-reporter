@@ -18,9 +18,6 @@ const Articles = () => {
                         title={title}
                         description={description}
                         id={id}
-                        // isLiked={isLiked}
-                        // likeOn={likeOn}
-                        // likeOff={likeOff}
                     />
                 </div>
             ))

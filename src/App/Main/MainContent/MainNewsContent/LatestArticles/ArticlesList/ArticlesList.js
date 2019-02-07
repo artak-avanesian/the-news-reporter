@@ -16,6 +16,7 @@ const ArticlesList = () => {
                     <ArticleItem
                         art_list_title={art_list_title}
                         art_list_description={art_list_description}
+                        art_list_id={art_list_id}
                     />
                 </div>
             ))

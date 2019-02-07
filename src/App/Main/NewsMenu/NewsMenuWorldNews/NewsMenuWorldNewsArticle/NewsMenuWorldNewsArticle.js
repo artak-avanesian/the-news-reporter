@@ -3,13 +3,13 @@ import './NewsMenuWorldNewsArticle.css'
 import {Link} from 'react-router-dom'
 
 const NewsMenuWorldNewsArticle = ({
-    newsMenuWorldNewsDescription,
+    newsMenuWorldNewsTitle,
 }) => {
     return (
         <div>
             <div className="news-menu-world-news-image"></div>
             <Link to=''>
-                <h5 className="news-menu-world-news-description">{newsMenuWorldNewsDescription}</h5>
+                <h5 className="news-menu-world-news-description">{newsMenuWorldNewsTitle}</h5>
             </Link>
         </div>
     )

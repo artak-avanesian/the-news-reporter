@@ -1,12 +1,12 @@
-.world-news-item p {
+.world-news-item p, .latest-article-item p {
     margin-right: 25px;
     text-align: justify;
 }
 
-.world-news-item h2 {
+.world-news-item h2, .latest-article-item h2 {
 	margin-top: 15px;
 }
-.world-news-item img {
+.world-news-item img, .latest-article-item img {
 	width: 300px;
 	height: 200px;
 	float: left;

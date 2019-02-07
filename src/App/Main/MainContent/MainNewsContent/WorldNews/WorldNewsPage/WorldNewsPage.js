@@ -7,11 +7,11 @@ const WorldNewsPage = ({
     match
 }) => {
     return (
-        <div className='world-news-item'>
+        <article className='world-news-item'>
             <img src={articleItem[match.params.worldNewsArticleId].img_src} alt=""/>
             <h2>{articleItem[match.params.worldNewsArticleId].title}</h2>
             <p>{articleItem[match.params.worldNewsArticleId].world_news_article}</p>
-        </div>
+        </article>
     )
 }
 
