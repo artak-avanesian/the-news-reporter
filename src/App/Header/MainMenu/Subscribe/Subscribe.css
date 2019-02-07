@@ -1,0 +1,18 @@
+.subscribe h1 {
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+.subscribe h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.subscribe p, .subscribe li {
+    font-size: 17px;
+    margin-right: 20px;
+}
+.subscribe ul {
+    margin-left: 30px;
+    margin-top: 15px;
+}
