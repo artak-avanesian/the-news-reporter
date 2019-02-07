@@ -6,11 +6,7 @@ const WorldNews = () => {
     return (
         <div className='world-news'>
             <Title/>
-            <Articles
-                // isLiked={isLiked}
-                // likeOn={likeOn}
-                // likeOff={likeOff}
-            />
+            <Articles/>
         </div>
     )
 }

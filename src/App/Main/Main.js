@@ -16,11 +16,7 @@ const Main = () => {
                 <div className="flex-container">
                     <Route path='/' exact render={() => {
                         return (
-                            <MainContent
-                                // isLiked={isLiked}
-								// likeOn={likeOn}
-								// likeOff={likeOff}
-                            />
+                            <MainContent/>
                         )
                     }}/>
                     <Route path='/world-news-articles/:worldNewsArticleId' component={WorldNewsPage}/>

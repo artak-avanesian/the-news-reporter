@@ -9,11 +9,7 @@ const MainNewsContent = () => {
     return (
         <div className="main-news-content">
             <div className="all-news">
-                <WorldNews
-                    // isLiked={isLiked}
-                    // likeOn={likeOn}
-                    // likeOff={likeOff}
-                />
+                <WorldNews/>
                 <LatestArticles/>
                 <Gallery/>
                 <TechNews/>

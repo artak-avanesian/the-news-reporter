@@ -9,11 +9,7 @@ const MainContent = () => {
         <div className='main-content'>
             <BreakingNews/>
             <div className="flex-container">
-                <MainNewsContent
-                    // isLiked={isLiked}
-                    // likeOn={likeOn}
-                    // likeOff={likeOff}
-                />
+                <MainNewsContent/>
                 <MainContentSidebar/>
             </div>
         </div>
