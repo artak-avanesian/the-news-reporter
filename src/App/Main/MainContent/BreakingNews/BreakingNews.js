@@ -3,7 +3,6 @@ import NewsShow from './NewsShow/NewsShow'
 import BreakingNewsTitle from './BreakingNewsTitle/BreakingNewsTitle'
 import BreakingNewsImage from './BreakingNewsImage/BreakingNewsImage'
 import news from './news'
-
 import './BreakingNews.css'
 
 const BreakingNews = () => {
