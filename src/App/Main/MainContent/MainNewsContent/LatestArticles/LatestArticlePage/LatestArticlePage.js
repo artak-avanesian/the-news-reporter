@@ -14,4 +14,6 @@ const LatestArticlePage = ({
     )
 }
 
+//css properties locate in WorldNewsPage
+
 export default LatestArticlePage

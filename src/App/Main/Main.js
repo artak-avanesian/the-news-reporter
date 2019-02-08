@@ -18,8 +18,12 @@ import NewsMenuBlogs from './NewsMenu/NewsMenuBlogs/NewsMenuBlogs'
 import NewsMenuEntertainment from './NewsMenu/NewsMenuEntertainment/NewsMenuEntertainment'
 import NewsMenuMovies from './NewsMenu/NewsMenuMovies/NewsMenuMovies'
 import NewsMenuBooks from './NewsMenu/NewsMenuBooks/NewsMenuBooks'
-import NewsMenuClassfieds from './NewsMenu/NewsMenuClassfieds/NewsMenuClassfieds'
+import NewsMenuClassifieds from './NewsMenu/NewsMenuClassifieds/NewsMenuClassifieds'
 import LatestArticlePage from './MainContent/MainNewsContent/LatestArticles/LatestArticlePage/LatestArticlePage'
+import TechNewsArticlePage from './MainContent/MainNewsContent/TechNews/TechNewsArticlePage/TechNewsArticlePage'
+import PopularNewsArticlePage from './Sidebar/PopularNews/PopularNewsArticlePage/PopularNewsArticlePage'
+import DeskArticlePage from './MainContent/MainContentSidebar/Desk/DeskArticlePage/DeskArticlePage'
+import EditorialArticlePage from './MainContent/MainContentSidebar/Editorial/EditorialArticlePage/EditorialAriclePage'
 
 const Main = () => {
     return (
@@ -41,9 +45,13 @@ const Main = () => {
                     <Route path='/entertainment' component={NewsMenuEntertainment}/>
                     <Route path='/movies' component={NewsMenuMovies}/>
                     <Route path='/books' component={NewsMenuBooks}/>
-                    <Route path='/classfieds' component={NewsMenuClassfieds}/>
+                    <Route path='/classifieds' component={NewsMenuClassifieds}/>
                     <Route path='/culture' component={NewsMenuCulture}/>
                     <Route path='/latest-articles/:latestArticleId' component={LatestArticlePage}/>
+                    <Route path='/tech-news/:techNewsArticleId' component={TechNewsArticlePage}/>
+                    <Route path='/popular-news/:popularNewsArticleId' component={PopularNewsArticlePage}/>
+                    <Route path='/desk-news/:deskArticleId' component={DeskArticlePage}/>
+                    <Route path='/editorial/:editorialArticleId' component={EditorialArticlePage}/>
                     <Sidebar/>
                 </div>
             </div>

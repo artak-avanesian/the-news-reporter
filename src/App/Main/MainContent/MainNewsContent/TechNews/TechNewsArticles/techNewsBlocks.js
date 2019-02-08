@@ -1,6 +1,6 @@
 const techNewsBlocks = [
     {
-        id:"tech-news-1",
+        tech_id:"tech-news-1",
         title_tech:"In the United States, a rocket was launched into space, over which Ukrainian enterprises also worked",
         description_tech:"NASA's Rockefeller Space Station, located in Virginia, USA, launched an Antares launch vehicle into space. Part of her parts was manufactured in Ukraine. This missile should deliver the Signus cargo module to the International Space Station.",
         article_tech: `This missile should deliver the Signus cargo module to the International Space Station.
@@ -11,7 +11,7 @@ const techNewsBlocks = [
         comments:29,
     },
     {
-        id:"tech-news-2",
+        tech_id:"tech-news-2",
         title_tech:"Elon Mask company put the first tunnel under the Los Angeles for special shuttles",
         description_tech:"The Boring Company completed the laying of an underground tunnel under Los Angeles, which will be driven by vacuum trains, and Ilon Mask showed a futuristic electric bus for traveling by tunnels under the cities of high-speed electric buses.",
         article_tech: `Elon Mask said this on his Twitter page.
@@ -22,7 +22,7 @@ const techNewsBlocks = [
         comments:29,
     },
     {
-        id:"tech-news-3",
+        tech_id:"tech-news-3",
         title_tech:"FACEBOOK reported on blocking 1.5 billion fake accounts",
         description_tech:"In Facebook from April to September this year, 1.5 billion accounts were blocked. In particular, in the second quarter 800 million counterfeit accounts were deleted, in the third - 754 million.",
         article_tech: `Pages are created using scripts or bots.
@@ -33,7 +33,7 @@ const techNewsBlocks = [
         comments:29,
     },
     {
-        id:"tech-news-4",
+        tech_id:"tech-news-4",
         title_tech:"Error of MICROSOFT has deprived WINDOWS 10 PRO users of the license",
         description_tech:"Microsoft's support team said they knew about the problem and were working on fixing the bug.",
         article_tech: `Microsoft's support team said they knew about the problem and were working on fixing the bug.
@@ -46,5 +46,12 @@ const techNewsBlocks = [
         comments:29,
     },
 ];
+
+export const getTechNewsBlocks = (array) => {
+    return array.reduce((map, techArticle) => ({
+        ...map,
+        [techArticle.tech_id]: techArticle
+    }), {})
+}
 
 export default techNewsBlocks

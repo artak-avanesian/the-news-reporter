@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const GalleryTitle = () => {
     return (
         <div className='title'>
             <p>Gallery</p>
-            <a href='#' className="more">More +</a>
+            <Link to='#' className="more">More +</Link>
         </div>
     )
 }

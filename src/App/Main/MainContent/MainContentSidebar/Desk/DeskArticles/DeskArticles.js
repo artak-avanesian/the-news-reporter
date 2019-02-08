@@ -18,6 +18,7 @@ const DeskArticles = () => {
                         desk_art_title={desk_art_title}
                         desk_art_description={desk_art_description}
                         update_time={update_time}
+                        desk_art_id={desk_art_id}
                     />
                 </div>
             ))

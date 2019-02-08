@@ -2,6 +2,7 @@ import React from 'react'
 import PopularNewsTitle from './PopularNewsTitle/PopularNewsTitle'
 import PopularNewsArticle from './PopularNewsArticle/PopularNewsArticle'
 import popular_list from './popular_list'
+import { Link } from 'react-router-dom'
 import './PopularNews.css'
 
 const PopularNews = () => {
@@ -18,11 +19,12 @@ const PopularNews = () => {
                     <PopularNewsArticle
                         date={date}
                         popular_title={popular_title}
+                        popular_id={popular_id}
                     />
                 </div>
             ))
         }
-            <a href='#' className="popular-more more">More +</a>
+            <Link to='#' className="popular-more more">More +</Link>
         </div>
     )
 }

@@ -8,18 +8,19 @@ const TechNewsArticles = () => {
         <div className='tech-news-articles'>
         {
             techNewsBlocks.map(({
-                id,
+                tech_id,
                 title_tech,
                 description_tech,
                 author,
                 comments,
             }) => (
-                <div className='tech-news-article-wrapper' key={id}>
+                <div className='tech-news-article-wrapper' key={tech_id}>
                     <TechNewsArticle
                         title_tech={title_tech}
                         description_tech={description_tech}
                         author={author}
                         comments={comments}
+                        tech_id={tech_id}
                     />
                 </div>
             ))

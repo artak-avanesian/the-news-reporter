@@ -1,12 +1,13 @@
-.world-news-item p, .latest-article-item p {
+.world-news-item p, .latest-article-item p, .tech-news-item p, .popular-news-item p, .desk-article-item p{
     margin-right: 25px;
-    text-align: justify;
+	text-align: justify;
+	font-size: 18px;
 }
 
-.world-news-item h2, .latest-article-item h2 {
+.world-news-item h2, .latest-article-item h2, .tech-news-item h2, .popular-news-item h2, .desk-article-item h2 {
 	margin-top: 15px;
 }
-.world-news-item img, .latest-article-item img {
+.world-news-item img, .latest-article-item img, .desk-article-item img {
 	width: 300px;
 	height: 200px;
 	float: left;

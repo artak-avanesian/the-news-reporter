@@ -13,3 +13,7 @@ span.red-text {
 .comments {
     padding-left: 98px;
 }
+.tech-article {
+    text-decoration: none;
+    color: black;
+}

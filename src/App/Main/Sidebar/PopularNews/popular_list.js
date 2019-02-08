@@ -70,4 +70,11 @@ const popular_list = [
     },
 ];
 
+export const getPopularNewsMap = (array) => {
+    return array.reduce((map, popularArticle) => ({
+        ...map,
+        [popularArticle.popular_id]: popularArticle,
+    }), {})
+}
+
 export default popular_list

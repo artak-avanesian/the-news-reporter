@@ -13,6 +13,7 @@ const EditorialPages = () => {
                 <div className='editorial-page-wrapper' key={editorial_id}>
                     <EditorialPage
                         editorial_title={editorial_title}
+                        editorial_id={editorial_id}
                     />
                 </div>
             ))

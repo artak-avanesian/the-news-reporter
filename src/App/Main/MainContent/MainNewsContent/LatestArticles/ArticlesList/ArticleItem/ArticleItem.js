@@ -12,7 +12,7 @@ const ArticleItem = ({
             <div className="description">
                 <h5>{art_list_title}</h5>
                 <p>{art_list_description}</p>
-                <Link to={`/latest-articles/${art_list_id}`} className="read-more">Read more</Link>
+                <Link to={`latest-articles/${art_list_id}`} className="read-more">Read more</Link>
             </div>
         </div>
     )

@@ -9,8 +9,7 @@ class BreakingNewsImage extends Component {
     }
 
     currentNewsClick = () => {
-        if (this.props.isCurrent) this.props.dispatchNotCurrent(this.props.breaking_news_id)
-        else this.props.dispatchCurrent(this.props.breaking_news_id)
+        if (!this.props.isCurrent) this.props.dispatchCurrent(this.props.breaking_news_id)
     }
     render() {
         const {
@@ -31,10 +30,6 @@ const mapStateToProps = (state, props) => {
 const mapDispatchToProps = (dispatch) => ({
     dispatchCurrent: (id) => dispatch({
         type: 'CURRENT',
-        id: id
-    }),
-    dispatchNotCurrent: (id) => dispatch({
-        type: 'NOT_CURRENT',
         id: id
     })
 })

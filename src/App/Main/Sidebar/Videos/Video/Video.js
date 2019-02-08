@@ -1,5 +1,7 @@
 import React from 'react'
 import './Video.css'
+import { Link } from 'react-router-dom'
+
 const Video = ({
     video_title,
 }) => {
@@ -8,7 +10,7 @@ const Video = ({
             <div className="video-block">
                 <span>A</span>
             </div>
-            <a href="" className="video-description">{video_title}</a>
+            <Link to="" className="video-description">{video_title}</Link>
         </div>
     )
 }
