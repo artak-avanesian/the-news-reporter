@@ -4,7 +4,7 @@ import './NewsMenuSports.css'
 const NewsMenuSports = () => {
     return (
         <div>
-
+            
         </div>
     )
 }

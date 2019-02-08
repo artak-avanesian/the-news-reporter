@@ -14,7 +14,7 @@ import NewsMenuTech from './NewsMenu/NewsMenuTech/NewsMenuTech'
 import NewsMenuSports from './NewsMenu/NewsMenuSports/NewsMenuSports'
 import NewsMenuBusiness from './NewsMenu/NewsMenuBusiness/NewsMenuBusiness'
 import NewsMenuCulture from './NewsMenu/NewsMenuCulture/NewsMenuCulture'
-import NewsMenuBlogs from './NewsMenu/NewsMenuBlogs/NewsMenuBlogs'
+import NewsMenuMusic from './NewsMenu/NewsMenuMusic/NewsMenuMusic'
 import NewsMenuEntertainment from './NewsMenu/NewsMenuEntertainment/NewsMenuEntertainment'
 import NewsMenuMovies from './NewsMenu/NewsMenuMovies/NewsMenuMovies'
 import NewsMenuBooks from './NewsMenu/NewsMenuBooks/NewsMenuBooks'
@@ -41,7 +41,7 @@ const Main = () => {
                     <Route path='/tech' component={NewsMenuTech}/>
                     <Route path='/sports' component={NewsMenuSports}/>
                     <Route path='/business' component={NewsMenuBusiness}/>
-                    <Route path='/blogs' component={NewsMenuBlogs}/>
+                    <Route path='/music' component={NewsMenuMusic}/>
                     <Route path='/entertainment' component={NewsMenuEntertainment}/>
                     <Route path='/movies' component={NewsMenuMovies}/>
                     <Route path='/books' component={NewsMenuBooks}/>

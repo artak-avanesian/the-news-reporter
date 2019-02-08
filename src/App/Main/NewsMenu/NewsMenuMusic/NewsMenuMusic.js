@@ -1,5 +1,5 @@
 import React from 'react'
-import './NewsMenuBlogs.css'
+import './NewsMenuMusic.css'
 
 const NewsMenuBlogs = () => {
     return (
