@@ -1,7 +1,7 @@
 import React from 'react'
 import './NewsMenuMusic.css'
 
-const NewsMenuBlogs = () => {
+const NewsMenuMusic = () => {
     return (
         <div>
 
@@ -9,4 +9,4 @@ const NewsMenuBlogs = () => {
     )
 }
 
-export default NewsMenuBlogs
+export default NewsMenuMusic
