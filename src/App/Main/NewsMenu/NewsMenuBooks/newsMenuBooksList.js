@@ -2,7 +2,7 @@ const newsMenuBooksList = [
     {
         newsMenuBooksId: `newsMenuBooks-1`,
         newsMenuBooksTitle: `The tiny library bringing books to remote villages`,
-        newsMenuBooksImgSrc: ``,
+        newsMenuBooksImg: `news-menu-books-img-1`,
         newsMenuBooksArticle: `“Without a book, so often the child is alone,” says Antonio La Cava.
 
         The retired schoolteacher converted his three-wheeled van into a mobile library, the Bibliomotocarro. Driving the hills and mountains of Basilicata, Italy, La Cava is able to reach children in remote villages like San Paolo Albanese, which only has two children of primary school age.
@@ -14,7 +14,7 @@ const newsMenuBooksList = [
     {
         newsMenuBooksId: `newsMenuBooks-2`,
         newsMenuBooksTitle: `How the science fiction helps readersunderstand climate change`,
-        newsMenuBooksImgSrc: ``,
+        newsMenuBooksImg: `news-menu-books-img-2`,
         newsMenuBooksArticle: `It’s the year 2140 and two kids ride their skimboards in the heart of Manhattan, near the point where Sixth Avenue meets Broadway. If you are familiar with this junction you would know it is far from the US’ current coastline. But in Kim Stanley Robinson’s novel New York 2140, Manhattan is flooded after unabated climate change causes the sea level to rise by 50ft (15.25m). The amphibian city is now a SuperVenice, a grid of canals populated by vaporettos where characters must learn how to deal with a world both familiar and unrecognisable to us. Mid-Manhattan skimboading is all too possible in this future.
         Robinson’s 2017 climate-fiction novel belongs to a growing cadre of works about drowned nations, wind farm utopias or scarred metropolises decades into the future. As diplomats draft the rulebook for the global response to the climate crisis and engineers race to produce better solar panels, writers have found their role, too: telling what Robinson calls “the story of the next century”. In doing that, they might be helping readers across the world comprehend the situation in which we currently find ourselves.  
         Climate change is a notoriously elusive crisis to make sense of, particularly compared to other human-impact catastrophes. Drop some toxic chemicals in a river now and you will see dead fish within days, but what do you witness when you release carbon dioxide? And while, in 2018, a report by UN climate scientists stated that we are heading towards a catastrophe, who can truly imagine what that looks like?
@@ -25,14 +25,12 @@ const newsMenuBooksList = [
 
         “Science fiction gets people thinking in a way that another report on climate change doesn’t,” says Shelley Streeby, a Professor of Literature and Ethnic Studies at UC San Diego. “It helps people feel about what might be coming, but also about the present.”
 
-        The numbers for climate fiction, or cli-fi as some people call it, are hard to pinpoint – but they are growing fast. A 2016 review tallied 50 novels dealing specifically with man-made climate change and its effects, with 20 appearing in the previous five years, although this number includes all types of novels. That includes John Lanchester’s new environmental fable, The Wall, which has been described as “disquieting and quite good fun at the same time”.
-
-`,
+        The numbers for climate fiction, or cli-fi as some people call it, are hard to pinpoint – but they are growing fast. A 2016 review tallied 50 novels dealing specifically with man-made climate change and its effects, with 20 appearing in the previous five years, although this number includes all types of novels. That includes John Lanchester’s new environmental fable, The Wall, which has been described as “disquieting and quite good fun at the same time”.`,
     },
     {
         newsMenuBooksId: `newsMenuBooks-3`,
         newsMenuBooksTitle: `The library of forbidden books`,
-        newsMenuBooksImgSrc: ``,
+        newsMenuBooksImg: `news-menu-books-img-3`,
         newsMenuBooksArticle: `“The literature… mainly consists of books that were published long before 1933 but then became a thorn in the Nazis’ side for different reasons,” says Gerhard Stumpf, librarian at the University of Augsburg. “Most of them were Jewish authors – others were socialist or Communist authors – and also anti-war authors who experienced the pain of World War One.”
 
         From 1976 until his death in 2013, Georg P Salzmann collected about 12,000 books that had been banned – and burnt – by the Nazis for being ‘un-German’. His father – a Nazi – had shot himself in 1945, when Georg was a teenager.
@@ -42,7 +40,7 @@ const newsMenuBooksList = [
     {
         newsMenuBooksId: `newsMenuBooks-4`,
         newsMenuBooksTitle: `The mysterious, macabre mind of Edward Gorey`,
-        newsMenuBooksImgSrc: ``,
+        newsMenuBooksImg: `news-menu-books-img-4`,
         newsMenuBooksArticle: `From the Gashlycrumb Tinies to The Doubtful Guest, Edward Gorey’s morbidly funny little books are gothic surrealist masterpieces. Drawing on sources as varied as the novels of Agatha Christie and French silent film, he created a uniquely macabre vision of the world filled with crumbling English mansions, jittery dark-eyed flappers and stony faced Edwardian gents where nothing is quite as it seems. His virtuosic illustrations and poetic texts have drawn comparisons to Lewis Carroll, Edward Lear and Samuel Beckett, winning him critical acclaim and a devoted cult following in his native US.
         Lemony Snicket.
 
@@ -63,7 +61,7 @@ const newsMenuBooksList = [
     {
         newsMenuBooksId: `newsMenuBooks-5`,
         newsMenuBooksTitle: `The secrets of real-life Lady Chatterley`,
-        newsMenuBooksImgSrc: ``,
+        newsMenuBooksImg: `news-menu-books-img-5`,
         newsMenuBooksArticle: `A new novel imagines the life of Frieda von Richthofen, the inspiration for many of DH Lawrence’s female characters. Hephzibah Anderson looks at the fate of the literary muse.
         As job descriptions go, few seem to fit the ‘nice work if you can get it’ category more snugly than ‘muse’. Inspiring lasting works of art by simply existing? It’s at once indolent and noble, evocative of days spent lounging on a chaise longue and nights filled with dance and glittering conversation.
 
@@ -76,7 +74,7 @@ const newsMenuBooksList = [
     {
         newsMenuBooksId: `newsMenuBooks-6`,
         newsMenuBooksTitle: `Handwritten gems from Pedro Corrêa do Lago’s collection`,
-        newsMenuBooksImgSrc: ``,
+        newsMenuBooksImg: `news-menu-books-img-6`,
         newsMenuBooksArticle: `Pedro Corrêa do Lago has the world’s largest private collection of autographed letters and manuscripts. In our video, he reveals unseen gems that are ‘frozen moments in time’.
         “When you hold the letter of someone you admire and who was dead before you were born, I think it’s the closest connection you can have with that sort of person. Because you’re holding a little frozen moment of their life – they may have spent… a long time if it’s a manuscript with that piece of paper, they touched it.”
 
@@ -86,5 +84,12 @@ const newsMenuBooksList = [
         Corrêa do Lago tells BBC Culture what it’s like to hold a piece of handwritten history in his hands. “It’s the moment of creation that is materialised in that piece of paper.”`,
     },
 ];
+
+export const getNewsMenuBooksMap = (array) => {
+    return array.reduce((map, article) => ({
+        ...map,
+        [article.newsMenuBooksId]: article
+    }), {})
+}
 
 export default newsMenuBooksList

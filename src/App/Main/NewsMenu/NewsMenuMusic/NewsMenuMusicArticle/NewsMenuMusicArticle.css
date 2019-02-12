@@ -1,0 +1,15 @@
+.news-menu-music-img-1 {
+    background: url(../news-menu-music-1.jpg) no-repeat;
+}
+.news-menu-music-img-2 {
+    background: url(../news-menu-music-2.jpg) no-repeat;
+}
+.news-menu-music-img-3 {
+    background: url(../news-menu-music-3.jpg) no-repeat;
+}
+.news-menu-music-img-4 {
+    background: url(../news-menu-music-4.jpg) no-repeat;
+}
+[class^='news-menu-music-img-'] {
+    background-size: cover;
+}

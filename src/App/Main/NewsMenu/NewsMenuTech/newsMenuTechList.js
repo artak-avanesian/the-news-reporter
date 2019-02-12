@@ -2,7 +2,7 @@ const newsMenuTechList = [
     {
         newsMenuTechId: `newsMenuTech-1`,
         newsMenuTechTitle: `Huawei and 5G: Decision time`,
-        newsMenuTechImgSrc: ``,
+        newsMenuTechImg: `news-menu-tech-img-1`,
         newsMenuTechArticle: `It's called the Supply Chain Review and sounds very dull but it could determine the UK's hi-tech future.
 
         As the political temperature around Huawei's role in the UK rises, mobile phone operators await a decision from the government on whether they can continue to use the Chinese giant's equipment.
@@ -22,7 +22,7 @@ const newsMenuTechList = [
     {
         newsMenuTechId: `newsMenuTech-2`,
         newsMenuTechTitle: `Apple to pay teenager who found FaceTime bug`,
-        newsMenuTechImgSrc: ``,
+        newsMenuTechImg: `news-menu-tech-img-2`,
         newsMenuTechArticle: `A US teenager who discovered a security flaw in Apple's FaceTime video-calling system has been given a bug bounty.
 
         Apple has not revealed the exact amount it is giving 14-year-old Grant Thompson but it is believed to include money to help pay for his education.
@@ -47,7 +47,7 @@ const newsMenuTechList = [
     {
         newsMenuTechId: `newsMenuTech-3`,
         newsMenuTechTitle: `Microsoft: What went right under Satya Nadella?`,
-        newsMenuTechImgSrc: ``,
+        newsMenuTechImg: `news-menu-tech-img-3`,
         newsMenuTechArticle: `On Monday, it will be five years since Satya Nadella was announced as Microsoft's chief executive.
 
         Since taking charge he has turned the tech firm's fortunes around, making it the most valuable company in the world for the first time since 2002.
@@ -64,7 +64,7 @@ const newsMenuTechList = [
     {
         newsMenuTechId: `newsMenuTech-4`,
         newsMenuTechTitle: `Do money apps make us better or worse with our finances?`,
-        newsMenuTechImgSrc: ``,
+        newsMenuTechImg: `news-menu-tech-img-4`,
         newsMenuTechArticle: `Finance apps are proving increasingly popular, but are they making us better at managing our money or encouraging us to spend more?
 
         Kerry Hudson, 28, spent her childhood living in poverty in Scotland with her single mother, in "a succession of council estates, bed and breakfasts for the homeless, and caravan parks".
@@ -84,7 +84,7 @@ const newsMenuTechList = [
     {
         newsMenuTechId: `newsMenuTech-5`,
         newsMenuTechTitle: `Self-harm, suicide and social media: Can you talk about them online safely?`,
-        newsMenuTechImgSrc: ``,
+        newsMenuTechImg: `news-menu-tech-img-5`,
         newsMenuTechArticle: `The boss of Instagram is meeting England's Health Secretary to discuss ways of handling content about self-harm and suicide.
 
         Teenager Molly Russell took her own life in 2017 and links have been made between her death and content she was looking at on social media.
@@ -96,5 +96,12 @@ const newsMenuTechList = [
         So is there a responsible way to post about self-harm or suicide?`,
     },
 ];
+
+export const getNewsMenuTechMap = (array) => {
+    return array.reduce((map, article) => ({
+        ...map,
+        [article.newsMenuTechId]: article
+    }), {})
+}
 
 export default newsMenuTechList

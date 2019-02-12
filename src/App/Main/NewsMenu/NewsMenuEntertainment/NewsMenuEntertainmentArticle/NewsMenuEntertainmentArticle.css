@@ -1,0 +1,12 @@
+.news-menu-entertainment-img-1 {
+    background: url(../news-menu-entertainment-1.jpg) no-repeat;
+}
+.news-menu-entertainment-img-2 {
+    background: url(../news-menu-entertainment-2.jpg) no-repeat;
+}
+.news-menu-entertainment-img-3 {
+    background: url(../news-menu-entertainment-3.jpg) no-repeat;
+}
+[class^='news-menu-entertainment-img-'] {
+    background-size: cover;
+}

@@ -1,0 +1,18 @@
+.news-menu-tech-img-1 {
+    background: url(../news-menu-tech-1.gif) no-repeat;
+}
+.news-menu-tech-img-2 {
+    background: url(../news-menu-tech-2.jpg) no-repeat;
+}
+.news-menu-tech-img-3 {
+    background: url(../news-menu-tech-3.jpg) no-repeat;
+}
+.news-menu-tech-img-4 {
+    background: url(../news-menu-tech-4.jpg) no-repeat;
+}
+.news-menu-tech-img-5 {
+    background: url(../news-menu-tech-5.jpg) no-repeat;
+}
+[class^='news-menu-tech-img-'] {
+    background-size: cover;
+}

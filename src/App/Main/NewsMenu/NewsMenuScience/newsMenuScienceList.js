@@ -2,7 +2,7 @@ const newsMenuScienceList = [
     {
         newsMenuScienceId: `newsMenuScience-1`,
         newsMenuScienceTitle: `Climate change: UK carbon capture project begins`,
-        newsMenuScienceImgSrc: ``,
+        newsMenuScienceImg: `news-menu-science-img-1`,
         newsMenuScienceArticle: `The giant Drax power station, near Selby in North Yorkshire, has become the first in Europe to capture carbon dioxide (CO2) from wood-burning.
 
         Drax burns seven million tonnes of wood chips each year to drive generators to make electricity.
@@ -52,7 +52,7 @@ const newsMenuScienceList = [
     {
         newsMenuScienceId: `newsMenuScience-2`,
         newsMenuScienceTitle: `Climate change: 'Future proofing' forests to protect orangutans`,
-        newsMenuScienceImgSrc: ``,
+        newsMenuScienceImg: `news-menu-science-img-2`,
         newsMenuScienceArticle: `A study has identified key tree species that are resilient to climate change and support critically endangered apes.
 
         Planting them could help future proof rainforests, which are a key habitat for orangutans, according to the International Union for Conservation of Nature - IUCN.
@@ -73,7 +73,7 @@ const newsMenuScienceList = [
     {
         newsMenuScienceId: `newsMenuScience-3`,
         newsMenuScienceTitle: `Herbal history: Five garden plants with a hidden past`,
-        newsMenuScienceImgSrc: ``,
+        newsMenuScienceImg: `news-menu-science-img-3`,
         newsMenuScienceArticle: `Many garden plants we're familiar with today have a hidden history.
 
         Grown centuries ago for their reputed healing powers, they became garden staples, valued for their beauty, form or scent.
@@ -98,7 +98,7 @@ const newsMenuScienceList = [
     {
         newsMenuScienceId: `newsMenuScience-4`,
         newsMenuScienceTitle: `'Time bomb' warning on mining dam disasters`,
-        newsMenuScienceImgSrc: ``,
+        newsMenuScienceImg: `news-menu-science-img-4`,
         newsMenuScienceArticle: `The catastrophic collapse of a dam at a mine in Brazil has exposed a darker side of an industry that the world depends on.
 
         At nearly 800 sites across the country and thousands more around the world, dams contain huge loads of mining waste.
@@ -126,7 +126,7 @@ const newsMenuScienceList = [
     {
         newsMenuScienceId: `newsMenuScience-5`,
         newsMenuScienceTitle: `Rosalind Franklin: Mars rover named after DNA pioneer`,
-        newsMenuScienceImgSrc: ``,
+        newsMenuScienceImg: `news-menu-science-img-5`,
         newsMenuScienceArticle: `The UK-assembled rover that will be sent to Mars in 2020 will bear the name of DNA pioneer Rosalind Franklin.
 
         The honour follows a public call for suggestions that drew nearly 36,000 responses from right across Europe.
@@ -150,5 +150,12 @@ const newsMenuScienceList = [
         "She could never have imagined that over 60 years later there would be a rover sent to Mars bearing her name, but somehow that makes this project even more special."`,
     },
 ];
+
+export const getNewsMenuScienceMap = (array) => {
+    return array.reduce((map, article) => ({
+        ...map,
+        [article.newsMenuScienceId]: article
+    }), {})
+}
 
 export default newsMenuScienceList

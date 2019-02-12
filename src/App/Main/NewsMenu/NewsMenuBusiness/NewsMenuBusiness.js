@@ -1,10 +1,25 @@
 import React from 'react'
-import './NewsMenuBusiness.css'
+import newsMenuBusinessList from './newsMenuBusinessList'
+import NewsMenuBusinessArticle from './NewsMenuBusinessArticle/NewsMenuBusinessArticle'
 
 const NewsMenuBusiness = () => {
     return (
-        <div>
-
+        <div className='news-menu-business-articles'>
+            {
+                newsMenuBusinessList.map(({
+                    newsMenuBusinessTitle,
+                    newsMenuBusinessId,
+                    newsMenuBusinessImg
+                }) => (
+                    <React.Fragment key={newsMenuBusinessId}>
+                        <NewsMenuBusinessArticle
+                            newsMenuBusinessTitle={newsMenuBusinessTitle}
+                            newsMenuBusinessImg={newsMenuBusinessImg}
+                            newsMenuBusinessId={newsMenuBusinessId}
+                        />
+                    </React.Fragment>
+                ))
+            }
         </div>
     )
 }

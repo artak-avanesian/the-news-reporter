@@ -1,0 +1,22 @@
+.news-menu-movies-article-page div, .news-menu-books-article-page div,
+.news-menu-music-article-page div {
+    margin-right: 30px;
+    margin-top: 15px;
+    width: 800px;
+    height: 400px;
+}
+
+.news-menu-movies-article-page p, .news-menu-books-article-page p,
+.news-menu-music-article-page p {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-indent: 40px;
+}
+.news-menu-movies-article-page h2, .news-menu-books-article-page h2,
+.news-menu-music-article-page h2 {
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}

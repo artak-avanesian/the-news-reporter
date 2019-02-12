@@ -14,8 +14,8 @@ const FooterMenu = () => {
                 <li><Link to="/entertainment">Entertainment</Link></li>
                 <li><Link to="/culture">Culture</Link></li>
                 <li><Link to="/books">Books</Link></li>
-                <li><Link to="/classfieds">Classifieds</Link></li>
-                <li><Link to="/blogs">Blogs</Link></li>
+                <li><Link to="/science">Science</Link></li>
+                <li><Link to="/music">Music</Link></li>
             </ul>
         </nav>
     )

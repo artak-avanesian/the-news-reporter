@@ -1,8 +1,12 @@
-.news-menu-world-news-articles {
+.news-menu-world-news-articles, .news-menu-science-articles, .news-menu-sports-articles, 
+.news-menu-tech-articles, .news-menu-books-articles, .news-menu-business-articles,
+.news-menu-music-articles, .news-menu-culture-articles, .news-menu-movies-articles, 
+.news-menu-entertainment-articles {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 15px;
     margin-right: 30px;
     height: 500px;
+    width: 795px;
 }

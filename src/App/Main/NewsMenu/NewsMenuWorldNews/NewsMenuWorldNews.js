@@ -10,12 +10,15 @@ const NewsMenuWorldNews = () => {
                 newsMenuWorldNewsArticles.map(({
                     newsMenuWorldNewsTitle,
                     newsMenuWorldNewsId,
+                    newsMenuWorldNewsImg
                 }) => (
-                    <div className='news-menu-world-news-wrapper' key={newsMenuWorldNewsId}>
+                    <React.Fragment key={newsMenuWorldNewsId}>
                         <NewsMenuWorldNewsArticle
-                        newsMenuWorldNewsTitle={newsMenuWorldNewsTitle}
-                    />
-                    </div>
+                            newsMenuWorldNewsTitle={newsMenuWorldNewsTitle}
+                            newsMenuWorldNewsImg={newsMenuWorldNewsImg}
+                            newsMenuWorldNewsId={newsMenuWorldNewsId}
+                        />
+                    </React.Fragment>
                 ))
             }
         </div>

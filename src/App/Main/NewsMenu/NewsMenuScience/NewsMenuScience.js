@@ -1,6 +1,6 @@
 import React from 'react'
 import newsMenuScienceList from './newsMenuScienceList'
-import './NewsMenuScience.css'
+import NewsMenuScienceArticle from './NewsMenuScienceArticle/NewsMenuScienceArticle'
 
 const NewsMenuScience = () => {
     return (
@@ -9,11 +9,15 @@ const NewsMenuScience = () => {
                 newsMenuScienceList.map(({
                     newsMenuScienceId,
                     newsMenuScienceTitle,
-                    newsMenuScienceArticle,
+                    newsMenuScienceImg,
                 }) => (
-                    <div className=''>
-
-                    </div>
+                    <React.Fragment key={newsMenuScienceId}>
+                        <NewsMenuScienceArticle
+                            newsMenuScienceTitle={newsMenuScienceTitle}
+                            newsMenuScienceImg={newsMenuScienceImg}
+                            newsMenuScienceId={newsMenuScienceId}
+                        />
+                    </React.Fragment>
                 ))
             }
         </div>

@@ -1,13 +1,15 @@
 const newsMenuWorldNewsArticles = [
     {
+        newsMenuWorldNewsImg: 'news-menu-world-news-img-1',
         newsMenuWorldNewsTitle: "France recalls ambassador to Italy as diplomatic row deepens",
         newsMenuWorldNewsId: "newsMenuWorldNews_1",
-        newsMenuWorldNewsDescription: "A diplomatic row between France and Italy has deepened, with France complaining of 'unfounded attacks and outlandish claims' by Italian leaders. France recalled its ambassador to Italy for talks on Thursday, saying the situation was 'unprecedented' since the end of World War Two. It comes after Italian Deputy PM Luigi Di Maio met French 'yellow-vest' protesters near Paris on Tuesday. France warned him not to interfere in the country's politics. Relations between the two countries - both founding members of the EU - have been tense since Italy's populist Five Star Movement and right-wing League party formed a coalition government in June 2018. The two governments have clashed over a range of issues, including immigration."
+        newsMenuWorldNewsArticle: "A diplomatic row between France and Italy has deepened, with France complaining of 'unfounded attacks and outlandish claims' by Italian leaders. France recalled its ambassador to Italy for talks on Thursday, saying the situation was 'unprecedented' since the end of World War Two. It comes after Italian Deputy PM Luigi Di Maio met French 'yellow-vest' protesters near Paris on Tuesday. France warned him not to interfere in the country's politics. Relations between the two countries - both founding members of the EU - have been tense since Italy's populist Five Star Movement and right-wing League party formed a coalition government in June 2018. The two governments have clashed over a range of issues, including immigration."
     },
     {
+        newsMenuWorldNewsImg: 'news-menu-world-news-img-2',
         newsMenuWorldNewsTitle: "South Africa Gloria coal mine explosion 'kills six'",
         newsMenuWorldNewsId: "newsMenuWorldNews_2",
-        newsMenuWorldNewsDescription: `Six people have been killed by a gas explosion in an abandoned coal mine in South Africa, the national broadcaster is reporting.
+        newsMenuWorldNewsArticle: `Six people have been killed by a gas explosion in an abandoned coal mine in South Africa, the national broadcaster is reporting.
 
         About 20 others are still trapped at the Gloria coal mine in Middelburg, east of the capital, Pretoria.
         
@@ -31,9 +33,10 @@ const newsMenuWorldNewsArticles = [
         Last year, a power cut left 955 gold miners trapped underground for two days before they were eventually freed.`
     },
     {
+        newsMenuWorldNewsImg: 'news-menu-world-news-img-3',
         newsMenuWorldNewsTitle: "Black Saturday: The bushfire disaster that shook Australia",
         newsMenuWorldNewsId: "newsMenuWorldNews_3",
-        newsMenuWorldNewsDescription: `Ten years ago, Australia experienced its worst-ever bushfire disaster when 173 people died across the state of Victoria. Immediately branded "one of the darkest days in Australia's peacetime history", Black Saturday has left a profound legacy. Sharon Verghis reports.
+        newsMenuWorldNewsArticle: `Ten years ago, Australia experienced its worst-ever bushfire disaster when 173 people died across the state of Victoria. Immediately branded "one of the darkest days in Australia's peacetime history", Black Saturday has left a profound legacy. Sharon Verghis reports.
 
         "It was like the gates of hell. There is no other way to describe it."
         
@@ -46,9 +49,10 @@ const newsMenuWorldNewsArticles = [
         His in-laws had arrived for a birthday lunch. It was a pleasant gathering, despite the suffocating heat. But in the late afternoon, they spotted smoke in the west. Going for a closer look, they saw fire.`
     },
     {
+        newsMenuWorldNewsImg: 'news-menu-world-news-img-4',
         newsMenuWorldNewsTitle: "India man to sue parents for giving birth to him",
         newsMenuWorldNewsId: "newsMenuWorldNews_4",
-        newsMenuWorldNewsDescription: `A 27-year-old Indian man plans to sue his parents for giving birth to him without his consent.
+        newsMenuWorldNewsArticle: `A 27-year-old Indian man plans to sue his parents for giving birth to him without his consent.
 
         Mumbai businessman Raphael Samuel told the BBC that it's wrong to bring children into the world because they then have to put up with lifelong suffering.
         
@@ -65,9 +69,10 @@ const newsMenuWorldNewsArticles = [
         Mr Samuel's belief is rooted in what's called anti-natalism - a philosophy that argues that life is so full of misery that people should stop procreating immediately.`
     },
     {
+        newsMenuWorldNewsImg: 'news-menu-world-news-img-5',
         newsMenuWorldNewsTitle: "Saudi Arabia 'curtailed' Jamal Khashoggi murder probe: UN",
         newsMenuWorldNewsId: "newsMenuWorldNews_5",
-        newsMenuWorldNewsDescription: `Saudi Arabia "seriously curtailed" Turkish access to the scene of Jamal Khashoggi's murder, a UN investigator has said.
+        newsMenuWorldNewsArticle: `Saudi Arabia "seriously curtailed" Turkish access to the scene of Jamal Khashoggi's murder, a UN investigator has said.
 
         A preliminary report into the investigation says Turkey was not allowed into the consul where the journalist was killed for 13 days.
         
@@ -88,9 +93,10 @@ const newsMenuWorldNewsArticles = [
         Saudi Arabia has refused to extradite its citizens to Turkey after the country issued arrest warrants for several Saudi officials.`
     },
     {
+        newsMenuWorldNewsImg: 'news-menu-world-news-img-6',
         newsMenuWorldNewsTitle: "Virginia's attorney general admits wearing blackface in college",
         newsMenuWorldNewsId: "newsMenuWorldNews_6",
-        newsMenuWorldNewsDescription: `Virginia Attorney General Mark Herring has acknowledged wearing "brown makeup" to a party, days after the state governor admitting wearing blackface.
+        newsMenuWorldNewsArticle: `Virginia Attorney General Mark Herring has acknowledged wearing "brown makeup" to a party, days after the state governor admitting wearing blackface.
 
         The second-in-line to the governor's seat said in a statement on Wednesday that he wore a costume to a party when he was 19 years old at university.
         
@@ -104,5 +110,12 @@ const newsMenuWorldNewsArticles = [
         'There's going to be racism until the day we die'`
     },
 ];
+
+export const getNewsMenuWorldNewsMap = (array) => {
+    return array.reduce((map, article) => ({
+        ...map,
+        [article.newsMenuWorldNewsId]: article
+    }), {})
+}
 
 export default newsMenuWorldNewsArticles

@@ -2,7 +2,7 @@ const newsMenuSportsList = [
     {
         newsMenuSportsId: `newsMenuSports-1`,
         newsMenuSportsTitle: `New Zealand v India: Rohit Sharma becomes record T20 run-scorer`,
-        newsMenuSportsImgSrc: ``,
+        newsMenuSportsImg: `news-menu-sports-img-1`,
         newsMenuSportsArticle: `Rohit Sharma became the highest run-scorer in Twenty20 internationals as India beat New Zealand to level the three-match series at 1-1.
 
         The opener, 31, hit 50 off 29 balls as India chased 159 to win by seven wickets with seven balls to spare in Auckland.
@@ -32,7 +32,7 @@ const newsMenuSportsList = [
     {
         newsMenuSportsId: `newsMenuSports-2`,
         newsMenuSportsTitle: `Frank Robinson, Major League Baseball's first black manager, dies at 83`,
-        newsMenuSportsImgSrc: ``,
+        newsMenuSportsImg: `news-menu-sports-img-2`,
         newsMenuSportsArticle: `Legendary baseball Hall of Famer Frank Robinson - the first African-American to manage a professional team - has died aged 83, baseball officials say.
 
         After winning Most Valuable Player awards in both US leagues - the only player in history to do so - he went on to manage Cleveland in 1975.
@@ -58,7 +58,7 @@ const newsMenuSportsList = [
     {
         newsMenuSportsId: `newsMenuSports-3`,
         newsMenuSportsTitle: `Fed Cup 2019: Line judges criticised by Greek players in GB win`,
-        newsMenuSportsImgSrc: ``,
+        newsMenuSportsImg: `news-menu-sports-img-3`,
         newsMenuSportsArticle: `Greek player Maria Sakkari described the line judges as "the worst I have ever seen in my life" in her Fed Cup defeat by Britain's Johanna Konta.
 
         The world number 38 said they "were not professional" in a 4-6 6-2 6-3 defeat in Bath that featured a number of questionable calls.
@@ -80,7 +80,7 @@ const newsMenuSportsList = [
     {
         newsMenuSportsId: `newsMenuSports-4`,
         newsMenuSportsTitle: `Lionel Messi: Barcelona president Josep Maria Bartomeu preparing the club for life without Argentine`,
-        newsMenuSportsImgSrc: ``,
+        newsMenuSportsImg: `news-menu-sports-img-4`,
         newsMenuSportsArticle: `Barcelona president Josep Maria Bartomeu says the club's transfer activity is an indication they are preparing for life after Lionel Messi.
 
         Barca last month confirmed the £65m signing of 21-year-old midfielder Frenkie de Jong from Ajax.
@@ -107,7 +107,7 @@ const newsMenuSportsList = [
     {
         newsMenuSportsId: `newsMenuSports-5`,
         newsMenuSportsTitle: `Naomi Ogbeta on the Edinburgh Festival, YouTube... and the triple jump`,
-        newsMenuSportsImgSrc: ``,
+        newsMenuSportsImg: `news-menu-sports-img-5`,
         newsMenuSportsArticle: `The triple jump was always going to suit Naomi Ogbeta.
 
         After all, why do only one thing when you can do three?
@@ -135,7 +135,7 @@ const newsMenuSportsList = [
     {
         newsMenuSportsId: `newsMenuSports-6`,
         newsMenuSportsTitle: `Liverpool announce world record £106m net profit`,
-        newsMenuSportsImgSrc: ``,
+        newsMenuSportsImg: `news-menu-sports-img-6`,
         newsMenuSportsArticle: `Liverpool have announced a world record profit of £106m.
 
         In their yearly financial results, the Reds made an annual pre-tax profit of £125m - up from £40m - as turnover increased in the 12 months to May 2018 by £90m to £455m, also a record.
@@ -163,5 +163,12 @@ const newsMenuSportsList = [
         The club also say their social media platforms had a 14% growth rate, taking the total to over 60 million followers across digital channels, and that in May 2018 they had the highest viewing figures ever for a Premier League club, and third of any sports club globally.`,
     },
 ];
+
+export const getNewsMenuSportsMap = (array) => {
+    return array.reduce((map, article) => ({
+        ...map,
+        [article.newsMenuSportsId]: article
+    }), {})
+}
 
 export default newsMenuSportsList

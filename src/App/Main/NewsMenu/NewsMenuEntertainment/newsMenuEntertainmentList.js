@@ -2,7 +2,7 @@ const newsMenuEntertainmentList = [
     {
         newsMenuEntertainmentId: `newsMenuEntertainment-1`,
         newsMenuEntertainmentTitle: `Woody Allen sues Amazon for $68m for dropping A Rainy Day in New York`,
-        newsMenuEntertainmentImgSrc: ``,
+        newsMenuEntertainmentImg: `news-menu-entertainment-img-1`,
         newsMenuEntertainmentArticle: `Woody Allen has launched legal action against Amazon Studios, accusing it of breaching their contract by refusing to distribute his latest film.
 
         The 83-year-old is seeking more than $68m (£52m) in damages, alleging the company backed out of a multi-picture deal without cause.
@@ -22,7 +22,7 @@ const newsMenuEntertainmentList = [
     {
         newsMenuEntertainmentId: `newsMenuEntertainment-2`,
         newsMenuEntertainmentTitle: `Juliette Binoche says Harvey Weinstein has 'had enough'`,
-        newsMenuEntertainmentImgSrc: ``,
+        newsMenuEntertainmentImg: `news-menu-entertainment-img-2`,
         newsMenuEntertainmentArticle: `Oscar-winning actress Juliette Binoche has called for the public censure of Harvey Weinstein to end, saying "justice has to do its work".
 
         Binoche, who is head of the jury at Berlin Film Festival, said: "I'm trying to put my feet in his shoes. He's had enough, I think."
@@ -38,7 +38,7 @@ const newsMenuEntertainmentList = [
     {
         newsMenuEntertainmentId: `newsMenuEntertainment-3`,
         newsMenuEntertainmentTitle: `Sir Lenny Henry says his mum was racially abused`,
-        newsMenuEntertainmentImgSrc: ``,
+        newsMenuEntertainmentImg: `news-menu-entertainment-img-3`,
         newsMenuEntertainmentArticle: `Sir Lenny Henry has spoken about the racial abuse his mother faced when she arrived in the UK, at the launch of a BBC show about the Windrush generation.
 
         "People followed her down the street and asked her where her tail was," the actor revealed at a screening of Soon Gone: A Windrush Chronicle this week.
@@ -52,5 +52,12 @@ const newsMenuEntertainmentList = [
         "We've tried to do that with this story by telling the story of one particular family."`,
     },
 ];
+
+export const getNewsMenuEntertainmentMap = (array) => {
+    return array.reduce((map, article) => ({
+        ...map,
+        [article.newsMenuEntertainmentId]: article
+    }), {})
+}
 
 export default newsMenuEntertainmentList

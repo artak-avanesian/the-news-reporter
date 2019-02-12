@@ -1,0 +1,15 @@
+.news-menu-business-img-1 {
+    background: url(../news-menu-business-1.jpg) no-repeat;
+}
+.news-menu-business-img-2 {
+    background: url(../news-menu-business-2.png) no-repeat;
+}
+.news-menu-business-img-3 {
+    background: url(../news-menu-business-3.jpg) no-repeat;
+}
+.news-menu-business-img-4 {
+    background: url(../news-menu-business-4.jpg) no-repeat;
+}
+[class^='news-menu-business-img-'] {
+    background-size: cover;
+}

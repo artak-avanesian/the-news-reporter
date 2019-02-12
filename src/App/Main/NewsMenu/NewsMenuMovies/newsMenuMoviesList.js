@@ -2,7 +2,7 @@ const newsMenuMoviesList = [
     {
         newsMenuMoviesId: `newsMenuMovies-1`,
         newsMenuMoviesTitle: `Does the Lego Movie 2: The Second Part match the original?`,
-        newsMenuMoviesImgSrc: ``,
+        newsMenuMoviesImg: `news-menu-movies-img-1`,
         newsMenuMoviesArticle: `Perhaps no sequel could ever have reached the giddy heights attained by The Lego Movie. Written and directed by Phil Lord and Christopher Miller, the best cartoon of 2014 was such a magnificently animated and dazzlingly inventive delight that there was probably only one way its follow-up could go. But it is still depressing to see The Lego Movie 2: The Second Part falling so far short of its glorious predecessor.
 
         One obvious reason for the shortfall is that the first film caught everyone unawares. Those of us who walked into the cinema fearing a cynical advert for a Danish construction toy brand found ourselves gawping instead at a daring Orwellian satire, the exhilarating and hilarious adventure of a cheerfully conformist construction worker, Emmet (voiced by Chris Pratt), who learns that the tyrannical Lord Business (Will Ferrell) plans to glue every one of Bricksburg’s Lego citizens into place.
@@ -20,7 +20,7 @@ const newsMenuMoviesList = [
     {
         newsMenuMoviesId: `newsMenuMovies-2`,
         newsMenuMoviesTitle: `Academy Adwards 2019: How good are the best picture nominees?`,
-        newsMenuMoviesImgSrc: ``,
+        newsMenuMoviesImg: `news-menu-movies-img-2`,
         newsMenuMoviesArticle: `Black Panther
 
         The first superhero movie to be nominated for best picture was also the biggest film of 2018 at the US box office – and was praised by Barber for having a “radical vision in mind – more radical, indeed, than that of any previous Hollywood studio blockbuster”. Director and co-writer, Ryan Coogler (Creed), tells the Marvel story of Wakanda, an ultra-modern utopia hidden in Africa as “an Afrocentric Bond movie” that turns into a sci-fi fantasy. In doing so, Barber argues, he “has taken every genre in which black characters are traditionally sidelined, and then, with considerable flair and boldness, he’s combined those genres and put black characters right at their heart”. With a majority black cast, the blockbuster is a game changer, says Barber. “Ask yourself: when was the last time any feature film, whether or not it was made by a Hollywood studio, posited that an African country might be the happiest, most prosperous and most scientifically advanced place on Earth?”`,
@@ -28,7 +28,7 @@ const newsMenuMoviesList = [
     {
         newsMenuMoviesId: `newsMenuMovies-3`,
         newsMenuMoviesTitle: `The Favourite's bold sexual politics are rewriting history`,
-        newsMenuMoviesImgSrc: ``,
+        newsMenuMoviesImg: `news-menu-movies-img-3`,
         newsMenuMoviesArticle: `Olivia Colman, an Oscar nominee and Golden Globe winner for her performance as Queen Anne in The Favourite, tells the BBC she believes that the historical film has “reinvented the genre. It’s messy and you can almost smell the period it’s set in.”
 
         The reputed love affair between Queen Anne and Sarah, Duchess of Marlborough has become a hot favourite for awards season too – apart from the Globe win, the film has received 10 Oscar nominations and is up for 12 Baftas.
@@ -38,7 +38,7 @@ const newsMenuMoviesList = [
     {
         newsMenuMoviesId: `newsMenuMovies-4`,
         newsMenuMoviesTitle: `Is the era of the movie star over?`,
-        newsMenuMoviesImgSrc: ``,
+        newsMenuMoviesImg: `news-menu-movies-img-4`,
         newsMenuMoviesArticle: `Twenty years ago, a leading actor or actress would guarantee the success of a film. Nowadays, star power has dwindled – but are their days numbered for good?
         When Talking Movies first aired 20 years ago, A-listers like Tom Cruise and Julia Roberts had enormous clout; they were able to command huge box-office numbers just by appearing in a film.
 
@@ -57,7 +57,7 @@ const newsMenuMoviesList = [
     {
         newsMenuMoviesId: `newsMenuMovies-5`,
         newsMenuMoviesTitle: `Film review: Destroyer`,
-        newsMenuMoviesImgSrc: ``,
+        newsMenuMoviesImg: `news-menu-movies-img-5`,
         newsMenuMoviesArticle: `Nicole Kidman plays a badly behaved alcoholic detective in a grim new crime thriller. But the more despicable she is, the more you care about her, writes Nicholas Barber.
         Karyn Kusama’s moody Los Angeles cop thriller, Destroyer, is destined to be remembered as the film in which one of Hollywood’s most famously glamorous and elegant superstars, Nicole Kidman, demonstrated just how unglamorous and inelegant she could be. Kidman plays LAPD detective Erin Bell, a name which makes her sound like a Disney character, when she is actually the exact opposite. A gaunt, alcoholic wreck who tends to sleep either in a bar or in her car, Erin has papery, liver-spotted skin; cracked lips; bags over as well as under her eyes; and a mop of greying hair that would probably digest any comb that went near it. Whenever she trudges towards her colleagues, they swear under their breath and back away, mainly because she has become such an embarrassing liability, but partly, you assume, because of the stench that clings to her black leather jacket.
         Kidman’s lack of vanity in the role is impressive, but the film’s truly daring aspect is not how badly Erin looks but how badly she behaves. She alienates her colleagues and beats up her contacts, habits which Hollywood movies usually give to wisecracking rebels. But Erin is less of a cool anti-hero than a hot mess. She has ruined her relationship with her ex-husband (Scoot McNairy) and her teenaged daughter Shelby (Jade Pettyjohn); her working relationship with her partner (Shamier Anderson) isn’t much better; and her barely competent police work seems to be motivated not by a thirst for justice or even revenge, but by half-crazed desperation. For a male film star to play such a hopeless case would be brave enough; for a female film star to do so is almost unprecedented. Destroyer isn’t quite as radical as Lynne Ramsay’s You Were Never Really Here, but both films take action-movie archetypes – the maverick cop, the soldier-turned-mercenary – and examine how deeply miserable such a person would be.`,
@@ -65,7 +65,7 @@ const newsMenuMoviesList = [
     {
         newsMenuMoviesId: `newsMenuMovies-6`,
         newsMenuMoviesTitle: `'Film-making in China is the new way'`,
-        newsMenuMoviesImgSrc: ``,
+        newsMenuMoviesImg: `news-menu-movies-img-6`,
         newsMenuMoviesArticle: `“Chinese cinema, and the industry of film-making in China is the new way.”
 
         That’s the opinion of Nicolas Cage, who was speaking to Talking Movies from the Macau International Film Festival in December 2018, while promoting his latest film, Mandy.
@@ -77,5 +77,12 @@ const newsMenuMoviesList = [
         The international film market has grown dramatically in the last 20 years, with around 70% of Hollywood studios’ revenue being generated overseas today – compared with around 30% two decades ago.`,
     },
 ];
+
+export const getNewsMenuMoviesMap = (array) => {
+    return array.reduce((map, article) => ({
+        ...map,
+        [article.newsMenuMoviesId]: article
+    }), {})
+}
 
 export default newsMenuMoviesList

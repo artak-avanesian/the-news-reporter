@@ -1,0 +1,21 @@
+.news-menu-movies-img-1 {
+    background: url(../news-menu-movies-1.jpg) no-repeat;
+}
+.news-menu-movies-img-2 {
+    background: url(../news-menu-movies-2.jpg) no-repeat;
+}
+.news-menu-movies-img-3 {
+    background: url(../news-menu-movies-3.jpg) no-repeat;
+}
+.news-menu-movies-img-4 {
+    background: url(../news-menu-movies-4.jpg) no-repeat;
+}
+.news-menu-movies-img-5 {
+    background: url(../news-menu-movies-5.jpg) no-repeat;
+}
+.news-menu-movies-img-6 {
+    background: url(../news-menu-movies-6.jpg) no-repeat;
+}
+[class^='news-menu-movies-img-'] {
+    background-size: cover;
+}

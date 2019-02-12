@@ -1,0 +1,21 @@
+.news-menu-books-img-1 {
+    background: url(../news-menu-books-1.jpg) no-repeat;
+}
+.news-menu-books-img-2 {
+    background: url(../news-menu-books-2.jpg) no-repeat;
+}
+.news-menu-books-img-3 {
+    background: url(../news-menu-books-3.jpg) no-repeat;
+}
+.news-menu-books-img-4 {
+    background: url(../news-menu-books-4.jpg) no-repeat;
+}
+.news-menu-books-img-5 {
+    background: url(../news-menu-books-5.jpg) no-repeat;
+}
+.news-menu-books-img-6 {
+    background: url(../news-menu-books-6.jpg) no-repeat;
+}
+[class^='news-menu-books-img-'] {
+    background-size: cover;
+}

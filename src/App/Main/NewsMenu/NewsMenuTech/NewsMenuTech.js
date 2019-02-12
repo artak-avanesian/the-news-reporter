@@ -1,10 +1,25 @@
 import React from 'react'
-import './NewsMenuTech.css'
+import newsMenuTechList from './newsMenuTechList'
+import NewsMenuTechArticle from './NewsMenuTechArticle/NewsMenuTechArticle'
 
 const NewsMenuTech = () => {
     return (
-        <div>
-
+        <div className='news-menu-tech-articles'>
+            {
+                newsMenuTechList.map(({
+                    newsMenuTechTitle,
+                    newsMenuTechId,
+                    newsMenuTechImg
+                }) => (
+                    <React.Fragment key={newsMenuTechId}>
+                        <NewsMenuTechArticle
+                            newsMenuTechTitle={newsMenuTechTitle}
+                            newsMenuTechImg={newsMenuTechImg}
+                            newsMenuTechId={newsMenuTechId}
+                        />
+                    </React.Fragment>
+                ))
+            }
         </div>
     )
 }

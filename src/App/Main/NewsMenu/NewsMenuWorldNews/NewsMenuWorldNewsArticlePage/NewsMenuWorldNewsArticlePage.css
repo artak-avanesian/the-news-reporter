@@ -1,0 +1,28 @@
+.news-menu-world-news-article-page div, .news-menu-science-article-page div, 
+.news-menu-culture-article-page div, .news-menu-sports-article-page div,
+.news-menu-entertainment-article-page div, .news-menu-tech-article-page div,
+.news-menu-business-article-page div {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 400px;
+    height: 250px;
+}
+
+.news-menu-world-news-article-page p, .news-menu-science-article-page p, 
+.news-menu-culture-article-page p, .news-menu-sports-article-page p,
+.news-menu-entertainment-article-page p, .news-menu-tech-article-page p,
+.news-menu-business-article-page p {
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-indent: 40px;
+}
+.news-menu-world-news-article-page h2, .news-menu-science-article-page h2, 
+.news-menu-culture-article-page h2, .news-menu-sports-article-page h2,
+.news-menu-entertainment-article-page h2, .news-menu-tech-article-page h2,
+.news-menu-business-article-page h2 {
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}

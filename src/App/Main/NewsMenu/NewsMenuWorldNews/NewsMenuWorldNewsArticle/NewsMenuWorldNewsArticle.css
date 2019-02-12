@@ -1,35 +1,42 @@
-.news-menu-world-news-wrapper:first-child .news-menu-world-news-image {
+.news-menu-world-news-img-1 {
     background: url(../news-menu-world-news-1.jpg) no-repeat;
-    background-size: cover;
 }
-.news-menu-world-news-wrapper:nth-child(2) .news-menu-world-news-image {
+.news-menu-world-news-img-2 {
     background: url(../news-menu-world-news-2.jpg) no-repeat;
-    background-size: cover;
 }
-.news-menu-world-news-wrapper:nth-child(3) .news-menu-world-news-image {
+.news-menu-world-news-img-3 {
     background: url(../news-menu-world-news-3.jpg) no-repeat;
-    background-size: cover;
 }
-.news-menu-world-news-wrapper:nth-child(4) .news-menu-world-news-image {
+.news-menu-world-news-img-4 {
     background: url(../news-menu-world-news-4.jpg) no-repeat;
-    background-size: cover;
 }
-.news-menu-world-news-wrapper:nth-child(5) .news-menu-world-news-image {
+.news-menu-world-news-img-5 {
     background: url(../news-menu-world-news-5.jpg) no-repeat;
-    background-size: cover;
 }
-.news-menu-world-news-wrapper:last-child .news-menu-world-news-image {
+.news-menu-world-news-img-6 {
     background: url(../news-menu-world-news-6.jpg) no-repeat;
-    background-size: cover;
 }
-.news-menu-world-news-wrapper a {
+.news-menu-world-news-article a, .news-menu-science-article a,.news-menu-sports-article a,
+.news-menu-tech-article a, .news-menu-music-article a, .news-menu-books-article a, 
+.news-menu-culture-article a, .news-menu-entertainment-article a, .news-menu-movies-article a,
+.news-menu-business-article a {
     text-decoration: none;
     color: black;
 }
-.news-menu-world-news-image {
+[class^='news-menu-world-news-img-'], [class^='news-menu-science-img-'], [class^='news-menu-sports-img-'],
+[class^='news-menu-tech-img-'], [class^='news-menu-music-img-'], [class^='news-menu-books-img-'], 
+[class^='news-menu-culture-img-'], [class^='news-menu-entertainment-img-'], [class^='news-menu-movies-img-'],
+[class^='news-menu-business-img-'] {
     width: 200px;
     height: 100px;
 }
-.news-menu-world-news-description {
+[class^='news-menu-world-news-img-'] {
+    background-size: cover;
+}
+.news-menu-world-news-article h5, .news-menu-science-article h5, .news-menu-sports-article h5,
+.news-menu-tech-article h5, .news-menu-music-article h5, .news-menu-books-article h5, 
+.news-menu-culture-article h5, .news-menu-entertainment-article h5, .news-menu-movies-article h5,
+.news-menu-business-article h5 {
     width: 200px;
+    margin-top: 7px;
 }

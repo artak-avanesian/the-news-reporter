@@ -2,7 +2,7 @@ const newsMenuBusinessList = [
     {
         newsMenuBusinessId: `newsMenuBusiness-1`,
         newsMenuBusinessTitle: `Jeff Bezos: Amazon boss accuses National Enquirer of blackmail`,
-        newsMenuBusinessImgSrc: ``,
+        newsMenuBusinessImg: `news-menu-business-img-1`,
         newsMenuBusinessArticle: `The world's richest man, Amazon founder Jeff Bezos, has accused the owner of a US gossip magazine of trying to blackmail him over private pictures.
 
         He said the National Enquirer's parent company, American Media Inc (AMI), wanted him to stop investigating how they had obtained his private messages.
@@ -18,7 +18,7 @@ const newsMenuBusinessList = [
     {
         newsMenuBusinessId: `newsMenuBusiness-2`,
         newsMenuBusinessTitle: `Nord Stream 2: EU agrees tighter rules for Russian pipeline`,
-        newsMenuBusinessImgSrc: ``,
+        newsMenuBusinessImg: `news-menu-business-img-2`,
         newsMenuBusinessArticle: `EU ambassadors have agreed to toughen regulations on a controversial gas pipeline from Russia to Germany, but they have decided not to back plans that might threaten its completion.
 
         Work on the 1,225km (760-mile) Nord Stream 2 pipeline under the Baltic Sea is already well under way and is set to be finished by the end of 2019.
@@ -37,7 +37,7 @@ const newsMenuBusinessList = [
     {
         newsMenuBusinessId: `newsMenuBusiness-3`,
         newsMenuBusinessTitle: `How has business been affected by Brexit so far?`,
-        newsMenuBusinessImgSrc: ``,
+        newsMenuBusinessImg: `news-menu-business-img-3`,
         newsMenuBusinessArticle: `With two months to go until the UK is due to leave the EU, how are firms and the UK economy faring?
 
         The economy's "resilience through the turbulence of the Brexit process has been particularly noteworthy", according to Chancellor Philip Hammond.
@@ -66,7 +66,7 @@ const newsMenuBusinessList = [
     {
         newsMenuBusinessId: `newsMenuBusiness-4`,
         newsMenuBusinessTitle: `China banks on lending to ease slowdown`,
-        newsMenuBusinessImgSrc: ``,
+        newsMenuBusinessImg: `news-menu-business-img-4`,
         newsMenuBusinessArticle: `Build stuff or buy stuff? China has long been a believer in the former to deal with a slowdown in its economy. Now it's trying to shift the emphasis to the latter.
 
         This year will be a big test of how far it's come in the transition from state-backed investment to domestic consumption as the main driver of growth.
@@ -80,5 +80,12 @@ const newsMenuBusinessList = [
         "The option for stimulated growth again, that is not on the table. The debt level is simply too high, not like in 2008."`,
     },
 ];
+
+export const getNewsMenuBusinessMap = (array) => {
+    return array.reduce((map, article) => ({
+        ...map,
+        [article.newsMenuBusinessId]: article
+    }), {})
+}
 
 export default newsMenuBusinessList

@@ -1,0 +1,21 @@
+.news-menu-sports-img-1 {
+    background: url(../news-menu-sports-1.jpg) no-repeat;
+}
+.news-menu-sports-img-2 {
+    background: url(../news-menu-sports-2.jpg) no-repeat;
+}
+.news-menu-sports-img-3 {
+    background: url(../news-menu-sports-3.jpg) no-repeat;
+}
+.news-menu-sports-img-4 {
+    background: url(../news-menu-sports-4.jpg) no-repeat;
+}
+.news-menu-sports-img-5 {
+    background: url(../news-menu-sports-5.jpg) no-repeat;
+}
+.news-menu-sports-img-6 {
+    background: url(../news-menu-sports-6.jpg) no-repeat;
+}
+[class^='news-menu-sports-img-'] {
+    background-size: cover;
+}
