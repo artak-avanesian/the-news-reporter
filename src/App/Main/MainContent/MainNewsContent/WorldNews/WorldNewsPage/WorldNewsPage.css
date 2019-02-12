@@ -7,7 +7,20 @@
 .world-news-item h2, .latest-article-item h2, .tech-news-item h2, .popular-news-item h2, .desk-article-item h2 {
 	margin-top: 15px;
 }
-.world-news-item img, .latest-article-item img, .desk-article-item img {
+.world-news-img-1 {
+	background: url(../Articles/world-news-1.jpeg)
+}
+.world-news-img-2 {
+	background: url(../Articles/world-news-2.jpg)
+}
+.world-news-img-3 {
+	background: url(../Articles/world-news-3.jpg)
+}
+[class^='world-news-img-'] {
+	background-size: cover;
+}
+[class^='world-news-img-'], [class^='latest-articles-img'], [class^='desk-img'],
+[class^='editorial-page-img-'] {
 	width: 300px;
 	height: 200px;
 	float: left;

@@ -2,7 +2,7 @@ const desk_articles = [
     {
         desk_art_id:"desk-1",
         desk_art_title:"A prison where the inmates have to go and find jobs",
-        desk_art_img_src: '/images/desk/desk-1.jpg',
+        desk_art_img: 'desk-img-1',
         desk_art_description:"At Sanganer prison, in the Indian city of Jaipur, inmates get a roof over their head, but no money and no food.",
         desk_art_article: `At Sanganer prison, in the Indian city of Jaipur, inmates get a roof over their head, but no money and no food. This means they must go to work and earn their living beyond the prison gates, writes Masuma Ahuja - as labourers, factory workers, drivers, even yoga teachers.
 
@@ -14,7 +14,7 @@ const desk_articles = [
     {
         desk_art_id:"desk-2",
         desk_art_title:"Why some Japanese pensioners want to go to jail",
-        desk_art_img_src: '/images/desk/desk-2.jpg',
+        desk_art_img: 'desk-img-2',
         desk_art_description:"Japan is in the grip of an elderly crime wave - the proportion of crimes committed by people over the age of 65 has been steadily increasing for 20 years.",
         desk_art_article: `Japan is in the grip of an elderly crime wave - the proportion of crimes committed by people over the age of 65 has been steadily increasing for 20 years. The BBC's Ed Butler asks why.
 
@@ -33,7 +33,7 @@ const desk_articles = [
     },
     {
         desk_art_id:"desk-3",
-        desk_art_img_src: '/images/desk/desk-3.jpg',
+        desk_art_img: 'desk-img-3',
         desk_art_title:"‘Welcome to my high-fashion, trash shopping mall’",
         desk_art_description:"Anna Bergstrom had a dilemma.",
         desk_art_article: `Anna Bergstrom had a dilemma. She loved the glitzy world of high fashion, but had also come to feel that it was unsustainable and bad for the planet. She's now found peace of mind by running a stylish shopping mall in Sweden, where everything is second-hand.

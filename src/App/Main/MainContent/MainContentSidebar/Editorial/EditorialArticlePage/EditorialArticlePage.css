@@ -1,0 +1,15 @@
+.editorial-page-img-1 {
+    background: url(../EditorialPages/EditorialPage/editorial-1.jpg);
+}
+.editorial-page-img-2 {
+    background: url(../EditorialPages/EditorialPage/editorial-2.jpg);
+}
+.editorial-page-img-3 {
+    background: url(../EditorialPages/EditorialPage/editorial-3.jpg);
+}
+.editorial-page-img-4 {
+    background: url(../EditorialPages/EditorialPage/editorial-4.jpg);
+}
+[class^='editorial-page-img-'] {
+    background-size: cover;
+}

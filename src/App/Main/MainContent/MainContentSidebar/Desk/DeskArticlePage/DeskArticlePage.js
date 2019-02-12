@@ -1,5 +1,6 @@
 import React from 'react'
 import desk_articles, { getDeskArticlesMap } from './../DeskArticles/desk_articles'
+import './DeskArticlePage.css'
 
 const DeskArticlePage = ({
     match,
@@ -7,13 +8,13 @@ const DeskArticlePage = ({
 }) => {
     return (
         <article className='desk-article-item'>
-            <img src={deskArticle[match.params.deskArticleId].desk_art_img_src} alt=""/>
+            <div className={deskArticle[match.params.deskArticleId].desk_art_img}/>
             <h2>{deskArticle[match.params.deskArticleId].desk_art_title}</h2>
             <p>{deskArticle[match.params.deskArticleId].desk_art_article}</p>
         </article>
     )
 }
 
-//css properties locate in WorldNewsPage
+//some css properties locate in WorldNewsPage
 
 export default DeskArticlePage

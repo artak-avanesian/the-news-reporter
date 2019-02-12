@@ -10,7 +10,7 @@ const editorial_list = [
         But there was a moment during a text exchange in 2014 when I think I should have known things weren't what they seemed. It was really early on in our relationship and I texted him, addressing him as Rob and he said: "No, can you just call me Daddy." There was no discussion - he just told me his demand. When I look back at that moment, reading the text message in my car, I should have questioned it. I should have seen his behaviour in that moment as a red flag.
         
         I was first introduced to R. Kelly in September 2013 by a member of his entourage, when he was performing in a club in Atlanta to promote his next tour. However, we had a proper introduction in January 2014.`,
-        editorial_img_src: `/images/editorial/editorial-1.jpg`,
+        editorial_img: `editorial-page-img-1`,
         editorial_title: `'R. Kelly insisted I have a sex trainer'`,
     },
     {
@@ -25,7 +25,7 @@ const editorial_list = [
         My mum, Anjula, is Ugandan and fled from Idi Amin's tyrannical regime in the 1970s. The story of people like her with a mixed Indian and Ugandan background is largely overlooked from accounts of racial tension in Uganda, and there's little understanding of the struggles she and others faced once they arrived in the UK. The experience of minority communities has helped shape my interest in unwritten histories (you try explaining this in a UCAS statement with a limit of 4,000 characters) so it stands to reason that I would focus on racial diversity in the universities I'm considering.
         
         In the mix are Birmingham, Bristol, Cambridge and King's College, London.`,
-        editorial_img_src: `/images/editorial/editorial-2.jpg`,
+        editorial_img: `editorial-page-img-2`,
         editorial_title: `I'm mixed-race, is Cambridge University right for me?'`,
     },
     {
@@ -41,7 +41,7 @@ const editorial_list = [
         "What happened to me couldn't really be changed, and I think getting to grips with accepting your situation is going to be much better than fighting something. That's why I don't see the cancer in my body as this enemy, because I don't think that's particularly healthy. I think we need to work with it rather than against it."
         
         When diagnosed with advanced breast cancer in 2009, she decided not to get angry, but instead set up a charity called CoppaFeel, to raise awareness of the disease among young people and encourage them to check their breasts regularly.`,
-        editorial_img_src: `/images/editorial/editorial-3.jpg`,
+        editorial_img: `editorial-page-img-3`,
         editorial_title: `'Why I wanted a tattoo on my mastectomy scar`,
     },
     {
@@ -61,7 +61,7 @@ const editorial_list = [
         I started thinking about what I was going to do next. I had no idea how many attackers there were or where they were in the building, and jumping from the fifth floor wasn't wise, so I said to myself, "Vasileios, stay inside and try to do as much as possible to protect yourself."
 
         For some reason I can't really explain, I was unexpectedly calm.`,
-        editorial_img_src: `/images/editorial/editorial-4.jpg`,
+        editorial_img: `editorial-page-img-4`,
         editorial_title: `'The bed that saved me from the Taliban'`,
     },
 ];

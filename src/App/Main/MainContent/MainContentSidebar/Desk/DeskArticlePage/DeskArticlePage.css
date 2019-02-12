@@ -1,0 +1,12 @@
+.desk-img-1 {
+    background: url(desk-1.jpg);
+}
+.desk-img-2 {
+    background: url(desk-2.jpg);
+}
+.desk-img-3 {
+    background: url(desk-3.jpg);
+}
+[class^='desk-img-'] {
+    background-size: cover;
+}
