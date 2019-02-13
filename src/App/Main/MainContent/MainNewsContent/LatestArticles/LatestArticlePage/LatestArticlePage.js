@@ -1,10 +1,10 @@
 import React from 'react'
-import articlesList, { getLatestArticleItem } from './../ArticlesList/articles_list'
+import articlesList, { getLatestArticlesMap } from './../ArticlesList/articles_list'
 import './LatestArticlePage.css'
 
 const LatestArticlePage = ({
     match,
-    latestArticle = getLatestArticleItem(articlesList)
+    latestArticle = getLatestArticlesMap(articlesList)
 }) => {
     return (
         <article className='latest-article-item'>

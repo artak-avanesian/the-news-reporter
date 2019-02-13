@@ -1,11 +1,10 @@
 import React from 'react'
-//import { connect } from 'react-redux'
 import './FavouriteArticle.css'
 
 const FavouriteArticle = ({
     favouriteArticleTitle,
     favouriteArticleDescription,
-    favouriteArticleImage
+    favouriteArticleImage,
 }) => {
     return (
         <div className='favourite-article-wrapper'>
@@ -14,7 +13,7 @@ const FavouriteArticle = ({
                 <h5>{favouriteArticleTitle}</h5>
                 <p className='description'>{favouriteArticleDescription}</p>
             </div>
-        </div>
+        </div> 
     )
 }
 
