@@ -13,7 +13,7 @@ const news = [
     },
     {
         breaking_news_id: 'breaking-news-show-4',
-        breaking_news_title: 'Victims of large forest fire in California stay nine people'
+        breaking_news_title: `Iran's Fars news agency released a photo showing what it said was the wreckage of the bus`
     },
 ];
 

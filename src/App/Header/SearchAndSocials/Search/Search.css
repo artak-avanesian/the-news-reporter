@@ -3,18 +3,21 @@
     height: 30px;
     margin-right: 35px;
     margin-top: 3px;
+    font-size: 16px;
 }
 .search {
     position: relative;
 }
-.search::after {
-    position: absolute;
-    content: '';
-    display: block;
-    clear: both;
+.search-icon {
     width: 35px;
     height: 30px;
+    position: absolute;
     right: 0;
     bottom: 0;
+    border: none;
     background: black url(search.jpg) no-repeat 50%;
+}
+[name='search']:focus, .search-icon:focus {
+    border-color: black;
+    outline: none;
 }

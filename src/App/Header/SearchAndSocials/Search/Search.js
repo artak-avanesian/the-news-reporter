@@ -4,7 +4,8 @@ import './Search.css'
 const Search = () => {
     return (
         <div className='search'>
-            <input type='text'/>
+            <input type='text' name='search'/>
+            <button className='search-icon'/>
         </div>    
     )
 }
