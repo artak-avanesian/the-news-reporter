@@ -1,10 +1,10 @@
 import React from 'react'
 import { keys } from 'lodash'
-import articlesBlock, { getWorldNewsMap } from '../../../App/Main/MainContent/MainNewsContent/WorldNews/Articles/articlesBlock'
+import articlesBlock, { getWorldNewsMap } from './../../Main/MainContent/MainNewsContent/WorldNews/Articles/articlesBlock'
 import FavouriteArticle from './FavouriteArticle/FavouriteArticle'
 import { connect } from 'react-redux'
 import './Favourites.css'
-import articlesList, { getLatestArticlesMap } from './../../../App/Main/MainContent/MainNewsContent/LatestArticles/ArticlesList/articles_list';
+import articlesList, { getLatestArticlesMap } from './../../Main/MainContent/MainNewsContent/LatestArticles/ArticlesList/articles_list';
 import FavouriteLatestArticleItem from './FavouriteLatestArticleItem/FavouriteLatestArticleItem'
 
 const Favourites = ({
@@ -16,7 +16,6 @@ const Favourites = ({
         if (isLiked[likeId] === true) return true;
         else return false;
     })
-    console.log(isLikedProduct)
     return (
         <div className='favourites-articles'>
         {
