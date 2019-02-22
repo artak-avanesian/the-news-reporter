@@ -26,6 +26,7 @@ const Favourites = ({
                         favouriteArticleImage={favouritesMap[likeId].favouriteClass}
                         favouriteArticleTitle={favouritesMap[likeId].title}
                         favouriteArticleDescription={favouritesMap[likeId].description}
+                        favouriteArticleLink={favouritesMap[likeId].link}
                     />
                 </div>)
                 else return (
@@ -34,6 +35,7 @@ const Favourites = ({
                         favouriteLatestArticleImage={favouritesLatestArticlesMap[likeId].favouriteClass}
                         favouriteLatestArticleTitle={favouritesLatestArticlesMap[likeId].art_list_title}
                         favouriteLatestArticleDescription={favouritesLatestArticlesMap[likeId].art_list_description}
+                        favouriteLatestArticleLink={favouritesLatestArticlesMap[likeId].art_list_link}
                     />
                 </div>)
                 

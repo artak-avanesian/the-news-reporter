@@ -3,6 +3,7 @@ const articlesList = [
         art_list_id:"latest-article-1",
         lat_art_img: 'latest-articles-img-1',
         favouriteClass: 'fav-latest-articles-img-1',
+        art_list_link: 'latest-articles/latest-article-1',
         art_list_title:"Putin will be able to go to Kiev after the construction of 'North Stream-2' - the prime minister of Poland.",
         art_list_description:"Moravetsky believes that the gas pipeline will untie the hands of Russia's aggression. Prime Minister of Poland Mateusz Moravetsky warned that Germany explained why it needed North Stream-2 construction of the North Stream 2 pipeline could contribute to the aggression of the Russian Federation in Ukraine.",
         art_list_article: `Moravetsky believes that the gas pipeline will untie the hands of Russia's aggression.
@@ -19,6 +20,7 @@ const articlesList = [
         art_list_id:"latest-article-2",
         lat_art_img: 'latest-articles-img-2',
         favouriteClass: 'fav-latest-articles-img-2',
+        art_list_link: 'latest-articles/latest-article-2',
         art_list_title:"In France, a woman poured acid on visitors to the cafe",
         art_list_description:"6 people were injured. Scared eyewitnesses and the police: What looks like a place of bloody massacre in ParisFrench city of Marseilles on a terrace of one of the cafes a woman poured in with hydrochloric acid visitors.",
         art_list_article: `According to French media, six people were injured as a result of the incident. They had to be hospitalized to the hospital, but the lives of the victims did not threaten anything. They were diagnosed with light burns of arms and legs.
@@ -31,6 +33,7 @@ const articlesList = [
         art_list_id:"latest-article-3",
         lat_art_img: 'latest-articles-img-3',
         favouriteClass: 'fav-latest-articles-img-3',
+        art_list_link: 'latest-articles/latest-article-3',
         art_list_title:"In Ukraine, you can change the rules of taking photographs on documents.",
         art_list_description:"Changes should take into account the interests of people of different religions. Yesterday, November 22, the Ministry of Internal Affairs at a meeting discussed issues of taking photographs on documents. It is reported by the press service of the Ministry.",
         art_list_article: `Changes should take into account the interests of people of different religions.
