@@ -2,6 +2,7 @@ const allArticles = [
     {
         id:"world-news-article-1",
         title:"Trump announced when the US unveils the name of the killer journalist Hashoggi",
+        link: 'world-news-articles/world-news-article-1',
         img: 'fav-world-news-img-1',
         description:"US President Donald Trump said the full report on the murder of Saudi journalist Jamal Hashoggi will be published on November 20.",
         article: `States are preparing a detailed report on this case. US President Donald Trump said the full report on the murder of Saudi journalist Jamal Hashoggi will be published on November 20. The words of Trump were transmitted by journalists from the White House press pool, who accompanied him during his trip to California, where fires broke out. Trump emphasized that the report will identify those who killed the journalist. "There was a terrible thing - the murder of a journalist. We will have a full report within the next two days, possibly on Monday or Tuesday, "the head of state said. Later, the US president clarified that it was going to be on Tuesday. Trump also confirmed that he had a telephone conversation with Director of the Central Intelligence Agency (CIA) Gina Hespel on Saturday on his aircraft. He added that the information that appeared on the CIA on Friday in the media was "preliminary". "They (CIA) have not yet determined anything. It's too early, "he explained. As it was reported, 59-year-old Hashoggi was killed on October 2 at the Consulate General of Saudi Arabia in Istanbul, when he went there to pick up the documents required for the future wedding. His bride was not allowed to enter the institution and after five hours of waiting she was informed that Hashoggi had already left the consulate. The journalist had long ties to the royal family of Saudi Arabia, but he critically wrote about the current government and Crown Prince Mohammed bin Salman. In Turkey, they suspect that her husband was questioned, tortured, and then killed and dismembered. For this purpose, 15 officers of the Saudi security services flew to Istanbul on that day. The investigation has sound recordings. After several weeks of objections and under heavy pressure from the West, the Saudi authorities still admitted that the journalist was killed in their consulate. Subsequently, the Turkish authorities reported that, a few days after the assassination of Hashoggi, Saudi Arabia sent a group of 11 experts to Turkey, including a chemist and a toxicologist who had to "cover the traces" of the crime.`,
@@ -10,6 +11,7 @@ const allArticles = [
         id:"world-news-article-2",
         title:"California in the fire: a powerful fire destroys forests, houses and cars",
         img: 'fav-world-news-img-2',
+        link: 'world-news-articles/world-news-article-2',
         description:"Several people were injured in the fire. In California, tens of thousands of people are forced to leave their homes because of severe forest fires.",
         article: `Several people were injured in the fire. In California, tens of thousands of people are forced to leave their homes because of severe forest fires. This is he plot of the program TSN.Ranok. Fires in the north of the state, the fire has already destroyed several hundred buildings. However, it is not possible to estimate the damage precisely by officials, because they can not reach the damaged areas of the region. The fire and people were injured - two firefighters and several residents of the state received injuries. Firefighters say the fire is spreading very quickly, because California is blowing strong winds.`,
     },
@@ -17,6 +19,7 @@ const allArticles = [
         id:"world-news-article-3",
         title:"In London, three people were injured as a result of firing",
         img: 'fav-world-news-img-3',
+        link: 'world-news-articles/world-news-article-3',
         description:"The wounded were hospitalized. In London, the capital of Great Britain, on Saturday night, November 17, there was a shooting.",
         article: "The wounded were hospitalized. In London, the capital of Great Britain, on Saturday night, November 17, there was a shooting. This is reported by The Sun. It is noted that three people were injured during the incident. Two of them were injured precisely because of the use of weapons. In total, the police noticed four people on the spot. It is reported that law enforcement officers have not detained anyone. The wounded were hospitalized. Recall Turkey's investigative bodies completed an investigation into the assassination of Russian ambassador Karliv completed an investigation into the murder of Russian Ambassador Andriy Charlev, who was shot dead in 2016. The indictment was sent to the Ankara Public Prosecutor's Office, Anadolu.",
     },
@@ -24,6 +27,7 @@ const allArticles = [
         id:"latest-article-1",
         title:"Putin will be able to go to Kiev after the construction of 'North Stream-2' - the prime minister of Poland.",
         img: 'fav-latest-articles-img-1',
+        link: 'latest-articles/latest-article-1',
         description:"Moravetsky believes that the gas pipeline will untie the hands of Russia's aggression. Prime Minister of Poland Mateusz Moravetsky warned that Germany explained why it needed North Stream-2 construction of the North Stream 2 pipeline could contribute to the aggression of the Russian Federation in Ukraine.",
         article: `Moravetsky believes that the gas pipeline will untie the hands of Russia's aggression.
         Prime Minister of Poland Mateusz Moravetsky warned that
@@ -39,6 +43,7 @@ const allArticles = [
         id:"latest-article-2",
         title:"In France, a woman poured acid on visitors to the cafe",
         img: 'fav-latest-articles-img-2',
+        link: 'latest-articles/latest-article-2',
         description:"6 people were injured. Scared eyewitnesses and the police: What looks like a place of bloody massacre in ParisFrench city of Marseilles on a terrace of one of the cafes a woman poured in with hydrochloric acid visitors.",
         article: `According to French media, six people were injured as a result of the incident. They had to be hospitalized to the hospital, but the lives of the victims did not threaten anything. They were diagnosed with light burns of arms and legs.
         Also, journalists learned that the attack was committed by a homeless woman who had previously had problems with her psyche.
@@ -50,6 +55,7 @@ const allArticles = [
         id:"latest-article-3",
         title:"In Ukraine, you can change the rules of taking photographs on documents.",
         img: 'fav-latest-articles-img-3',
+        link: 'latest-articles/latest-article-3',
         description:"Changes should take into account the interests of people of different religions. Yesterday, November 22, the Ministry of Internal Affairs at a meeting discussed issues of taking photographs on documents. It is reported by the press service of the Ministry.",
         article: `Changes should take into account the interests of people of different religions.
         Yesterday, November 22, the Ministry of Internal Affairs at a meeting discussed the issues
@@ -66,6 +72,7 @@ const allArticles = [
     {
         id:"tech-news-1",
         title:"In the United States, a rocket was launched into space, over which Ukrainian enterprises also worked",
+        link: 'tech-news/tech-news-1',
         description:"NASA's Rockefeller Space Station, located in Virginia, USA, launched an Antares launch vehicle into space. Part of her parts was manufactured in Ukraine. This missile should deliver the Signus cargo module to the International Space Station.",
         article: `This missile should deliver the Signus cargo module to the International Space Station.
         "Antares" was created by the American corporation "Orbital ATK" with the participation of foreign partners, incl. a number of Ukrainian enterprises. Thus, the main design of the first stage of the missile was developed by the Design Bureau Southern and manufactured at the Southern Machine-Building Plant named after Makarov in cooperation with the Ukrainian enterprises Khartron-ARCOS, Khartron-Yukom, RAPID and others. Ukrainian experts took an active part in Antares tests conducted in the USA, "Ambassador of Ukraine to the USA Valery Chaly wrote in Facebook. 
@@ -74,6 +81,7 @@ const allArticles = [
     {
         id:"tech-news-2",
         title:"Elon Mask company put the first tunnel under the Los Angeles for special shuttles",
+        link: 'tech-news/tech-news-2',
         description:"The Boring Company completed the laying of an underground tunnel under Los Angeles, which will be driven by vacuum trains, and Ilon Mask showed a futuristic electric bus for traveling by tunnels under the cities of high-speed electric buses.",
         article: `Elon Mask said this on his Twitter page.
         "Boring Company just got to the other side!", - he wrote and attached the video, as a special drill machine went to the surface, thus completing the laying of the tunnel.
@@ -83,6 +91,7 @@ const allArticles = [
     {
         id:"tech-news-3",
         title:"FACEBOOK reported on blocking 1.5 billion fake accounts",
+        link: 'tech-news/tech-news-3',
         description:"In Facebook from April to September this year, 1.5 billion accounts were blocked. In particular, in the second quarter 800 million counterfeit accounts were deleted, in the third - 754 million.",
         article: `Pages are created using scripts or bots.
         In Facebook from April to September this year, 1.5 billion accounts were blocked. In particular, in the second quarter 800 million counterfeit accounts were deleted, the third - 754 million. This is much more than in the first quarter of this year - 534 million, writes Thenextweb.
@@ -91,6 +100,7 @@ const allArticles = [
     {
         id:"tech-news-4",
         title:"Error of MICROSOFT has deprived WINDOWS 10 PRO users of the license",
+        link: 'tech-news/tech-news-4',
         description:"Microsoft's support team said they knew about the problem and were working on fixing the bug.",
         article: `Microsoft's support team said they knew about the problem and were working on fixing the bug.
         Users drew attention to an error on Microsoft activation servers.
@@ -101,6 +111,7 @@ const allArticles = [
         id:'editorial-1',
         img: `editorial-page-img-1`,
         description: `Sometexthere`,
+        link: 'editorial/editorial-1',
         article: `For two years, Asante McGee was a girlfriend of the now-disgraced R&B superstar, R. Kelly, but in the summer of 2016 she went to live in his house in Georgia. There were other women there, she discovered - and very strict rules.
         Whenever I was in my room alone, that was when I would call home to speak to my children, as when I was with Robert, he didn't want us to have our phones and have contact with the outside world.
         When I met Robert, or rather R. Kelly, it wasn't like meeting Prince Charming who swept me off my feet. He didn't wine and dine me, he was just a warm and funny guy. We did normal stuff; he took me shopping and we enjoyed having dinners together.
@@ -111,6 +122,7 @@ const allArticles = [
     {
         id:'editorial-2',
         img: `editorial-page-img-2`,
+        link: 'editorial/editorial-2',
         description: `Sometexthere`,
         article: `Anoushka Mutanda Dougherty has been offered a place at Cambridge University, but she's mixed-race and from a state school - and only 3% of students who started at Cambridge in 2017 were black, or mixed-race with black heritage. So is it the best place for her? At this point, she's not sure.
         Cambridge is the second-oldest university in the English-speaking world. Cambridge is the fourth-oldest surviving university in the world. Cambridge has produced, so far, 90 Nobel prize winners - and Cambridge, this educational powerhouse, just might not be where I want to go. At least, that's how I feel right now, a week after finding out that I got a place.  
@@ -123,6 +135,7 @@ const allArticles = [
     {
         id:'editorial-3',
         img: `editorial-page-img-3`,
+        link: 'editorial/editorial-3',
         description: `Sometexthere`,
         article: `At the age of 23, Kris Hallenga was diagnosed with terminal breast cancer. On average people given this diagnosis live for two-and-a-half years, but 10 years later she wants people to know that it is possible to beat the odds.
         A tightrope artist walks along the line created by Kris Hallenga's mastectomy scar.
@@ -135,6 +148,7 @@ const allArticles = [
     {
         id:'editorial-4',
         img: `editorial-page-img-4`,
+        link: 'editorial/editorial-4',
         description: `Sometexthere`,
         article: `Just over a year ago, Greek pilot Vasileios Vasileiou checked into a luxury hilltop hotel in Kabul. The Intercontinental was popular with foreign visitors - which is why, on 20 January, Taliban gunmen stormed it, killing at least 40 people. Vasileios explains how he survived.
         I had decided to go for dinner early - at six o'clock - with my friend, another pilot called Michael Poulikakos. It was the first time in the three or four months that I had been coming to the Intercontinental that I'd done this - usually I had dinner at around 8.30pm.
@@ -150,6 +164,7 @@ const allArticles = [
         id:"desk-1",
         title:"A prison where the inmates have to go and find jobs",
         img: 'desk-img-1',
+        link: 'desk-news/desk-1',
         description:"At Sanganer prison, in the Indian city of Jaipur, inmates get a roof over their head, but no money and no food.",
         article: `At Sanganer prison, in the Indian city of Jaipur, inmates get a roof over their head, but no money and no food. This means they must go to work and earn their living beyond the prison gates, writes Masuma Ahuja - as labourers, factory workers, drivers, even yoga teachers.
         Ramchand drives a school bus. His wife, Sugna, works at a garment factory. On a recent hot afternoon, I drink a cup of tea with them in their one-room house, which has yellow walls and a corrugated metal roof, a fridge and a TV, a lunchbox hanging in the corner next to photos of gods and a stack of newspapers. From their door, you can see cars zooming by on a nearby highway and beyond that, a skyline of modern high-rises.
@@ -159,6 +174,7 @@ const allArticles = [
         id:"desk-2",
         title:"Why some Japanese pensioners want to go to jail",
         img: 'desk-img-2',
+        link: 'desk-news/desk-2',
         description:"Japan is in the grip of an elderly crime wave - the proportion of crimes committed by people over the age of 65 has been steadily increasing for 20 years.",
         article: `Japan is in the grip of an elderly crime wave - the proportion of crimes committed by people over the age of 65 has been steadily increasing for 20 years. The BBC's Ed Butler asks why.
         At a halfway house in Hiroshima - for criminals who are being released from jail back into the community - 69-year-old Toshio Takata tells me he broke the law because he was poor. He wanted somewhere to live free of charge, even if it was behind bars.
@@ -172,6 +188,7 @@ const allArticles = [
         id:"desk-3",
         img: 'desk-img-3',
         title:"‘Welcome to my high-fashion, trash shopping mall’",
+        link: 'desk-news/desk-3',
         description:"Anna Bergstrom had a dilemma.",
         article: `Anna Bergstrom had a dilemma. She loved the glitzy world of high fashion, but had also come to feel that it was unsustainable and bad for the planet. She's now found peace of mind by running a stylish shopping mall in Sweden, where everything is second-hand.
         "Do you notice the smell?" Anna Bergstrom says, as she surveys her mall from the mezzanine level. "It smells nice here, doesn't it?"
@@ -183,6 +200,7 @@ const allArticles = [
         id:'popular-1',
         title:'"Good fight": Zelensky first commented on his presidential rating',
         description: `Sometexthere`,
+        link: 'popular-news/popular-1',
         article: `The showman Vladimir Zelensky has told if he is going to go to the elections.
         Volodymyr Zelensky commented on the ratings of probable candidates in the presidential election for the first time. According to the latest sociological research, he ranks second and goes to the second round with Yulia Tymoshenko, according to the story of the TSN.19: 30.
         Journalists jumped him up during the Women's Quarters rehearsal and asked how he relates to polls and whether he is about to go to the polls. "About the second place: fight, fight so!" - laughs the showman. And immediately he adds: "And what are you to fear here? I have a friend, Tymoshenko, the first. A good fight! So I, as a real man, is just obliged to let a woman go ahead."
@@ -193,6 +211,7 @@ const allArticles = [
     {
         id:'popular-2',
         description: `Sometexthere`,
+        link: 'popular-news/popular-2',
         title:'In Israel, scored the funniest goal in the history of football',
         article: `Habib Habibu assisted a traumatic teammate and timely joined the attack.
         In the match of the 10th round of the Championship of Israel between Maccabi, Netanyahu and Maccabi with Petah Tikva are probably the most fun goal in the history of football.
@@ -204,6 +223,7 @@ const allArticles = [
         id:'popular-3',
         title:'Russian soldier rough reception sent to a knockout at the MMA',
         description: `Sometexthere`,
+        link: 'popular-news/popular-3',
         article: `The lucky haikus was spent by an Israeli.
         Russian soldier Cyril Sidelnikov was knocked out by an Israeli rival, Adam Keresh, at the MMA Bellator 209.
         Keresh used haykik (kicking his head, note), thus sending one of the best heavyweights in deep knockout.
@@ -213,6 +233,7 @@ const allArticles = [
         id:'popular-4',
         title:'Russia was fouled as a birthday will be expected by a combating child',
         description: `Sometexthere`,
+        link: 'popular-news/popular-4',
         article: `The animal lives nearby in a private home. In Russian Saratov, a video was taken, as a camel pulls an off-road vehicle "Niva", which stuck in the snow and pushed.
         The video appeared on YouTube. The frames show that "Niva" can not leave the snow. One of the men living nearby is coming to the rescue. He leads to the place where the car got stuck, his camel. Then ropes are attached to the animal and to the car, and it pulls the car. A camel pulls out the car almost immediately.`,
     },
@@ -220,6 +241,7 @@ const allArticles = [
         id:'popular-5',
         title:'Scientists have named a disease that can kill millions of children over 12 years',
         description: `Sometexthere`,
+        link: 'popular-news/popular-5',
         article: `Children who live in poverty are most at risk of pneumonia.
         Researchers found that pneumonia could be the cause of the death of 10.8 million children over the next 12 years.
         This is reported by The Telegraph.
@@ -232,6 +254,7 @@ const allArticles = [
         title: `The tiny library bringing books to remote villages`,
         description: `Sometexthere`,
         img: `news-menu-books-img-1`,
+        link: 'news-menu/books/newsMenuBooks-1',
         article: `“Without a book, so often the child is alone,” says Antonio La Cava.
         The retired schoolteacher converted his three-wheeled van into a mobile library, the Bibliomotocarro. Driving the hills and mountains of Basilicata, Italy, La Cava is able to reach children in remote villages like San Paolo Albanese, which only has two children of primary school age.
         “I was strongly worried about growing old in a country of non-readers.” La Cava believes that it’s important to spread the joy of literature to as many children as possible: “carrying out such action has a value, not only social, not only cultural, but has a great ethical meaning.”
@@ -242,6 +265,7 @@ const allArticles = [
         title: `How the science fiction helps readersunderstand climate change`,
         description: `Sometexthere`,
         img: `news-menu-books-img-2`,
+        link: 'news-menu/books/newsMenuBooks-2',
         article: `It’s the year 2140 and two kids ride their skimboards in the heart of Manhattan, near the point where Sixth Avenue meets Broadway. If you are familiar with this junction you would know it is far from the US’ current coastline. But in Kim Stanley Robinson’s novel New York 2140, Manhattan is flooded after unabated climate change causes the sea level to rise by 50ft (15.25m). The amphibian city is now a SuperVenice, a grid of canals populated by vaporettos where characters must learn how to deal with a world both familiar and unrecognisable to us. Mid-Manhattan skimboading is all too possible in this future.
         Robinson’s 2017 climate-fiction novel belongs to a growing cadre of works about drowned nations, wind farm utopias or scarred metropolises decades into the future. As diplomats draft the rulebook for the global response to the climate crisis and engineers race to produce better solar panels, writers have found their role, too: telling what Robinson calls “the story of the next century”. In doing that, they might be helping readers across the world comprehend the situation in which we currently find ourselves.  
         Climate change is a notoriously elusive crisis to make sense of, particularly compared to other human-impact catastrophes. Drop some toxic chemicals in a river now and you will see dead fish within days, but what do you witness when you release carbon dioxide? And while, in 2018, a report by UN climate scientists stated that we are heading towards a catastrophe, who can truly imagine what that looks like?
@@ -255,6 +279,7 @@ const allArticles = [
         title: `The library of forbidden books`,
         description: `Sometexthere`,
         img: `news-menu-books-img-3`,
+        link: 'news-menu/books/newsMenuBooks-3',
         article: `“The literature… mainly consists of books that were published long before 1933 but then became a thorn in the Nazis’ side for different reasons,” says Gerhard Stumpf, librarian at the University of Augsburg. “Most of them were Jewish authors – others were socialist or Communist authors – and also anti-war authors who experienced the pain of World War One.”
         From 1976 until his death in 2013, Georg P Salzmann collected about 12,000 books that had been banned – and burnt – by the Nazis for being ‘un-German’. His father – a Nazi – had shot himself in 1945, when Georg was a teenager.
         What became known as the Library of Burnt Books was sold to the University of Augsburg in 2009 – and is now open to the public. Stumpf describes the first book that Salzmann bought, as well as how one author witnessed his own books being burnt.`,
@@ -264,6 +289,7 @@ const allArticles = [
         title: `The mysterious, macabre mind of Edward Gorey`,
         description: `Sometexthere`,
         img: `news-menu-books-img-4`,
+        link: 'news-menu/books/newsMenuBooks-4',
         article: `From the Gashlycrumb Tinies to The Doubtful Guest, Edward Gorey’s morbidly funny little books are gothic surrealist masterpieces. Drawing on sources as varied as the novels of Agatha Christie and French silent film, he created a uniquely macabre vision of the world filled with crumbling English mansions, jittery dark-eyed flappers and stony faced Edwardian gents where nothing is quite as it seems. His virtuosic illustrations and poetic texts have drawn comparisons to Lewis Carroll, Edward Lear and Samuel Beckett, winning him critical acclaim and a devoted cult following in his native US. Lemony Snicket. Gorey himself was a complicated, reclusive individual whose mission in life was “to make everybody as uneasy as possible”. He collected daguerreotypes of dead babies and lived alone with 20,000 books and six cats in his New York apartment. Sporting an Edwardian beard, he would frequently traipse around the city in a full-length fur coat accessorised with trainers and jangling bracelets.
         A precociously gifted child, he grew up in depression-era Chicago, learning to draw at the age of one-and-a-half and teaching himself to read at three. He had devoured Dracula by the age of five and the complete works of Victor Hugo before he was eight, absorbing a gothic sensibility which would later imprint itself on his work.
         A mystery wrapped in an enigma
@@ -277,6 +303,7 @@ const allArticles = [
         id: `newsMenuBooks-5`,
         title: `The secrets of real-life Lady Chatterley`,
         description: `Sometexthere`,
+        link: 'news-menu/books/newsMenuBooks-5',
         img: `news-menu-books-img-5`,
         article: `A new novel imagines the life of Frieda von Richthofen, the inspiration for many of DH Lawrence’s female characters. Hephzibah Anderson looks at the fate of the literary muse. As job descriptions go, few seem to fit the ‘nice work if you can get it’ category more snugly than ‘muse’. Inspiring lasting works of art by simply existing? It’s at once indolent and noble, evocative of days spent lounging on a chaise longue and nights filled with dance and glittering conversation.
         A look at the life of Frieda von Richthofen might leave you feeling rather differently. She was the inspiration – and model – for many of DH Lawrence’s female characters, including his most scandalous, Lady Chatterley. Yet muse, as she lived it, was a far from undemanding role, encompassing everything from lover and confidante to punch bag. At least, that’s the way Annabel Abbs tells it in a new novel based on her life, titled simply Frieda.
@@ -288,6 +315,7 @@ const allArticles = [
         id: `newsMenuBooks-6`,
         title: `Handwritten gems from Pedro Corrêa do Lago’s collection`,
         description: `Sometexthere`,
+        link: 'news-menu/books/newsMenuBooks-6',
         img: `news-menu-books-img-6`,
         article: `Pedro Corrêa do Lago has the world’s largest private collection of autographed letters and manuscripts. In our video, he reveals unseen gems that are ‘frozen moments in time’. “When you hold the letter of someone you admire and who was dead before you were born, I think it’s the closest connection you can have with that sort of person. Because you’re holding a little frozen moment of their life – they may have spent… a long time if it’s a manuscript with that piece of paper, they touched it.”
         Pedro Corrêa do Lago has one of the largest private collections of autographed letters and manuscripts in the world. It includes tens of thousands of handwritten documents from 5000 of the most important figures in the fields of art, literature, history, science, music and entertainment since 1153. They have just been brought together in a new book, The Magic of Handwriting.
@@ -299,6 +327,7 @@ const allArticles = [
         title: `Jeff Bezos: Amazon boss accuses National Enquirer of blackmail`,
         description: `Sometexthere`,
         img: `news-menu-business-img-1`,
+        link: 'news-menu/business/newsMenuBusiness-1',
         article: `The world's richest man, Amazon founder Jeff Bezos, has accused the owner of a US gossip magazine of trying to blackmail him over private pictures.
         He said the National Enquirer's parent company, American Media Inc (AMI), wanted him to stop investigating how they had obtained his private messages.
         Hours after Mr Bezos announced his divorce last month, the magazine published details, including private messages, of an extramarital affair.
@@ -310,6 +339,7 @@ const allArticles = [
         id: `newsMenuBusiness-2`,
         title: `Nord Stream 2: EU agrees tighter rules for Russian pipeline`,
         description: `Sometexthere`,
+        link: 'news-menu/business/newsMenuBusiness-2',
         img: `news-menu-business-img-2`,
         article: `EU ambassadors have agreed to toughen regulations on a controversial gas pipeline from Russia to Germany, but they have decided not to back plans that might threaten its completion.
         Work on the 1,225km (760-mile) Nord Stream 2 pipeline under the Baltic Sea is already well under way and is set to be finished by the end of 2019.
@@ -324,6 +354,7 @@ const allArticles = [
         id: `newsMenuBusiness-3`,
         title: `How has business been affected by Brexit so far?`,
         description: `Sometexthere`,
+        link: 'news-menu/business/newsMenuBusiness-3',
         img: `news-menu-business-img-3`,
         article: `With two months to go until the UK is due to leave the EU, how are firms and the UK economy faring?
         The economy's "resilience through the turbulence of the Brexit process has been particularly noteworthy", according to Chancellor Philip Hammond.
@@ -343,6 +374,7 @@ const allArticles = [
         id: `newsMenuBusiness-4`,
         title: `China banks on lending to ease slowdown`,
         description: `Sometexthere`,
+        link: 'news-menu/business/newsMenuBusiness-4',
         img: `news-menu-business-img-4`,
         article: `Build stuff or buy stuff? China has long been a believer in the former to deal with a slowdown in its economy. Now it's trying to shift the emphasis to the latter.
         This year will be a big test of how far it's come in the transition from state-backed investment to domestic consumption as the main driver of growth.
@@ -356,6 +388,7 @@ const allArticles = [
         title: `How black women were whitewashed by art`,
         description: `Sometexthere`,
         img: `news-menu-culture-img-1`,
+        link: 'news-menu/culture/newsMenuCulture-1',
         article: `Clash of the Titans was one of the most popular films of 1981. Its glittering retinue of Hollywood stars told the story of Perseus, the demigod from Greek mythology who kills a sea monster and saves the beautiful princess Andromeda from being said monster’s lunch. Such was the film’s popularity that it was remade in 2010; the film managed a rather disparaging 26% on the Rotten Tomatoes site. How many of those rating the film had a classical education is unclear, but perhaps it would have performed better had its producers done their research. As according to British art historian Elizabeth McGrath’s 1992 article The Black Andromeda, Andromeda was, indeed, originally depicted as a black princess from Ethiopia.
         Anyone who watched either of the two Clash of the Titans films will know that Judi Bowker and Alexa Devalos are both white women, and anyone who has seen Andromeda in a painting – perhaps Titian’s or Poynter’s – will believe she is white too. But McGrath’s article was definitive in addressing three things: that all the Greek mythographers placed Andromeda as a princess of Ethiopia, that Ovid specifically refers to her dark skin and that artists throughout Western art history frequently omitted to depict her blackness because Andromeda was supposed to be beautiful, and blackness and beauty – for many of them – was dichotomous. There is no doubt about Andromena’s race, according to Professor McGrath.
         Yet Renaissance art repeatedly depicts Andromeda as white. In Piero di Cosimo’s Perseus Freeing Andromeda from the 1510s she is actually whiter than all the figures around her, including a black musician and her parents, who are considerably darker and in exotic costume. We do know that there was active debate about her skin colour, a debate that would certainly seem racist to modern eyes. McGrath references Francisco Pacheco, a Spanish artist and writer, who asks in one passage of his book Arte de la Pintura why Andromeda is so often painted as white-skinned when several of the sources say she is black. `,
@@ -364,6 +397,7 @@ const allArticles = [
         id: `newsMenuCulture-2`,
         title: `Rita: How the hit Danish dramedy went global`,
         description: `Sometexthere`,
+        link: 'news-menu/culture/newsMenuCulture-2',
         img: `news-menu-culture-img-2`,
         article: `When Danish teacher Rita returns from a suspension from her job, she finds that her school has merged with another – and that her mug is missing from the staff room. This small issue escalates quickly, as conflicts often do around Rita. The other school’s headmaster has taken her mug, seemingly on purpose, and is unapologetic. Distinctive with her long hair, leather jacket and endless selection of plaid shirts, Rita confronts him. He knows who she is, by reputation. “A rebel like you shouldn’t care,” he says. He brags about having read her staff file. “Eleven warnings in one year,” he says. “Suspended for sleeping with a pupil’s father.”
         “I must be good, only getting a warning,” she returns.
@@ -374,6 +408,7 @@ const allArticles = [
         id: `newsMenuCulture-3`,
         title: `Intimate imagesof a bathing beauty`,
         description: `Sometexthere`,
+        link: 'news-menu/culture/newsMenuCulture-3',
         img: `news-menu-culture-img-3`,
         article: `The US critic Jed Perl once referred to Bonnard as “the most idiosyncratic of all the great 20th-Century painters”. His highly original compositions repeatedly focus on favoured motifs – a dining-room table, the view from a window or his lifelong partner Marthe De Méligny stretched out in a bath. They rely less on traditional modes of pictorial structure than a voluptuous use of colour that comes not from nature but his own interior logic.
         Vibrant shades of viridian green miraculously exist in harmony with the bright blues and oranges of a landscape, while elsewhere shades of mauve, gold and blue ripple across the walls of a bathroom. The resulting compositions combine psychological insight with an often sublime poetic sensibility.
@@ -383,6 +418,7 @@ const allArticles = [
         id: `newsMenuCulture-4`,
         title: `Mary Pickford: The woman who shaped Hollywood`,
         description: `Sometexthere`,
+        link: 'news-menu/culture/newsMenuCulture-4',
         img: `news-menu-culture-img-4`,
         article: `In 1911, William deMille made the most boneheaded prediction in the history of acting. A theatre kid he’d known was quitting the stage for the moving-picture screen. “She can’t be more than 17,” he tut-tutted in a letter, “and now she’s throwing her whole career in the ashcan and burying herself in a cheap form of amusement. There will never be any real money in those galloping tintypes.” The theatre was 2,500 years old, and this girl was risking her future on a fad. “Say goodbye to little Mary Pickford. She’ll never be heard of again.”
         Four years later, Mary Pickford was the most famous woman in the world; the first female celebrity not just known by name, reputation or sketch, but even the way the corners of her eyes curled down when she smiled. Everyone who’d seen her in Tess of the Storm Country (1914) or Rags (1915) knew exactly how she looked – long ringlets, childish dresses, the image of innocence – and they froze her like that forever. The curls cost $50 each, a fortune when a movie ticket was just over a nickel, and Pickford travelled with a suitcase of them.
@@ -393,6 +429,7 @@ const allArticles = [
         id: `newsMenuCulture-5`,
         title: `Seven words that can help us to be a little calmer`,
         description: `Sometexthere`,
+        link: 'news-menu/culture/newsMenuCulture-5',
         img: `news-menu-culture-img-5`,
         article: `“When I was two, our family moved to a rural town in the Kansai area to be with my father’s aging parents,” writes Mari Fujimoto in the introduction to the new book Ikigai and Other Japanese Words to Live by (published by Modern Books), which translates 43 of the most poignant phrases in the language. “I fondly remember spending Obon, the festival that honours one’s ancestors, at the house of my grandparents (both of whom were over 100 years old).” More than just a childhood memory, her experience reflects an outlook – one of many that appear in the book, questioning dominant Western values.
         Fujimoto – director of Japanese Studies at the City University of New York – is a linguist by training, and believes that by discovering words and phrases unique to other cultures, we can gain a wider understanding of our own lives. “It’s important to give another perspective, see that other life,” she tells BBC Culture. “In the West we tend to seek perfection, and we always feel like we have to be perfect, we have to do as much as we can, and meet other people’s expectations. Thinking about the way my grandparents were, and the traditional way of Japanese life, I thought we could stop and look around and accept the things that we don’t normally appreciate, like getting older.”
@@ -404,6 +441,7 @@ const allArticles = [
         id: `newsMenuCulture-6`,
         title: `The world's most beautiful house?`,
         description: `Sometexthere`,
+        link: 'news-menu/culture/newsMenuCulture-6',
         img: `news-menu-culture-img-6`,
         article: `In 1565, Paolo Almerico, a high-ranking official in the Papal courts of Pius IV and V, retired from the Vatican to Vicenza, in northeast Italy. Here he commissioned Andrea Palladio, one of history’s greatest architects, to design a new type of house. Built on a hill overlooking the city and surrounding countryside, La Rotonda was a freestanding villa independent of agriculture, religion or commerce. A place of study, contemplation and quiet enjoyment, it was also a work of impeccable art.
         Neither patron nor architect lived to see La Rotonda completed. Here, though, a thing of beauty was indeed a joy forever. Serene, symmetrical, laced with subtle religious symbolism – its plan a cross set within a square within an imaginary circle – and with classical Ionic porticos facing all four cardinal points of the compass, this exquisite house connected landscape to city while fusing art to architecture. Here was a Renaissance ideal made perfectly real.
@@ -415,6 +453,7 @@ const allArticles = [
         id: `newsMenuEntertainment-1`,
         title: `Woody Allen sues Amazon for $68m for dropping A Rainy Day in New York`,
         description: `Sometexthere`,
+        link: 'news-menu/entertainment/newsMenuEntertainment-1',
         img: `news-menu-entertainment-img-1`,
         article: `Woody Allen has launched legal action against Amazon Studios, accusing it of breaching their contract by refusing to distribute his latest film.
         The 83-year-old is seeking more than $68m (£52m) in damages, alleging the company backed out of a multi-picture deal without cause.
@@ -429,6 +468,7 @@ const allArticles = [
         id: `newsMenuEntertainment-2`,
         title: `Juliette Binoche says Harvey Weinstein has 'had enough'`,
         description: `Sometexthere`,
+        link: 'news-menu/entertainment/newsMenuEntertainment-2',
         img: `news-menu-entertainment-img-2`,
         article: `Oscar-winning actress Juliette Binoche has called for the public censure of Harvey Weinstein to end, saying "justice has to do its work".
         Binoche, who is head of the jury at Berlin Film Festival, said: "I'm trying to put my feet in his shoes. He's had enough, I think." 
@@ -440,6 +480,7 @@ const allArticles = [
         id: `newsMenuEntertainment-3`,
         title: `Sir Lenny Henry says his mum was racially abused`,
         description: `Sometexthere`,
+        link: 'news-menu/entertainment/newsMenuEntertainment-3',
         img: `news-menu-entertainment-img-3`,
         article: `Sir Lenny Henry has spoken about the racial abuse his mother faced when she arrived in the UK, at the launch of a BBC show about the Windrush generation.
         "People followed her down the street and asked her where her tail was," the actor revealed at a screening of Soon Gone: A Windrush Chronicle this week.
@@ -452,6 +493,7 @@ const allArticles = [
         id: `newsMenuMovies-1`,
         title: `Does the Lego Movie 2: The Second Part match the original?`,
         description: `Sometexthere`,
+        link: 'news-menu/movies/newsMenuMovies-1',
         img: `news-menu-movies-img-1`,
         article: `Perhaps no sequel could ever have reached the giddy heights attained by The Lego Movie. Written and directed by Phil Lord and Christopher Miller, the best cartoon of 2014 was such a magnificently animated and dazzlingly inventive delight that there was probably only one way its follow-up could go. But it is still depressing to see The Lego Movie 2: The Second Part falling so far short of its glorious predecessor.
         One obvious reason for the shortfall is that the first film caught everyone unawares. Those of us who walked into the cinema fearing a cynical advert for a Danish construction toy brand found ourselves gawping instead at a daring Orwellian satire, the exhilarating and hilarious adventure of a cheerfully conformist construction worker, Emmet (voiced by Chris Pratt), who learns that the tyrannical Lord Business (Will Ferrell) plans to glue every one of Bricksburg’s Lego citizens into place.
@@ -465,6 +507,7 @@ const allArticles = [
         id: `newsMenuMovies-2`,
         title: `Academy Adwards 2019: How good are the best picture nominees?`,
         description: `Sometexthere`,
+        link: 'news-menu/movies/newsMenuMovies-2',
         img: `news-menu-movies-img-2`,
         article: `Black Panther. The first superhero movie to be nominated for best picture was also the biggest film of 2018 at the US box office – and was praised by Barber for having a “radical vision in mind – more radical, indeed, than that of any previous Hollywood studio blockbuster”. Director and co-writer, Ryan Coogler (Creed), tells the Marvel story of Wakanda, an ultra-modern utopia hidden in Africa as “an Afrocentric Bond movie” that turns into a sci-fi fantasy. In doing so, Barber argues, he “has taken every genre in which black characters are traditionally sidelined, and then, with considerable flair and boldness, he’s combined those genres and put black characters right at their heart”. With a majority black cast, the blockbuster is a game changer, says Barber. “Ask yourself: when was the last time any feature film, whether or not it was made by a Hollywood studio, posited that an African country might be the happiest, most prosperous and most scientifically advanced place on Earth?”`,
     },
@@ -472,6 +515,7 @@ const allArticles = [
         id: `newsMenuMovies-3`,
         title: `The Favourite's bold sexual politics are rewriting history`,
         description: `Sometexthere`,
+        link: 'news-menu/movies/newsMenuMovies-3',
         img: `news-menu-movies-img-3`,
         article: `Olivia Colman, an Oscar nominee and Golden Globe winner for her performance as Queen Anne in The Favourite, tells the BBC she believes that the historical film has “reinvented the genre. It’s messy and you can almost smell the period it’s set in.”
         The reputed love affair between Queen Anne and Sarah, Duchess of Marlborough has become a hot favourite for awards season too – apart from the Globe win, the film has received 10 Oscar nominations and is up for 12 Baftas.
@@ -481,6 +525,7 @@ const allArticles = [
         id: `newsMenuMovies-4`,
         title: `Is the era of the movie star over?`,
         description: `Sometexthere`,
+        link: 'news-menu/movies/newsMenuMovies-4',
         img: `news-menu-movies-img-4`,
         article: `Twenty years ago, a leading actor or actress would guarantee the success of a film. Nowadays, star power has dwindled – but are their days numbered for good?
         When Talking Movies first aired 20 years ago, A-listers like Tom Cruise and Julia Roberts had enormous clout; they were able to command huge box-office numbers just by appearing in a film.
@@ -495,6 +540,7 @@ const allArticles = [
         id: `newsMenuMovies-5`,
         title: `Film review: Destroyer`,
         description: `Sometexthere`,
+        link: 'news-menu/movies/newsMenuMovies-5',
         img: `news-menu-movies-img-5`,
         article: `Nicole Kidman plays a badly behaved alcoholic detective in a grim new crime thriller. But the more despicable she is, the more you care about her, writes Nicholas Barber.
         Karyn Kusama’s moody Los Angeles cop thriller, Destroyer, is destined to be remembered as the film in which one of Hollywood’s most famously glamorous and elegant superstars, Nicole Kidman, demonstrated just how unglamorous and inelegant she could be. Kidman plays LAPD detective Erin Bell, a name which makes her sound like a Disney character, when she is actually the exact opposite. A gaunt, alcoholic wreck who tends to sleep either in a bar or in her car, Erin has papery, liver-spotted skin; cracked lips; bags over as well as under her eyes; and a mop of greying hair that would probably digest any comb that went near it. Whenever she trudges towards her colleagues, they swear under their breath and back away, mainly because she has become such an embarrassing liability, but partly, you assume, because of the stench that clings to her black leather jacket.
@@ -504,6 +550,7 @@ const allArticles = [
         id: `newsMenuMovies-6`,
         title: `'Film-making in China is the new way'`,
         description: `Sometexthere`,
+        link: 'news-menu/movies/newsMenuMovies-6',
         img: `news-menu-movies-img-6`,
         article: `“Chinese cinema, and the industry of film-making in China is the new way.”
         That’s the opinion of Nicolas Cage, who was speaking to Talking Movies from the Macau International Film Festival in December 2018, while promoting his latest film, Mandy.
@@ -515,6 +562,7 @@ const allArticles = [
         id: `newsMenuMusic-1`,
         title: `Ahmad Zahir: The enduring appeal of the Afghan Elvis`,
         description: `Sometexthere`,
+        link: 'news-menu/music/newsMenuMusic-1',
         img: `news-menu-music-img-1`,
         article: `A new documentary celebrates Ahmad Zahir, the ‘60s and ‘70s icon who mysteriously died in 1979. Arwa Haider talks to the people making the film, including Zahir’s daughter, about how the singer combined popularity with protest.
         There is some dream-like footage online of a 1970s gig at Kabul’s Intercontinental Hotel, showing an energetic figure leading a multi-instrumental band. The performer’s hip looks (dark quiff and sideburns; loosened tie) and rollicking, psych-roots grooves reflect the ‘Afghan Elvis’ nickname he earned.
@@ -525,6 +573,7 @@ const allArticles = [
         id: `newsMenuMusic-2`,
         title: `How LSD influenced Western culture`,
         description: `Sometexthere`,
+        link: 'news-menu/music/newsMenuMusic-2',
         img: `news-menu-music-img-2`,
         article: `A new play, All You Need is LSD, tracks the importance of psychedelic drugs beyond just flower power. Is it time for a third ‘summer of love’?
         When you think of LSD, a very specific aesthetic probably leaps to mind: the psychedelic pink-and-orange swirls of the 60s; naked people with flowers in their hair; the shimmer of a sitar. After its psychedelic properties were accidentally discovered in the lab by Albert Hofmann in 1943, the drug was banned in the UK in 1966. LSD is still most strongly associated with hippies who embraced its mind-expanding properties.
@@ -538,6 +587,7 @@ const allArticles = [
         id: `newsMenuMusic-3`,
         title: `Imagine: The making of an iconic song`,
         description: `Sometexthere`,
+        link: 'news-menu/music/newsMenuMusic-3',
         img: `news-menu-music-img-3`,
         article: `With previously unpublished photos and archive interviews, a new book – released on what would have been John Lennon’s 78th birthday – tells the inside story of Imagine.
         It is the ultimate peace anthem; an ode to idealism. But Imagine is also a song about love. When it was composed, in 1971, John Lennon and Yoko Ono had been together for three years. She was lambasted by some as the ‘dragon lady’ who had broken up Lennon's marriage to Cynthia – and, in the process, The Beatles. Yet, as a new book from Thames & Hudson suggests, Ono was misrepresented – even when it came to being credited for a song’s creation. In a 1980 interview reprinted in Imagine John Yoko, Lennon admits that Ono was equally responsible for Imagine; in 2017, Ono was formally recognised as co-writer of the iconic song.
@@ -548,6 +598,7 @@ const allArticles = [
         id: `newsMenuMusic-4`,
         title: `How drag balls went mainstream`,
         description: `Sometexthere`,
+        link: 'news-menu/music/newsMenuMusic-4',
         img: `news-menu-music-img-4`,
         article: `As new TV series Pose brings drag balls into the mainstream, Arwa Haider looks at how the glamorous underground culture became a big hit.
         “The category is… Live! Work! Pose!” declares charismatic ball emcee Pray Tell (Billy Porter) in the intro to US drama series Pose, which premiered on the FX channel in June. Co-created by Ryan Murphy (Glee, Nip/Tuck, American Horror Story), Pose summons the electrifying energy and fierce style of New York’s real-life black and Latin gay ballroom scene of the 1980s, and contrasts its working-class subcultures with that period’s luxury business world (Trump Tower looms in the background).
@@ -558,6 +609,7 @@ const allArticles = [
         id: `newsMenuScience-1`,
         title: `Climate change: UK carbon capture project begins`,
         description: `Sometexthere`,
+        link: 'news-menu/science/newsMenuScience-1',
         img: `news-menu-science-img-1`,
         article: `The giant Drax power station, near Selby in North Yorkshire, has become the first in Europe to capture carbon dioxide (CO2) from wood-burning.
         Drax burns seven million tonnes of wood chips each year to drive generators to make electricity.
@@ -590,6 +642,7 @@ const allArticles = [
         id: `newsMenuScience-2`,
         title: `Climate change: 'Future proofing' forests to protect orangutans`,
         description: `Sometexthere`,
+        link: 'news-menu/science/newsMenuScience-2',
         img: `news-menu-science-img-2`,
         article: `A study has identified key tree species that are resilient to climate change and support critically endangered apes.
         Planting them could help future proof rainforests, which are a key habitat for orangutans, according to the International Union for Conservation of Nature - IUCN.
@@ -605,6 +658,7 @@ const allArticles = [
         id: `newsMenuScience-3`,
         title: `Herbal history: Five garden plants with a hidden past`,
         description: `Sometexthere`,
+        link: 'news-menu/science/newsMenuScience-3',
         img: `news-menu-science-img-3`,
         article: `Many garden plants we're familiar with today have a hidden history.
         Grown centuries ago for their reputed healing powers, they became garden staples, valued for their beauty, form or scent.
@@ -621,6 +675,7 @@ const allArticles = [
         id: `newsMenuScience-4`,
         title: `'Time bomb' warning on mining dam disasters`,
         description: `Sometexthere`,
+        link: 'news-menu/science/newsMenuScience-4',
         img: `news-menu-science-img-4`,
         article: `The catastrophic collapse of a dam at a mine in Brazil has exposed a darker side of an industry that the world depends on.
         At nearly 800 sites across the country and thousands more around the world, dams contain huge loads of mining waste.
@@ -640,6 +695,7 @@ const allArticles = [
         id: `newsMenuScience-5`,
         title: `Rosalind Franklin: Mars rover named after DNA pioneer`,
         description: `Sometexthere`,
+        link: 'news-menu/science/newsMenuScience-5',
         img: `news-menu-science-img-5`,
         article: `The UK-assembled rover that will be sent to Mars in 2020 will bear the name of DNA pioneer Rosalind Franklin.
         The honour follows a public call for suggestions that drew nearly 36,000 responses from right across Europe.
@@ -657,6 +713,7 @@ const allArticles = [
         id: `newsMenuSports-1`,
         title: `New Zealand v India: Rohit Sharma becomes record T20 run-scorer`,
         description: `Sometexthere`,
+        link: 'news-menu/sports/newsMenuSports-1',
         img: `news-menu-sports-img-1`,
         article: `Rohit Sharma became the highest run-scorer in Twenty20 internationals as India beat New Zealand to level the three-match series at 1-1.
         The opener, 31, hit 50 off 29 balls as India chased 159 to win by seven wickets with seven balls to spare in Auckland.
@@ -676,6 +733,7 @@ const allArticles = [
         id: `newsMenuSports-2`,
         title: `Frank Robinson, Major League Baseball's first black manager, dies at 83`,
         description: `Sometexthere`,
+        link: 'news-menu/sports/newsMenuSports-2',
         img: `news-menu-sports-img-2`,
         article: `Legendary baseball Hall of Famer Frank Robinson - the first African-American to manage a professional team - has died aged 83, baseball officials say.
         After winning Most Valuable Player awards in both US leagues - the only player in history to do so - he went on to manage Cleveland in 1975.
@@ -694,6 +752,7 @@ const allArticles = [
         id: `newsMenuSports-3`,
         title: `Fed Cup 2019: Line judges criticised by Greek players in GB win`,
         description: `Sometexthere`,
+        link: 'news-menu/sports/newsMenuSports-3',
         img: `news-menu-sports-img-3`,
         article: `Greek player Maria Sakkari described the line judges as "the worst I have ever seen in my life" in her Fed Cup defeat by Britain's Johanna Konta.
         The world number 38 said they "were not professional" in a 4-6 6-2 6-3 defeat in Bath that featured a number of questionable calls.
@@ -709,6 +768,7 @@ const allArticles = [
         id: `newsMenuSports-4`,
         title: `Lionel Messi: Barcelona president Josep Maria Bartomeu preparing the club for life without Argentine`,
         description: `Sometexthere`,
+        link: 'news-menu/sports/newsMenuSports-4',
         img: `news-menu-sports-img-4`,
         article: `Barcelona president Josep Maria Bartomeu says the club's transfer activity is an indication they are preparing for life after Lionel Messi.
         Barca last month confirmed the £65m signing of 21-year-old midfielder Frenkie de Jong from Ajax.
@@ -727,6 +787,7 @@ const allArticles = [
         id: `newsMenuSports-5`,
         title: `Naomi Ogbeta on the Edinburgh Festival, YouTube... and the triple jump`,
         description: `Sometexthere`,
+        link: 'news-menu/sports/newsMenuSports-5',
         img: `news-menu-sports-img-5`,
         article: `The triple jump was always going to suit Naomi Ogbeta.
         After all, why do only one thing when you can do three?
@@ -745,6 +806,7 @@ const allArticles = [
         id: `newsMenuSports-6`,
         title: `Liverpool announce world record £106m net profit`,
         description: `Sometexthere`,
+        link: 'news-menu/sports/newsMenuSports-6',
         img: `news-menu-sports-img-6`,
         article: `Liverpool have announced a world record profit of £106m.
         In their yearly financial results, the Reds made an annual pre-tax profit of £125m - up from £40m - as turnover increased in the 12 months to May 2018 by £90m to £455m, also a record.
@@ -764,6 +826,7 @@ const allArticles = [
         id: `newsMenuTech-1`,
         title: `Huawei and 5G: Decision time`,
         description: `Sometexthere`,
+        link: 'news-menu/tech/newsMenuTech-1',
         img: `news-menu-tech-img-1`,
         article: `It's called the Supply Chain Review and sounds very dull but it could determine the UK's hi-tech future.
         As the political temperature around Huawei's role in the UK rises, mobile phone operators await a decision from the government on whether they can continue to use the Chinese giant's equipment.
@@ -777,6 +840,7 @@ const allArticles = [
         id: `newsMenuTech-2`,
         title: `Apple to pay teenager who found FaceTime bug`,
         description: `Sometexthere`,
+        link: 'news-menu/tech/newsMenuTech-2',
         img: `news-menu-tech-img-2`,
         article: `A US teenager who discovered a security flaw in Apple's FaceTime video-calling system has been given a bug bounty.
         Apple has not revealed the exact amount it is giving 14-year-old Grant Thompson but it is believed to include money to help pay for his education.
@@ -793,6 +857,7 @@ const allArticles = [
         id: `newsMenuTech-3`,
         title: `Microsoft: What went right under Satya Nadella?`,
         description: `Sometexthere`,
+        link: 'news-menu/tech/newsMenuTech-3',
         img: `news-menu-tech-img-3`,
         article: `On Monday, it will be five years since Satya Nadella was announced as Microsoft's chief executive.
         Since taking charge he has turned the tech firm's fortunes around, making it the most valuable company in the world for the first time since 2002.
@@ -806,6 +871,7 @@ const allArticles = [
         id: `newsMenuTech-4`,
         title: `Do money apps make us better or worse with our finances?`,
         description: `Sometexthere`,
+        link: 'news-menu/tech/newsMenuTech-4',
         img: `news-menu-tech-img-4`,
         article: `Finance apps are proving increasingly popular, but are they making us better at managing our money or encouraging us to spend more?
         Kerry Hudson, 28, spent her childhood living in poverty in Scotland with her single mother, in "a succession of council estates, bed and breakfasts for the homeless, and caravan parks".
@@ -820,6 +886,7 @@ const allArticles = [
         id: `newsMenuTech-5`,
         title: `Self-harm, suicide and social media: Can you talk about them online safely?`,
         img: `news-menu-tech-img-5`,
+        link: 'news-menu/tech/newsMenuTech-5',
         description: `Sometexthere`,
         article: `The boss of Instagram is meeting England's Health Secretary to discuss ways of handling content about self-harm and suicide.
         Teenager Molly Russell took her own life in 2017 and links have been made between her death and content she was looking at on social media.
@@ -831,6 +898,7 @@ const allArticles = [
         img: 'news-menu-world-news-img-1',
         title: "France recalls ambassador to Italy as diplomatic row deepens",
         id: "newsMenuWorldNews_1",
+        link: 'news-menu/world-news/newsMenuWorldNews_1',
         description: `Sometexthere`,
         article: "A diplomatic row between France and Italy has deepened, with France complaining of 'unfounded attacks and outlandish claims' by Italian leaders. France recalled its ambassador to Italy for talks on Thursday, saying the situation was 'unprecedented' since the end of World War Two. It comes after Italian Deputy PM Luigi Di Maio met French 'yellow-vest' protesters near Paris on Tuesday. France warned him not to interfere in the country's politics. Relations between the two countries - both founding members of the EU - have been tense since Italy's populist Five Star Movement and right-wing League party formed a coalition government in June 2018. The two governments have clashed over a range of issues, including immigration."
     },
@@ -838,6 +906,7 @@ const allArticles = [
         img: 'news-menu-world-news-img-2',
         title: "South Africa Gloria coal mine explosion 'kills six'",
         description: `Sometexthere`,
+        link: 'news-menu/world-news/newsMenuWorldNews_2',
         id: "newsMenuWorldNews_2",
         article: `Six people have been killed by a gas explosion in an abandoned coal mine in South Africa, the national broadcaster is reporting.
         About 20 others are still trapped at the Gloria coal mine in Middelburg, east of the capital, Pretoria.
@@ -857,6 +926,7 @@ const allArticles = [
         img: 'news-menu-world-news-img-3',
         title: "Black Saturday: The bushfire disaster that shook Australia",
         description: `Sometexthere`,
+        link: 'news-menu/world-news/newsMenuWorldNews_3',
         id: "newsMenuWorldNews_3",
         article: `Ten years ago, Australia experienced its worst-ever bushfire disaster when 173 people died across the state of Victoria. Immediately branded "one of the darkest days in Australia's peacetime history", Black Saturday has left a profound legacy. Sharon Verghis reports.
         "It was like the gates of hell. There is no other way to describe it."
@@ -869,6 +939,7 @@ const allArticles = [
         img: 'news-menu-world-news-img-4',
         title: "India man to sue parents for giving birth to him",
         description: `Sometexthere`,
+        link: 'news-menu/world-news/newsMenuWorldNews_4',
         id: "newsMenuWorldNews_4",
         article: `A 27-year-old Indian man plans to sue his parents for giving birth to him without his consent.
         Mumbai businessman Raphael Samuel told the BBC that it's wrong to bring children into the world because they then have to put up with lifelong suffering.
@@ -883,6 +954,7 @@ const allArticles = [
         img: 'news-menu-world-news-img-5',
         title: "Saudi Arabia 'curtailed' Jamal Khashoggi murder probe: UN",
         description: `Sometexthere`,
+        link: 'news-menu/world-news/newsMenuWorldNews_5',
         id: "newsMenuWorldNews_5",
         article: `Saudi Arabia "seriously curtailed" Turkish access to the scene of Jamal Khashoggi's murder, a UN investigator has said.
         A preliminary report into the investigation says Turkey was not allowed into the consul where the journalist was killed for 13 days.
@@ -900,6 +972,7 @@ const allArticles = [
         img: 'news-menu-world-news-img-6',
         title: "Virginia's attorney general admits wearing blackface in college",
         description: `Sometexthere`,
+        link: 'news-menu/world-news/newsMenuWorldNews_6',
         id: "newsMenuWorldNews_6",
         article: `Virginia Attorney General Mark Herring has acknowledged wearing "brown makeup" to a party, days after the state governor admitting wearing blackface.
         The second-in-line to the governor's seat said in a statement on Wednesday that he wore a costume to a party when he was 19 years old at university.

@@ -4,7 +4,12 @@ import MainMenu from './MainMenu/MainMenu';
 import SearchAndSocials from './SearchAndSocials/SearchAndSocials';
 import './Header.css'
 
-const Header = () => {
+const Header = ({
+    onSearch,
+    value,
+    valueChangeHandler,
+    search
+}) => {
     return (
         <header className='header'>
             <div className='container'>
@@ -12,7 +17,12 @@ const Header = () => {
                     <div className="flex-container">
                         <Logo/>
                         <MainMenu/>
-                        <SearchAndSocials/>
+                        <SearchAndSocials
+                            onSearch={onSearch}
+                            value={value}
+                            valueChangeHandler={valueChangeHandler}
+                            search={search}
+                        />
                     </div>
                 </div>
             </div>

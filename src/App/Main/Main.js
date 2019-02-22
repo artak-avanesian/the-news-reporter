@@ -8,14 +8,22 @@ import MainContentArticlePageRoutes from './Routes/MainContentArticlePageRoutes/
 import NewsMenuRoutes from './Routes/NewsMenuRoutes/NewsMenuRoutes'
 import MainMenuRoutes from './Routes/MainMenuRoutes/MainMenuRoutes'
 import NewsMenuArticlePageRoutes from './Routes/NewsMenuArticlePqgeRoutes/NewsMenuArticlePageRoutes'
+import SearchArticles from './../Header/SearchAndSocials/Search/SearchArticles/SearchArticles'
 
-const Main = () => {
+const Main = ({
+    filteredArticles,
+    search
+}) => {
     return (
         <main>
             <div className='container'>
                 <NewsMenu/>
                 <div className="flex-container">
                     <Route path='/' exact component={MainContent}/>
+                    <Route path='/search' render={() => <SearchArticles
+                        filteredArticles={filteredArticles}
+                        search={search}
+                    />}/>
                     <NewsMenuRoutes/>
                     <MainMenuRoutes/>
                     <MainContentArticlePageRoutes/>

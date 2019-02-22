@@ -1,3 +1,12 @@
 .main-content .flex-container {
     width: 800px;
 }
+.search-no-result {
+    padding-top: 50px;
+    font-size: 25px;
+    margin: 0 auto;
+}
+.search-word-no-result {
+    font-weight: bold;
+    font-style: italic;
+}

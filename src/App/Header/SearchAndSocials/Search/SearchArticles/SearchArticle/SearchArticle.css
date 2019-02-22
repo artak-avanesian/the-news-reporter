@@ -1,0 +1,31 @@
+.search-article {
+    margin-bottom: 10px;
+}
+.search-article a {
+    color: black;
+    text-decoration: none;
+}
+.search-article a:hover {
+    color: red;
+}
+.search-article div, .search-article h5 {
+    width: 170px;
+}
+.search-article div:first-child {
+    height: 140px;
+    background-size: cover;
+}
+.search-article div:first-child p {
+    text-align: center;
+    line-height: 140px;
+    color: grey;
+    font-style: italic;
+}
+.search-articles-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 800px;
+    margin-top: 15px;
+}
