@@ -1,5 +1,5 @@
 import React from 'react'
-// import './FavouriteArticle.css'
+import './FavouriteLatestArticleItem.css'
 
 const FavouriteArticle = ({
     favouriteLatestArticleImage,
@@ -8,7 +8,7 @@ const FavouriteArticle = ({
 }) => {
     return (
         <div className='favourite-article-wrapper'>
-            <img src={favouriteLatestArticleImage} alt="" width='170' height='140'/>
+            <div className={favouriteLatestArticleImage}></div>
             <div className="description">
                 <h5>{favouriteLatestArticleTitle}</h5>
                 <p className='description'>{favouriteLatestArticleDescription}</p>

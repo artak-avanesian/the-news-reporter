@@ -1,3 +1,16 @@
 .favourites-articles div {
     width: 170px;
 }
+.fav-world-news-img-1 {
+    background: url(../../../../Main/MainContent/MainNewsContent/WorldNews/Articles/world-news-1.jpeg)
+}
+.fav-world-news-img-2 {
+    background: url(../../../../Main/MainContent/MainNewsContent/WorldNews/Articles/world-news-2.jpg)
+}
+.fav-world-news-img-3 {
+    background: url(../../../../Main/MainContent/MainNewsContent/WorldNews/Articles/world-news-3.jpg)
+}
+[class^='fav-world-news-img-'] {
+    height: 140px;
+    background-size: cover;
+}

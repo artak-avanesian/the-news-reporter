@@ -8,7 +8,7 @@ const FavouriteArticle = ({
 }) => {
     return (
         <div className='favourite-article-wrapper'>
-            <img src={favouriteArticleImage} alt="" width='170' height='140'/>
+            <div className={favouriteArticleImage}></div>
             <div className="description">
                 <h5>{favouriteArticleTitle}</h5>
                 <p className='description'>{favouriteArticleDescription}</p>

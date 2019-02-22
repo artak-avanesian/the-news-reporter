@@ -20,16 +20,18 @@ const Favourites = ({
         <div className='favourites-articles'>
         {
             isLikedProduct.map((likeId) => {
-                if (likeId.indexOf('world') === 0) return (<div key={likeId}>
+                if (likeId.indexOf('world') === 0) return (
+                <div key={likeId}>
                     <FavouriteArticle
-                        favouriteArticleImage={favouritesMap[likeId].favouriteImg}
+                        favouriteArticleImage={favouritesMap[likeId].favouriteClass}
                         favouriteArticleTitle={favouritesMap[likeId].title}
                         favouriteArticleDescription={favouritesMap[likeId].description}
                     />
                 </div>)
-                else return (<div key={likeId}>
+                else return (
+                <div key={likeId}>
                     <FavouriteLatestArticleItem
-                        favouriteLatestArticleImage={favouritesLatestArticlesMap[likeId].artListImg}
+                        favouriteLatestArticleImage={favouritesLatestArticlesMap[likeId].favouriteClass}
                         favouriteLatestArticleTitle={favouritesLatestArticlesMap[likeId].art_list_title}
                         favouriteLatestArticleDescription={favouritesLatestArticlesMap[likeId].art_list_description}
                     />

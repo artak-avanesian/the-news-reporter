@@ -1,0 +1,13 @@
+.fav-latest-articles-img-1 {
+    background: url(../../../../Main/MainContent/MainNewsContent/LatestArticles/ArticlesList/latest-articles-1.jpg)
+}
+.fav-latest-articles-img-2 {
+    background: url(../../../../Main/MainContent/MainNewsContent/LatestArticles/ArticlesList/latest-articles-2.jpg)
+}
+.fav-latest-articles-img-3 {
+    background: url(../../../../Main/MainContent/MainNewsContent/LatestArticles/ArticlesList/latest-articles-3.jpg)
+}
+[class^='fav-latest-articles-img-'] {
+    height: 140px;
+    background-size: cover;
+}
