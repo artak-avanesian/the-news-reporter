@@ -15,7 +15,11 @@ const Search = ({
                 value={value}
                 onChange={valueChangeHandler}
             />
-            <Link to='/search'><button className='search-icon' onClick={() => onSearch(value)}/></Link>
+            <Link to='/search'>
+                <button className='search-icon' 
+                onClick={() => onSearch(value)}
+                disabled={!value}/>
+            </Link>
         </div>    
     )
 }
