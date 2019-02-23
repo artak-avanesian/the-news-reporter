@@ -13,7 +13,7 @@ const FavouriteArticle = ({
             <div className={favouriteArticleImage}></div>
             <div className="description">
                 <Link to={favouriteArticleLink}><h5>{favouriteArticleTitle}</h5></Link>
-                <p className='description'>{favouriteArticleDescription}</p>
+                <p>{favouriteArticleDescription}</p>
             </div>
         </div> 
     )

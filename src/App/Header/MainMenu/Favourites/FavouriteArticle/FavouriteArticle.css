@@ -18,3 +18,6 @@
     color: black;
     text-decoration: none;
 }
+.description a:hover {
+    coloR: red;
+}

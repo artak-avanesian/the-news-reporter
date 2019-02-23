@@ -20,11 +20,11 @@ class App extends Component {
 
 	onSearch = search => {
         this.setState({search})
-    }
+	}
 
 	getFilteredArticles() {
 
-        const search = this.state.search;
+        const {search} = this.state;
 
         if(!search) return [];
 
