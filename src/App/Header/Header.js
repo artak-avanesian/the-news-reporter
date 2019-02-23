@@ -8,7 +8,6 @@ const Header = ({
     onSearch,
     value,
     valueChangeHandler,
-    search
 }) => {
     return (
         <header className='header'>
@@ -21,7 +20,6 @@ const Header = ({
                             onSearch={onSearch}
                             value={value}
                             valueChangeHandler={valueChangeHandler}
-                            search={search}
                         />
                     </div>
                 </div>

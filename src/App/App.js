@@ -48,7 +48,6 @@ class App extends Component {
 								onSearch={this.onSearch}
 								value={this.state.value}
 								valueChangeHandler={this.valueChangeHandler}
-								search={this.state.search}
 							/>
 							<Main
 								filteredArticles={filteredArticles}

@@ -7,7 +7,6 @@ const SearchAndSocials = ({
     onSearch,
     value,
     valueChangeHandler,
-    search
 }) => {
     return (
         <div className="search-and-socials">
@@ -16,7 +15,6 @@ const SearchAndSocials = ({
                 onSearch={onSearch}
                 value={value}
                 valueChangeHandler={valueChangeHandler}
-                search={search}
             />    
         </div>
     )
