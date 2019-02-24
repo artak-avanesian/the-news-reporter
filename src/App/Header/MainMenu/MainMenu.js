@@ -11,7 +11,7 @@ const MainMenu = () => {
                 <li><Link to="/contact-us">Contact us</Link></li>
                 <li><Link to="/subscribe">Subscribe</Link></li>
                 <li><Link to='/favourites'>Favourites</Link></li>
-                <li><Link to="#">Login</Link></li>
+                <li><Link to="/login">Login</Link></li>
             </ul>
         </nav>
     )

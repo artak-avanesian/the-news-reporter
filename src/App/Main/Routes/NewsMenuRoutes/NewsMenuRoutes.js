@@ -12,7 +12,7 @@ import NewsMenuBooks from './../../NewsMenu/NewsMenuBooks/NewsMenuBooks'
 import NewsMenuScience from './../../NewsMenu/NewsMenuScience/NewsMenuScience'
 
 export default () => (
-    <div>
+    <React.Fragment>
         <Route path='/world-news' component={NewsMenuWorldNews}/>
         <Route path='/tech' component={NewsMenuTech}/>
         <Route path='/sports' component={NewsMenuSports}/>
@@ -23,5 +23,5 @@ export default () => (
         <Route path='/books' component={NewsMenuBooks}/>
         <Route path='/science' component={NewsMenuScience}/>
         <Route path='/culture' component={NewsMenuCulture}/>
-    </div>
+    </React.Fragment>
 )

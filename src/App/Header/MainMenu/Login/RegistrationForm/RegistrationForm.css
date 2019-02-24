@@ -1,0 +1,39 @@
+.registry {
+	padding: 40px 80px;
+	border: 1px solid red;
+	align-self: flex-start;
+	border-radius: 5px;
+	font-family: Arial;
+	margin: 0 auto;
+	background: rgb(240, 232, 232);
+	margin-top: 15px;
+	text-align: center;
+}
+.registry p {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.registry span {
+	color: red;
+}
+.registry input {
+	width: 400px;
+	height: 30px;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.registry button {
+	outline: none;
+	border: 1px solid #CF0000;
+	background: black;
+	color: white;
+	padding: 15px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.registry button:hover {
+	border-color: black;
+	background: #CF0000;
+}

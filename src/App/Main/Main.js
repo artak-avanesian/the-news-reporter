@@ -7,8 +7,9 @@ import './Main.css'
 import MainContentArticlePageRoutes from './Routes/MainContentArticlePageRoutes/MainContentArticlePageRoutes'
 import NewsMenuRoutes from './Routes/NewsMenuRoutes/NewsMenuRoutes'
 import MainMenuRoutes from './Routes/MainMenuRoutes/MainMenuRoutes'
-import NewsMenuArticlePageRoutes from './Routes/NewsMenuArticlePqgeRoutes/NewsMenuArticlePageRoutes'
+import NewsMenuArticlePageRoutes from './Routes/NewsMenuArticlePageRoutes/NewsMenuArticlePageRoutes'
 import SearchArticles from './../Header/SearchAndSocials/Search/SearchArticles/SearchArticles'
+import RegistrationForm from './../Header/MainMenu/Login/RegistrationForm/RegistrationForm'
 
 const Main = ({
     filteredArticles,
@@ -24,6 +25,7 @@ const Main = ({
                         filteredArticles={filteredArticles}
                         search={search}
                     />}/>
+                    <Route path='/registration' component={RegistrationForm}/>
                     <NewsMenuRoutes/>
                     <MainMenuRoutes/>
                     <MainContentArticlePageRoutes/>

@@ -12,7 +12,7 @@ import NewsMenuScienceArticlePage from './../../NewsMenu/NewsMenuScience/NewsMen
 import NewsMenuMusicArticlePage from './../../NewsMenu/NewsMenuMusic/NewsMenuMusicArticlePage/NewsMenuMusicArticlePage'
 
 export default () => (
-    <div>
+    <React.Fragment>
         <Route path='/news-menu/world-news/:newsMenuWorldNewsId' component={NewsMenuWorldNewsArticlePage}/>
         <Route path='/news-menu/sports/:newsMenuSportsId' component={NewsMenuSportsArticlePage}/>
         <Route path='/news-menu/tech/:newsMenuTechId' component={NewsMenuTechArticlePage}/>
@@ -23,5 +23,5 @@ export default () => (
         <Route path='/news-menu/books/:newsMenuBooksId' component={NewsMenuBooksArticlePage}/>
         <Route path='/news-menu/science/:newsMenuScienceId' component={NewsMenuScienceArticlePage}/>
         <Route path='/news-menu/music/:newsMenuMusicId' component={NewsMenuMusicArticlePage}/>
-    </div>
+    </React.Fragment>
 )

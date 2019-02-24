@@ -8,12 +8,12 @@ import DeskArticlePage from './../../MainContent/MainContentSidebar/Desk/DeskArt
 import EditorialArticlePage from './../../MainContent/MainContentSidebar/Editorial/EditorialArticlePage/EditorialAriclePage'
 
 export default () => (
-    <div>
+    <React.Fragment>
         <Route path='/world-news-articles/:worldNewsArticleId' component={WorldNewsPage}/>
         <Route path='/latest-articles/:latestArticleId' component={LatestArticlePage}/>
         <Route path='/tech-news/:techNewsArticleId' component={TechNewsArticlePage}/>
         <Route path='/popular-news/:popularNewsArticleId' component={PopularNewsArticlePage}/>
         <Route path='/desk-news/:deskArticleId' component={DeskArticlePage}/>
         <Route path='/editorial/:editorialArticleId' component={EditorialArticlePage}/>
-    </div>
+    </React.Fragment>
 )
