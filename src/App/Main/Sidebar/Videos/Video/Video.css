@@ -1,27 +1,39 @@
-.video-block {
-    margin-top: 10px;
+.picture-of-video-1 {
+    background: url(../video-1.jpg) no-repeat 50%;
+}
+.picture-of-video-2 {
+    background: url(../video-2.jpg) no-repeat 50%;
+}
+.picture-of-video-3 {
+    background: url(../video-3.jpg) no-repeat 50%;
+}
+.picture-of-video-4 {
+    background: url(../video-4.jpg) no-repeat;
+}
+[class^='picture-of-video'] {
     height: 70px;
     width: 80px;
-    background: #0f52a3;
-    display: inline-block;
-    margin-left: 20px;
+    background-size: cover;
 }
-.video-block span {
-    font-family: Glyphter;
-    font-size: 25px;
-    color: #bcbcbc;
-    padding-left: 30px;
-    line-height: 70px;
+.video {
+    height: inherit;
+    width: inherit;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
 }
-.video-block+a {
+.video a {
     color: #202021;
     text-decoration: none;
     font-family: Arial;
     font-weight: bold;
     font-size: 12px;
     float: right;
-    width: 160px;
-    margin-top: 30px;
+    width: 190px;
     margin-left: 15px;
-    margin-right: 40px;
+    margin-right: 15px;
+    align-self: center;
+}
+.video a:hover {
+    color: #CF0000;
 }

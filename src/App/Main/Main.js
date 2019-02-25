@@ -10,6 +10,7 @@ import MainMenuRoutes from './Routes/MainMenuRoutes/MainMenuRoutes'
 import NewsMenuArticlePageRoutes from './Routes/NewsMenuArticlePageRoutes/NewsMenuArticlePageRoutes'
 import SearchArticles from './../Header/SearchAndSocials/Search/SearchArticles/SearchArticles'
 import RegistrationForm from './../Header/MainMenu/Login/RegistrationForm/RegistrationForm'
+import VideoArticlePage from './Sidebar/Videos/VideoArticlePage/VideoArticlePage'
 
 const Main = ({
     filteredArticles,
@@ -26,6 +27,7 @@ const Main = ({
                         search={search}
                     />}/>
                     <Route path='/registration' component={RegistrationForm}/>
+                    <Route path='/videos/:video_id' component={VideoArticlePage}/>
                     <NewsMenuRoutes/>
                     <MainMenuRoutes/>
                     <MainContentArticlePageRoutes/>

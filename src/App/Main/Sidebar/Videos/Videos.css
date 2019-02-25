@@ -2,5 +2,10 @@
     width: 325px;
     height: 330px;
     background: #e4e4e4;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.video-wrapper {
+    height: 80px;
+    width: inherit;
 }
