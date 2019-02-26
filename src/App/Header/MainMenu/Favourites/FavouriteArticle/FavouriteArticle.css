@@ -13,6 +13,7 @@
 [class^='fav-world-news-img-'] {
     height: 140px;
     background-size: cover;
+    margin-bottom: 5px;
 }
 .favourite-article-wrapper a {
     color: black;

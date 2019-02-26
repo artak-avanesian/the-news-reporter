@@ -5,7 +5,7 @@ const LatestArticlesTitle = () => {
     return (
         <div className="title">
             <p>Latest Articles</p>
-            <Link to='#' className="more">More +</Link>
+            <Link to='/latest-news' className="more">More +</Link>
         </div>
     )
 }

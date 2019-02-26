@@ -13,3 +13,11 @@
 [class^='editorial-page-img-'] {
     background-size: cover;
 }
+.editorial-item p, .editorial-item h2 {
+    margin-right: 15px;
+}
+.editorial-item p {
+    text-indent: 25px;
+    font-size: 18px;
+    text-align: justify;
+}

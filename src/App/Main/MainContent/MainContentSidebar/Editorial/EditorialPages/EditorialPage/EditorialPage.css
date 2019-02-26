@@ -26,3 +26,6 @@
 .editorial-page a {
     text-decoration: none;
 }
+.editorial-description:hover {
+    color: black;
+}

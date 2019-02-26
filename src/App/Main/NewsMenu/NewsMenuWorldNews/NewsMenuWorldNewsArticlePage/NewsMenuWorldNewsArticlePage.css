@@ -3,7 +3,6 @@
 .news-menu-entertainment-article-page div, .news-menu-tech-article-page div,
 .news-menu-business-article-page div {
     margin: 0 auto;
-    margin-top: 15px;
     width: 400px;
     height: 250px;
 }

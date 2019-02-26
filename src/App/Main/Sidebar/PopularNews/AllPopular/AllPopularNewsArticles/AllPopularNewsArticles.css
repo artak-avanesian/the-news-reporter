@@ -1,0 +1,18 @@
+.all-popular-news-articles {
+    width: 150px;
+}
+.all-popular-news-articles a {
+    color: black;
+    text-decoration: none;
+}
+.all-popular-news-articles a:hover {
+    color: #cf0000;
+}
+.noImg {
+    height: 140px;
+    text-align: center;
+    font-style: italic;
+    line-height: 140px;
+    border: 1px solid rgb(209, 204, 204);
+    margin-bottom: 5px;
+}

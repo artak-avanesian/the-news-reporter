@@ -12,6 +12,8 @@ import SearchArticles from './../Header/SearchAndSocials/Search/SearchArticles/S
 import RegistrationForm from './../Header/MainMenu/Login/RegistrationForm/RegistrationForm'
 import VideoArticlePage from './Sidebar/Videos/VideoArticlePage/VideoArticlePage'
 import GalleryPictures from './MainContent/MainNewsContent/Gallery/GalleryPictures/GalleryPictures'
+import LatestNews from './MainContent/MainNewsContent/LatestArticles/LatestNews/LatestNews'
+import AllPopular from './Sidebar/PopularNews/AllPopular/AllPopular'
 
 const Main = ({
     filteredArticles,
@@ -30,6 +32,8 @@ const Main = ({
                     <Route path='/registration' component={RegistrationForm}/>
                     <Route path='/videos/:video_id' component={VideoArticlePage}/>
                     <Route path='/gallery' component={GalleryPictures}/>
+                    <Route path='/latest-news' component={LatestNews}/>
+                    <Route path='/popularNews' component={AllPopular}/>
                     <NewsMenuRoutes/>
                     <MainMenuRoutes/>
                     <MainContentArticlePageRoutes/>

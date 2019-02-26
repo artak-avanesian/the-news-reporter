@@ -6,9 +6,11 @@
     padding-bottom: 15px;
     border-bottom: 1px dotted #202021;
 }
+.tech-news-article-wrapper:nth-child(3), .tech-news-article-wrapper:last-child {
+    margin-top: 15px;
+}
 .tech-news-article-wrapper {
     width: 255px;
-    margin-top: 15px;
 }
 .tech-news-articles {
     display: flex;

@@ -18,6 +18,7 @@ h5 {
 }
 .all-news .articles .article-wrapper .article .image {
     background-size: cover;
+    margin-bottom: 5px;
 }
 .like {
     float: right;

@@ -1,7 +1,7 @@
-.pictures-of-gallery {
+.all-popular {
     display: flex;
-    flex-wrap: wrap;
     width: 800px;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-content: flex-start;
 }

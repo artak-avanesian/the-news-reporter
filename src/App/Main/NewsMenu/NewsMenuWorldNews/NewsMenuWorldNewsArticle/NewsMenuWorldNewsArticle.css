@@ -23,6 +23,12 @@
     text-decoration: none;
     color: black;
 }
+.news-menu-world-news-article a:hover, .news-menu-science-article a:hover,
+.news-menu-sports-article a:hover, .news-menu-tech-article a:hover,
+.news-menu-music-article a:hover, .news-menu-books-article a:hover, 
+.news-menu-culture-article a:hover, .news-menu-entertainment-article a:hover, .news-menu-movies-article a:hover, .news-menu-business-article a:hover {
+    color: #CF0000;
+}
 [class^='news-menu-world-news-img-'], [class^='news-menu-science-img-'], [class^='news-menu-sports-img-'],
 [class^='news-menu-tech-img-'], [class^='news-menu-music-img-'], [class^='news-menu-books-img-'], 
 [class^='news-menu-culture-img-'], [class^='news-menu-entertainment-img-'], [class^='news-menu-movies-img-'],

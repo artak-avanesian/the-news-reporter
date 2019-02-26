@@ -1,0 +1,10 @@
+.latest-news-article {
+    width: 150px;
+}
+.latest-news-article a {
+    color: black;
+    text-decoration: none;
+}
+.latest-news-article a:hover {
+    color: #cf0000;
+}

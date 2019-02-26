@@ -24,7 +24,7 @@ const PopularNews = () => {
                 </div>
             ))
         }
-            <Link to='#' className="popular-more more">More +</Link>
+            <Link to='/popularNews' className="popular-more more">More +</Link>
         </div>
     )
 }

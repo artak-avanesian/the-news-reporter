@@ -2,6 +2,7 @@
     list-style: none;
     margin-top: 30px;
     display: flex;
+    margin-bottom: 15px;
 }
 .news-menu li a {
     color: white;

@@ -14,12 +14,14 @@
 .search-article div:first-child {
     height: 140px;
     background-size: cover;
+    margin-bottom: 5px;
 }
 .search-article div:first-child p {
     text-align: center;
     line-height: 140px;
     color: grey;
     font-style: italic;
+    border: 1px solid rgb(209, 204, 204);
 }
 .search-articles-wrapper {
     display: flex;
@@ -27,5 +29,4 @@
     flex-wrap: wrap;
     align-content: flex-start;
     width: 800px;
-    margin-top: 15px;
 }

@@ -7,7 +7,6 @@ export default ({
     img,
     description,
     link
-    // article
 }) => (
     <div className='search-article'>
         <div className={img}>{img ? null : <p>no image</p>}</div>

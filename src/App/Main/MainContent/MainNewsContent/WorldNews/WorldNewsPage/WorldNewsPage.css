@@ -1,11 +1,9 @@
-.world-news-item p, .latest-article-item p, .tech-news-item p, .popular-news-item p, .desk-article-item p{
+.world-news-item p, .latest-article-item p, .tech-news-item p, .popular-news-item p, .desk-article-item p {
     margin-right: 25px;
 	text-align: justify;
 	font-size: 18px;
-}
-
-.world-news-item h2, .latest-article-item h2, .tech-news-item h2, .popular-news-item h2, .desk-article-item h2 {
-	margin-top: 15px;
+	text-indent: 25px;
+	font-family: serif;
 }
 .world-news-img-1 {
 	background: url(../Articles/world-news-1.jpeg)
@@ -24,6 +22,5 @@
 	width: 300px;
 	height: 200px;
 	float: left;
-	margin-top: 15px;
 	margin-right: 20px;
 }

@@ -2,6 +2,7 @@ const popular_list = [
     {
         popular_id:'popular-1',
         popular_title:'"Good fight": Zelensky first commented on his presidential rating',
+        popular_link: 'popular-news/popular-1',
         popular_article: `The showman Vladimir Zelensky has told if he is going to go to the elections.
         Volodymyr Zelensky commented on the ratings of probable candidates in the presidential election for the first time. According to the latest sociological research, he ranks second and goes to the second round with Yulia Tymoshenko, according to the story of the TSN.19: 30.
         
@@ -17,6 +18,7 @@ const popular_list = [
     {
         popular_id:'popular-2',
         popular_title:'In Israel, scored the funniest goal in the history of football',
+        popular_link: 'popular-news/popular-2',
         popular_article: `Habib Habibu assisted a traumatic teammate and timely joined the attack.
         In the match of the 10th round of the Championship of Israel between Maccabi, Netanyahu and Maccabi with Petah Tikva are probably the most fun goal in the history of football.
         He was the author of the attack on Netanyahu team Habib Habib.
@@ -28,6 +30,7 @@ const popular_list = [
     },
     {
         popular_id:'popular-3',
+        popular_link: 'popular-news/popular-3',
         popular_title:'Russian soldier rough reception sent to a knockout at the MMA',
         popular_article: `
         Vdalyy khaykik proviv izrayilʹtyanyn.
@@ -47,6 +50,7 @@ const popular_list = [
     {
         popular_id:'popular-4',
         popular_title:'Russia was fouled as a birthday will be expected by a combating child',
+        popular_link: 'popular-news/popular-4',
         popular_article: `The animal lives nearby in a private home.
 
         In Russian Saratov, a video was taken, as a camel pulls an off-road vehicle "Niva", which stuck in the snow and pushed.
@@ -59,6 +63,7 @@ const popular_list = [
     {
         popular_id:'popular-5',
         popular_title:'Scientists have named a disease that can kill millions of children over 12 years',
+        popular_link: 'popular-news/popular-5',
         popular_article: `Children who live in poverty are most at risk of pneumonia.
         Researchers found that pneumonia could be the cause of the death of 10.8 million children over the next 12 years.
         This is reported by The Telegraph.

@@ -17,3 +17,6 @@ span.red-text {
     text-decoration: none;
     color: black;
 }
+.tech-news-article a:hover {
+    color: #CF0000;
+}
