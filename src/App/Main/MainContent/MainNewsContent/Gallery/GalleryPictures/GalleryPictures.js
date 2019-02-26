@@ -1,29 +1,22 @@
-import React, { Component } from 'react'
+import React from 'react'
 import galleryList from './../gallery_list'
 import './GalleryPictures.css'
+import GalleryImage from './GalleryImage/GalleryImage'
 
-class GalleryPictures extends Component {
-    
-    state = {
-        zoom: 'zoom' 
-    }
+export default () => ( 
+    <section className='pictures-of-gallery'>
+        {
+            galleryList.map(({
+                galleryId,
+                galleryImg
+            }) => (
+                <React.Fragment key={galleryId}>
+                    <GalleryImage
+                        galleryImg={galleryImg}
+                    />
+                </React.Fragment>
+            ))
+        }
+    </section>
+)
 
-    render() {
-        return (
-            <section className='gallery-pictures'>
-                {
-                    galleryList.map(({
-                        galleryId,
-                        galleryImg
-                    }) => (
-                        <div key={galleryId}>
-                            <div className={galleryImg}/>
-                        </div>
-                    ))
-                }
-            </section>
-        )
-    }
-}
-
-export default GalleryPictures
