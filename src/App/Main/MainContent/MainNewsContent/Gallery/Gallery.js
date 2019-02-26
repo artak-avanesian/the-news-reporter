@@ -7,12 +7,12 @@ const Gallery = () => {
         <div className='gallery'>
             <GalleryTitle/>
             <div className="flex-container">
-                <div className="gallery-image-1"></div>
-                <div className="gallery-image-2"></div>
-                <div className="gallery-image-3"></div>
-                <div className="gallery-image-4"></div>
-                <div className="gallery-image-5"></div>
-                <div className="gallery-image-6"></div>
+                <div className="image-gallery-1"></div>
+                <div className="image-gallery-2"></div>
+                <div className="image-gallery-3"></div>
+                <div className="image-gallery-4"></div>
+                <div className="image-gallery-5"></div>
+                <div className="image-gallery-6"></div>
             </div> 
         </div>
     )

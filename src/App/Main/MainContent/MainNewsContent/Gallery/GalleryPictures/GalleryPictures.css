@@ -1,0 +1,73 @@
+.gallery-1 {
+    background: url(galleryImg-1.jpg) no-repeat 50%;
+}
+.gallery-2 {
+    background: url(galleryImg-2.jpg) no-repeat 50%;
+}
+.gallery-3 {
+    background: url(galleryImg-3.jpg) no-repeat 50%;
+}
+.gallery-4 {
+    background: url(galleryImg-4.jpg) no-repeat 50%;
+}
+.gallery-5 {
+    background: url(galleryImg-5.jpg) no-repeat 50%;
+}
+.gallery-6 {
+    background: url(galleryImg-6.jpg) no-repeat 50%;
+}
+.gallery-7 {
+    background: url(galleryImg-7.jpg) no-repeat 50%;
+}
+.gallery-8 {
+    background: url(galleryImg-8.jpg) no-repeat 50%;
+}
+.gallery-9 {
+    background: url(galleryImg-9.jpg) no-repeat 50%;
+}
+.gallery-10 {
+    background: url(galleryImg-10.jpg) no-repeat 50%;
+}
+.gallery-11 {
+    background: url(galleryImg-11.jpg) no-repeat 50%;
+}
+.gallery-12 {
+    background: url(galleryImg-12.jpg) no-repeat 50%;
+}
+.gallery-13 {
+    background: url(galleryImg-13.jpg) no-repeat 50%;
+}
+.gallery-14 {
+    background: url(galleryImg-14.jpg) no-repeat 50%;
+}
+.gallery-15 {
+    background: url(galleryImg-15.jpg) no-repeat 50%;
+}
+.gallery-16 {
+    background: url(galleryImg-16.jpg) no-repeat 50%;
+}
+.gallery-17 {
+    background: url(galleryImg-17.jpg) no-repeat 50%;
+}
+.gallery-18 {
+    background: url(galleryImg-18.jpg) no-repeat 50%;
+}
+.gallery-19 {
+    background: url(galleryImg-19.jpg) no-repeat 50%;
+}
+.gallery-20 {
+    background: url(galleryImg-20.jpg) no-repeat 50%;
+}
+[class^='gallery-'] {
+    width: 180px;
+    height: 150px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.gallery-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-top: 15px;
+    justify-content: space-between;
+}

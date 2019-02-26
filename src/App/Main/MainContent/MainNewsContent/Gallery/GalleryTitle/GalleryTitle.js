@@ -5,7 +5,7 @@ const GalleryTitle = () => {
     return (
         <div className='title'>
             <p>Gallery</p>
-            <Link to='#' className="more">More +</Link>
+            <Link to='/gallery' className="more">More +</Link>
         </div>
     )
 }
