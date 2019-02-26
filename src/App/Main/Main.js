@@ -8,12 +8,8 @@ import MainContentArticlePageRoutes from './Routes/MainContentArticlePageRoutes/
 import NewsMenuRoutes from './Routes/NewsMenuRoutes/NewsMenuRoutes'
 import MainMenuRoutes from './Routes/MainMenuRoutes/MainMenuRoutes'
 import NewsMenuArticlePageRoutes from './Routes/NewsMenuArticlePageRoutes/NewsMenuArticlePageRoutes'
-import SearchArticles from './../Header/SearchAndSocials/Search/SearchArticles/SearchArticles'
-import RegistrationForm from './../Header/MainMenu/Login/RegistrationForm/RegistrationForm'
-import VideoArticlePage from './Sidebar/Videos/VideoArticlePage/VideoArticlePage'
-import GalleryPictures from './MainContent/MainNewsContent/Gallery/GalleryPictures/GalleryPictures'
-import LatestNews from './MainContent/MainNewsContent/LatestArticles/LatestNews/LatestNews'
-import AllPopular from './Sidebar/PopularNews/AllPopular/AllPopular'
+import MainPageRoutes from './Routes/MainPageRoutes/MainPageRoutes'
+
 
 const Main = ({
     filteredArticles,
@@ -25,15 +21,10 @@ const Main = ({
                 <NewsMenu/>
                 <div className="flex-container">
                     <Route path='/' exact component={MainContent}/>
-                    <Route path='/search' render={() => <SearchArticles
+                    <MainPageRoutes
                         filteredArticles={filteredArticles}
                         search={search}
-                    />}/>
-                    <Route path='/registration' component={RegistrationForm}/>
-                    <Route path='/videos/:video_id' component={VideoArticlePage}/>
-                    <Route path='/gallery' component={GalleryPictures}/>
-                    <Route path='/latest-news' component={LatestNews}/>
-                    <Route path='/popularNews' component={AllPopular}/>
+                    />
                     <NewsMenuRoutes/>
                     <MainMenuRoutes/>
                     <MainContentArticlePageRoutes/>
