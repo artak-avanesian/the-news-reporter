@@ -10,7 +10,7 @@ const NewsMenuBooksArticle = ({
     return (
         <article className='news-menu-books-article'>
             <div className={newsMenuBooksImg}></div>
-            <Link to={`news-menu/books/${newsMenuBooksId}`}>
+            <Link to={`/news-menu/books/${newsMenuBooksId}`}>
                 <h5>{newsMenuBooksTitle}</h5>
             </Link>
         </article>

@@ -10,7 +10,7 @@ const Video = ({
     return (
         <div className='video'>
             <div className={picture_of_video}/>
-            <Link to={`videos/${video_id}`}>{video_title}</Link>
+            <Link to={`/videos/${video_id}`}>{video_title}</Link>
         </div>
     )
 }

@@ -9,7 +9,7 @@ const EditorialPage = ({
     return (
         <div className="editorial-page">
             <div className="editorial-image"></div>
-            <Link to={`editorial/${editorial_id}`}>
+            <Link to={`/editorial/${editorial_id}`}>
                 <h5 className="editorial-description">{editorial_title}</h5>
             </Link>
         </div>

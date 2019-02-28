@@ -27,7 +27,7 @@ class Article extends Component {
                 <div className="description">
                     <h5>{title}</h5>
                     <p>{description}</p>
-                    <Link to={`world-news-articles/${id}`} className="read-more">Read more</Link>
+                    <Link to={`/world-news-articles/${id}`} className="read-more">Read more</Link>
                     <span className='like' onClick={() => this.onLikeClick()}>{isLiked ? <span className='glyph2 gold-fill'>E</span> : <span className='glyph2'>D</span>}</span>
                 </div>
             </div>

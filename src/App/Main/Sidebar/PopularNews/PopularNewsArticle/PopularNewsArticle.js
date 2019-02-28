@@ -10,7 +10,7 @@ const PopularNewsArticle = ({
     return (
         <div className='popular-article'>
             <p className="date">{date}</p>
-            <p className="popular-description">{popular_title} <Link to={`popular-news/${popular_id}`} className='popular-read-more'>Read more</Link></p>
+            <p className="popular-description">{popular_title} <Link to={`/popular-news/${popular_id}`} className='popular-read-more'>Read more</Link></p>
         </div>
     )
 }

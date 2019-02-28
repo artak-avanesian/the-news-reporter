@@ -26,7 +26,7 @@ class ArticleItem extends Component {
                 <div className="description">
                     <h5>{art_list_title}</h5>
                     <p>{art_list_description}</p>
-                    <Link to={`latest-articles/${art_list_id}`} className="read-more">Read more</Link>
+                    <Link to={`/latest-articles/${art_list_id}`} className="read-more">Read more</Link>
                     <span className='like' onClick={() => this.onLikeClick()}>{isLiked ? <span className='glyph2 gold-fill'>E</span> : <span className='glyph2'>D</span>}</span>
                 </div>
             </div>
