@@ -20,6 +20,6 @@ export default ({
         <Route path='/videos/:video_id' component={VideoArticlePage}/>
         <Route path='/gallery' component={GalleryPictures}/>
         <Route path='/latest-news' component={LatestNews}/>
-        <Route path='/popularNews' component={AllPopular}/>
+        <Route exact path='/popular-news' component={AllPopular}/>
     </React.Fragment>
 )
