@@ -12,7 +12,6 @@ const FavouriteArticle = ({
             <div className={favouriteLatestArticleImage}></div>
             <div className="description">
                 <Link to={favouriteLatestArticleLink}><h5>{favouriteLatestArticleTitle}</h5></Link>
-                <p>{favouriteLatestArticleDescription}</p>
             </div>
         </div> 
     )

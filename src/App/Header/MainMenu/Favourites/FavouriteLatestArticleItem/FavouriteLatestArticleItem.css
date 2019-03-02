@@ -10,4 +10,5 @@
 [class^='fav-latest-articles-img-'] {
     height: 140px;
     background-size: cover;
+    margin-bottom: 5px;
 }
