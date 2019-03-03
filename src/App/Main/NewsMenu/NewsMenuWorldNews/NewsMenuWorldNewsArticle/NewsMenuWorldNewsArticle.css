@@ -16,6 +16,16 @@
 .news-menu-world-news-img-6 {
     background: url(../news-menu-world-news-6.jpg) no-repeat;
 }
+.news-menu-world-news-article:not(:nth-child(3n)), .news-menu-science-article:not(:nth-child(3n)), .news-menu-sports-article:not(:nth-child(3n)), .news-menu-tech-article:not(:nth-child(3n)), .news-menu-music-article:not(:nth-child(3n)), .news-menu-books-article:not(:nth-child(3n)), 
+.news-menu-culture-article:not(:nth-child(3n)), .news-menu-entertainment-article:not(:nth-child(3n)), .news-menu-movies-article:not(:nth-child(3n)), .news-menu-business-article:not(:nth-child(3n)) {
+    margin-right: 100px;
+}
+.news-menu-world-news-article, .news-menu-science-article, .news-menu-sports-article,
+.news-menu-tech-article, .news-menu-music-article, .news-menu-books-article, 
+.news-menu-culture-article, .news-menu-entertainment-article, .news-menu-movies-article,
+.news-menu-business-article {
+    margin-bottom: 15px;
+}
 .news-menu-world-news-article a, .news-menu-science-article a,.news-menu-sports-article a,
 .news-menu-tech-article a, .news-menu-music-article a, .news-menu-books-article a, 
 .news-menu-culture-article a, .news-menu-entertainment-article a, .news-menu-movies-article a,

@@ -3,9 +3,9 @@
 .news-menu-music-articles, .news-menu-culture-articles, .news-menu-movies-articles, 
 .news-menu-entertainment-articles {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    margin-right: 30px;
-    height: 500px;
-    width: 795px;
+    margin-right: 25px;
+    align-content: flex-start;
+    width: 800px;
 }
