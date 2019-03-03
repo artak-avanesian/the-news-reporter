@@ -110,7 +110,7 @@ const allArticles = [
     {
         id:'editorial-1',
         img: `editorial-page-img-1`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/editorial/editorial-1',
         article: `For two years, Asante McGee was a girlfriend of the now-disgraced R&B superstar, R. Kelly, but in the summer of 2016 she went to live in his house in Georgia. There were other women there, she discovered - and very strict rules.
         Whenever I was in my room alone, that was when I would call home to speak to my children, as when I was with Robert, he didn't want us to have our phones and have contact with the outside world.
@@ -123,7 +123,7 @@ const allArticles = [
         id:'editorial-2',
         img: `editorial-page-img-2`,
         link: '/editorial/editorial-2',
-        description: `Sometexthere`,
+        description: ``,
         article: `Anoushka Mutanda Dougherty has been offered a place at Cambridge University, but she's mixed-race and from a state school - and only 3% of students who started at Cambridge in 2017 were black, or mixed-race with black heritage. So is it the best place for her? At this point, she's not sure.
         Cambridge is the second-oldest university in the English-speaking world. Cambridge is the fourth-oldest surviving university in the world. Cambridge has produced, so far, 90 Nobel prize winners - and Cambridge, this educational powerhouse, just might not be where I want to go. At least, that's how I feel right now, a week after finding out that I got a place.  
         Anoushka's applications provoked some fiery discussions at home
@@ -136,7 +136,7 @@ const allArticles = [
         id:'editorial-3',
         img: `editorial-page-img-3`,
         link: '/editorial/editorial-3',
-        description: `Sometexthere`,
+        description: ``,
         article: `At the age of 23, Kris Hallenga was diagnosed with terminal breast cancer. On average people given this diagnosis live for two-and-a-half years, but 10 years later she wants people to know that it is possible to beat the odds.
         A tightrope artist walks along the line created by Kris Hallenga's mastectomy scar.
         "I got the tattoo maybe three years ago now, it's to represent the balance of any illness with life and everything else," she says.  
@@ -149,7 +149,7 @@ const allArticles = [
         id:'editorial-4',
         img: `editorial-page-img-4`,
         link: '/editorial/editorial-4',
-        description: `Sometexthere`,
+        description: ``,
         article: `Just over a year ago, Greek pilot Vasileios Vasileiou checked into a luxury hilltop hotel in Kabul. The Intercontinental was popular with foreign visitors - which is why, on 20 January, Taliban gunmen stormed it, killing at least 40 people. Vasileios explains how he survived.
         I had decided to go for dinner early - at six o'clock - with my friend, another pilot called Michael Poulikakos. It was the first time in the three or four months that I had been coming to the Intercontinental that I'd done this - usually I had dinner at around 8.30pm.
         We finished dinner about 7.30pm and then I went up to my room - room 522 - on the top floor, to make some calls. At 8.47pm I was on the phone to Athens when I heard a big explosion down in the lobby.
@@ -199,7 +199,7 @@ const allArticles = [
     {
         id:'popular-1',
         title:'"Good fight": Zelensky first commented on his presidential rating',
-        description: `Sometexthere`,
+        description: ``,
         link: '/popular-news/popular-1',
         article: `The showman Vladimir Zelensky has told if he is going to go to the elections.
         Volodymyr Zelensky commented on the ratings of probable candidates in the presidential election for the first time. According to the latest sociological research, he ranks second and goes to the second round with Yulia Tymoshenko, according to the story of the TSN.19: 30.
@@ -210,7 +210,7 @@ const allArticles = [
     },
     {
         id:'popular-2',
-        description: `Sometexthere`,
+        description: ``,
         link: '/popular-news/popular-2',
         title:'In Israel, scored the funniest goal in the history of football',
         article: `Habib Habibu assisted a traumatic teammate and timely joined the attack.
@@ -222,7 +222,7 @@ const allArticles = [
     {
         id:'popular-3',
         title:'Russian soldier rough reception sent to a knockout at the MMA',
-        description: `Sometexthere`,
+        description: ``,
         link: '/popular-news/popular-3',
         article: `The lucky haikus was spent by an Israeli.
         Russian soldier Cyril Sidelnikov was knocked out by an Israeli rival, Adam Keresh, at the MMA Bellator 209.
@@ -232,7 +232,7 @@ const allArticles = [
     {
         id:'popular-4',
         title:'Russia was fouled as a birthday will be expected by a combating child',
-        description: `Sometexthere`,
+        description: ``,
         link: '/popular-news/popular-4',
         article: `The animal lives nearby in a private home. In Russian Saratov, a video was taken, as a camel pulls an off-road vehicle "Niva", which stuck in the snow and pushed.
         The video appeared on YouTube. The frames show that "Niva" can not leave the snow. One of the men living nearby is coming to the rescue. He leads to the place where the car got stuck, his camel. Then ropes are attached to the animal and to the car, and it pulls the car. A camel pulls out the car almost immediately.`,
@@ -240,7 +240,7 @@ const allArticles = [
     {
         id:'popular-5',
         title:'Scientists have named a disease that can kill millions of children over 12 years',
-        description: `Sometexthere`,
+        description: ``,
         link: '/popular-news/popular-5',
         article: `Children who live in poverty are most at risk of pneumonia.
         Researchers found that pneumonia could be the cause of the death of 10.8 million children over the next 12 years.
@@ -252,7 +252,7 @@ const allArticles = [
     {
         id: `newsMenuBooks-1`,
         title: `The tiny library bringing books to remote villages`,
-        description: `Sometexthere`,
+        description: ``,
         img: `news-menu-books-img-1`,
         link: '/news-menu/books/newsMenuBooks-1',
         article: `“Without a book, so often the child is alone,” says Antonio La Cava.
@@ -263,7 +263,7 @@ const allArticles = [
     {
         id: `newsMenuBooks-2`,
         title: `How the science fiction helps readersunderstand climate change`,
-        description: `Sometexthere`,
+        description: ``,
         img: `news-menu-books-img-2`,
         link: '/news-menu/books/newsMenuBooks-2',
         article: `It’s the year 2140 and two kids ride their skimboards in the heart of Manhattan, near the point where Sixth Avenue meets Broadway. If you are familiar with this junction you would know it is far from the US’ current coastline. But in Kim Stanley Robinson’s novel New York 2140, Manhattan is flooded after unabated climate change causes the sea level to rise by 50ft (15.25m). The amphibian city is now a SuperVenice, a grid of canals populated by vaporettos where characters must learn how to deal with a world both familiar and unrecognisable to us. Mid-Manhattan skimboading is all too possible in this future.
@@ -277,7 +277,7 @@ const allArticles = [
     {
         id: `newsMenuBooks-3`,
         title: `The library of forbidden books`,
-        description: `Sometexthere`,
+        description: ``,
         img: `news-menu-books-img-3`,
         link: '/news-menu/books/newsMenuBooks-3',
         article: `“The literature… mainly consists of books that were published long before 1933 but then became a thorn in the Nazis’ side for different reasons,” says Gerhard Stumpf, librarian at the University of Augsburg. “Most of them were Jewish authors – others were socialist or Communist authors – and also anti-war authors who experienced the pain of World War One.”
@@ -287,7 +287,7 @@ const allArticles = [
     {
         id: `newsMenuBooks-4`,
         title: `The mysterious, macabre mind of Edward Gorey`,
-        description: `Sometexthere`,
+        description: ``,
         img: `news-menu-books-img-4`,
         link: '/news-menu/books/newsMenuBooks-4',
         article: `From the Gashlycrumb Tinies to The Doubtful Guest, Edward Gorey’s morbidly funny little books are gothic surrealist masterpieces. Drawing on sources as varied as the novels of Agatha Christie and French silent film, he created a uniquely macabre vision of the world filled with crumbling English mansions, jittery dark-eyed flappers and stony faced Edwardian gents where nothing is quite as it seems. His virtuosic illustrations and poetic texts have drawn comparisons to Lewis Carroll, Edward Lear and Samuel Beckett, winning him critical acclaim and a devoted cult following in his native US. Lemony Snicket. Gorey himself was a complicated, reclusive individual whose mission in life was “to make everybody as uneasy as possible”. He collected daguerreotypes of dead babies and lived alone with 20,000 books and six cats in his New York apartment. Sporting an Edwardian beard, he would frequently traipse around the city in a full-length fur coat accessorised with trainers and jangling bracelets.
@@ -302,7 +302,7 @@ const allArticles = [
     {
         id: `newsMenuBooks-5`,
         title: `The secrets of real-life Lady Chatterley`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/books/newsMenuBooks-5',
         img: `news-menu-books-img-5`,
         article: `A new novel imagines the life of Frieda von Richthofen, the inspiration for many of DH Lawrence’s female characters. Hephzibah Anderson looks at the fate of the literary muse. As job descriptions go, few seem to fit the ‘nice work if you can get it’ category more snugly than ‘muse’. Inspiring lasting works of art by simply existing? It’s at once indolent and noble, evocative of days spent lounging on a chaise longue and nights filled with dance and glittering conversation.
@@ -314,7 +314,7 @@ const allArticles = [
     {
         id: `newsMenuBooks-6`,
         title: `Handwritten gems from Pedro Corrêa do Lago’s collection`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/books/newsMenuBooks-6',
         img: `news-menu-books-img-6`,
         article: `Pedro Corrêa do Lago has the world’s largest private collection of autographed letters and manuscripts. In our video, he reveals unseen gems that are ‘frozen moments in time’. “When you hold the letter of someone you admire and who was dead before you were born, I think it’s the closest connection you can have with that sort of person. Because you’re holding a little frozen moment of their life – they may have spent… a long time if it’s a manuscript with that piece of paper, they touched it.”
@@ -325,7 +325,7 @@ const allArticles = [
     {
         id: `newsMenuBusiness-1`,
         title: `Jeff Bezos: Amazon boss accuses National Enquirer of blackmail`,
-        description: `Sometexthere`,
+        description: ``,
         img: `news-menu-business-img-1`,
         link: '/news-menu/business/newsMenuBusiness-1',
         article: `The world's richest man, Amazon founder Jeff Bezos, has accused the owner of a US gossip magazine of trying to blackmail him over private pictures.
@@ -338,7 +338,7 @@ const allArticles = [
     {
         id: `newsMenuBusiness-2`,
         title: `Nord Stream 2: EU agrees tighter rules for Russian pipeline`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/business/newsMenuBusiness-2',
         img: `news-menu-business-img-2`,
         article: `EU ambassadors have agreed to toughen regulations on a controversial gas pipeline from Russia to Germany, but they have decided not to back plans that might threaten its completion.
@@ -353,7 +353,7 @@ const allArticles = [
     {
         id: `newsMenuBusiness-3`,
         title: `How has business been affected by Brexit so far?`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/business/newsMenuBusiness-3',
         img: `news-menu-business-img-3`,
         article: `With two months to go until the UK is due to leave the EU, how are firms and the UK economy faring?
@@ -373,7 +373,7 @@ const allArticles = [
     {
         id: `newsMenuBusiness-4`,
         title: `China banks on lending to ease slowdown`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/business/newsMenuBusiness-4',
         img: `news-menu-business-img-4`,
         article: `Build stuff or buy stuff? China has long been a believer in the former to deal with a slowdown in its economy. Now it's trying to shift the emphasis to the latter.
@@ -386,7 +386,7 @@ const allArticles = [
     {
         id: `newsMenuCulture-1`,
         title: `How black women were whitewashed by art`,
-        description: `Sometexthere`,
+        description: ``,
         img: `news-menu-culture-img-1`,
         link: '/news-menu/culture/newsMenuCulture-1',
         article: `Clash of the Titans was one of the most popular films of 1981. Its glittering retinue of Hollywood stars told the story of Perseus, the demigod from Greek mythology who kills a sea monster and saves the beautiful princess Andromeda from being said monster’s lunch. Such was the film’s popularity that it was remade in 2010; the film managed a rather disparaging 26% on the Rotten Tomatoes site. How many of those rating the film had a classical education is unclear, but perhaps it would have performed better had its producers done their research. As according to British art historian Elizabeth McGrath’s 1992 article The Black Andromeda, Andromeda was, indeed, originally depicted as a black princess from Ethiopia.
@@ -396,7 +396,7 @@ const allArticles = [
     {
         id: `newsMenuCulture-2`,
         title: `Rita: How the hit Danish dramedy went global`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/culture/newsMenuCulture-2',
         img: `news-menu-culture-img-2`,
         article: `When Danish teacher Rita returns from a suspension from her job, she finds that her school has merged with another – and that her mug is missing from the staff room. This small issue escalates quickly, as conflicts often do around Rita. The other school’s headmaster has taken her mug, seemingly on purpose, and is unapologetic. Distinctive with her long hair, leather jacket and endless selection of plaid shirts, Rita confronts him. He knows who she is, by reputation. “A rebel like you shouldn’t care,” he says. He brags about having read her staff file. “Eleven warnings in one year,” he says. “Suspended for sleeping with a pupil’s father.”
@@ -407,7 +407,7 @@ const allArticles = [
     {
         id: `newsMenuCulture-3`,
         title: `Intimate imagesof a bathing beauty`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/culture/newsMenuCulture-3',
         img: `news-menu-culture-img-3`,
         article: `The US critic Jed Perl once referred to Bonnard as “the most idiosyncratic of all the great 20th-Century painters”. His highly original compositions repeatedly focus on favoured motifs – a dining-room table, the view from a window or his lifelong partner Marthe De Méligny stretched out in a bath. They rely less on traditional modes of pictorial structure than a voluptuous use of colour that comes not from nature but his own interior logic.
@@ -417,7 +417,7 @@ const allArticles = [
     {
         id: `newsMenuCulture-4`,
         title: `Mary Pickford: The woman who shaped Hollywood`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/culture/newsMenuCulture-4',
         img: `news-menu-culture-img-4`,
         article: `In 1911, William deMille made the most boneheaded prediction in the history of acting. A theatre kid he’d known was quitting the stage for the moving-picture screen. “She can’t be more than 17,” he tut-tutted in a letter, “and now she’s throwing her whole career in the ashcan and burying herself in a cheap form of amusement. There will never be any real money in those galloping tintypes.” The theatre was 2,500 years old, and this girl was risking her future on a fad. “Say goodbye to little Mary Pickford. She’ll never be heard of again.”
@@ -428,7 +428,7 @@ const allArticles = [
     {
         id: `newsMenuCulture-5`,
         title: `Seven words that can help us to be a little calmer`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/culture/newsMenuCulture-5',
         img: `news-menu-culture-img-5`,
         article: `“When I was two, our family moved to a rural town in the Kansai area to be with my father’s aging parents,” writes Mari Fujimoto in the introduction to the new book Ikigai and Other Japanese Words to Live by (published by Modern Books), which translates 43 of the most poignant phrases in the language. “I fondly remember spending Obon, the festival that honours one’s ancestors, at the house of my grandparents (both of whom were over 100 years old).” More than just a childhood memory, her experience reflects an outlook – one of many that appear in the book, questioning dominant Western values.
@@ -440,7 +440,7 @@ const allArticles = [
     {
         id: `newsMenuCulture-6`,
         title: `The world's most beautiful house?`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/culture/newsMenuCulture-6',
         img: `news-menu-culture-img-6`,
         article: `In 1565, Paolo Almerico, a high-ranking official in the Papal courts of Pius IV and V, retired from the Vatican to Vicenza, in northeast Italy. Here he commissioned Andrea Palladio, one of history’s greatest architects, to design a new type of house. Built on a hill overlooking the city and surrounding countryside, La Rotonda was a freestanding villa independent of agriculture, religion or commerce. A place of study, contemplation and quiet enjoyment, it was also a work of impeccable art.
@@ -452,7 +452,7 @@ const allArticles = [
     {
         id: `newsMenuEntertainment-1`,
         title: `Woody Allen sues Amazon for $68m for dropping A Rainy Day in New York`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/entertainment/newsMenuEntertainment-1',
         img: `news-menu-entertainment-img-1`,
         article: `Woody Allen has launched legal action against Amazon Studios, accusing it of breaching their contract by refusing to distribute his latest film.
@@ -467,7 +467,7 @@ const allArticles = [
     {
         id: `newsMenuEntertainment-2`,
         title: `Juliette Binoche says Harvey Weinstein has 'had enough'`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/entertainment/newsMenuEntertainment-2',
         img: `news-menu-entertainment-img-2`,
         article: `Oscar-winning actress Juliette Binoche has called for the public censure of Harvey Weinstein to end, saying "justice has to do its work".
@@ -479,7 +479,7 @@ const allArticles = [
     {
         id: `newsMenuEntertainment-3`,
         title: `Sir Lenny Henry says his mum was racially abused`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/entertainment/newsMenuEntertainment-3',
         img: `news-menu-entertainment-img-3`,
         article: `Sir Lenny Henry has spoken about the racial abuse his mother faced when she arrived in the UK, at the launch of a BBC show about the Windrush generation.
@@ -492,7 +492,7 @@ const allArticles = [
     {
         id: `newsMenuMovies-1`,
         title: `Does the Lego Movie 2: The Second Part match the original?`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/movies/newsMenuMovies-1',
         img: `news-menu-movies-img-1`,
         article: `Perhaps no sequel could ever have reached the giddy heights attained by The Lego Movie. Written and directed by Phil Lord and Christopher Miller, the best cartoon of 2014 was such a magnificently animated and dazzlingly inventive delight that there was probably only one way its follow-up could go. But it is still depressing to see The Lego Movie 2: The Second Part falling so far short of its glorious predecessor.
@@ -506,7 +506,7 @@ const allArticles = [
     {
         id: `newsMenuMovies-2`,
         title: `Academy Adwards 2019: How good are the best picture nominees?`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/movies/newsMenuMovies-2',
         img: `news-menu-movies-img-2`,
         article: `Black Panther. The first superhero movie to be nominated for best picture was also the biggest film of 2018 at the US box office – and was praised by Barber for having a “radical vision in mind – more radical, indeed, than that of any previous Hollywood studio blockbuster”. Director and co-writer, Ryan Coogler (Creed), tells the Marvel story of Wakanda, an ultra-modern utopia hidden in Africa as “an Afrocentric Bond movie” that turns into a sci-fi fantasy. In doing so, Barber argues, he “has taken every genre in which black characters are traditionally sidelined, and then, with considerable flair and boldness, he’s combined those genres and put black characters right at their heart”. With a majority black cast, the blockbuster is a game changer, says Barber. “Ask yourself: when was the last time any feature film, whether or not it was made by a Hollywood studio, posited that an African country might be the happiest, most prosperous and most scientifically advanced place on Earth?”`,
@@ -514,7 +514,7 @@ const allArticles = [
     {
         id: `newsMenuMovies-3`,
         title: `The Favourite's bold sexual politics are rewriting history`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/movies/newsMenuMovies-3',
         img: `news-menu-movies-img-3`,
         article: `Olivia Colman, an Oscar nominee and Golden Globe winner for her performance as Queen Anne in The Favourite, tells the BBC she believes that the historical film has “reinvented the genre. It’s messy and you can almost smell the period it’s set in.”
@@ -524,7 +524,7 @@ const allArticles = [
     {
         id: `newsMenuMovies-4`,
         title: `Is the era of the movie star over?`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/movies/newsMenuMovies-4',
         img: `news-menu-movies-img-4`,
         article: `Twenty years ago, a leading actor or actress would guarantee the success of a film. Nowadays, star power has dwindled – but are their days numbered for good?
@@ -539,7 +539,7 @@ const allArticles = [
     {
         id: `newsMenuMovies-5`,
         title: `Film review: Destroyer`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/movies/newsMenuMovies-5',
         img: `news-menu-movies-img-5`,
         article: `Nicole Kidman plays a badly behaved alcoholic detective in a grim new crime thriller. But the more despicable she is, the more you care about her, writes Nicholas Barber.
@@ -549,7 +549,7 @@ const allArticles = [
     {
         id: `newsMenuMovies-6`,
         title: `'Film-making in China is the new way'`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/movies/newsMenuMovies-6',
         img: `news-menu-movies-img-6`,
         article: `“Chinese cinema, and the industry of film-making in China is the new way.”
@@ -561,7 +561,7 @@ const allArticles = [
     {
         id: `newsMenuMusic-1`,
         title: `Ahmad Zahir: The enduring appeal of the Afghan Elvis`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/music/newsMenuMusic-1',
         img: `news-menu-music-img-1`,
         article: `A new documentary celebrates Ahmad Zahir, the ‘60s and ‘70s icon who mysteriously died in 1979. Arwa Haider talks to the people making the film, including Zahir’s daughter, about how the singer combined popularity with protest.
@@ -572,7 +572,7 @@ const allArticles = [
     {
         id: `newsMenuMusic-2`,
         title: `How LSD influenced Western culture`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/music/newsMenuMusic-2',
         img: `news-menu-music-img-2`,
         article: `A new play, All You Need is LSD, tracks the importance of psychedelic drugs beyond just flower power. Is it time for a third ‘summer of love’?
@@ -586,7 +586,7 @@ const allArticles = [
     {
         id: `newsMenuMusic-3`,
         title: `Imagine: The making of an iconic song`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/music/newsMenuMusic-3',
         img: `news-menu-music-img-3`,
         article: `With previously unpublished photos and archive interviews, a new book – released on what would have been John Lennon’s 78th birthday – tells the inside story of Imagine.
@@ -597,7 +597,7 @@ const allArticles = [
     {
         id: `newsMenuMusic-4`,
         title: `How drag balls went mainstream`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/music/newsMenuMusic-4',
         img: `news-menu-music-img-4`,
         article: `As new TV series Pose brings drag balls into the mainstream, Arwa Haider looks at how the glamorous underground culture became a big hit.
@@ -608,7 +608,7 @@ const allArticles = [
     {
         id: `newsMenuScience-1`,
         title: `Climate change: UK carbon capture project begins`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/science/newsMenuScience-1',
         img: `news-menu-science-img-1`,
         article: `The giant Drax power station, near Selby in North Yorkshire, has become the first in Europe to capture carbon dioxide (CO2) from wood-burning.
@@ -641,7 +641,7 @@ const allArticles = [
     {
         id: `newsMenuScience-2`,
         title: `Climate change: 'Future proofing' forests to protect orangutans`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/science/newsMenuScience-2',
         img: `news-menu-science-img-2`,
         article: `A study has identified key tree species that are resilient to climate change and support critically endangered apes.
@@ -657,7 +657,7 @@ const allArticles = [
     {
         id: `newsMenuScience-3`,
         title: `Herbal history: Five garden plants with a hidden past`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/science/newsMenuScience-3',
         img: `news-menu-science-img-3`,
         article: `Many garden plants we're familiar with today have a hidden history.
@@ -674,7 +674,7 @@ const allArticles = [
     {
         id: `newsMenuScience-4`,
         title: `'Time bomb' warning on mining dam disasters`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/science/newsMenuScience-4',
         img: `news-menu-science-img-4`,
         article: `The catastrophic collapse of a dam at a mine in Brazil has exposed a darker side of an industry that the world depends on.
@@ -694,7 +694,7 @@ const allArticles = [
     {
         id: `newsMenuScience-5`,
         title: `Rosalind Franklin: Mars rover named after DNA pioneer`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/science/newsMenuScience-5',
         img: `news-menu-science-img-5`,
         article: `The UK-assembled rover that will be sent to Mars in 2020 will bear the name of DNA pioneer Rosalind Franklin.
@@ -712,7 +712,7 @@ const allArticles = [
     {
         id: `newsMenuSports-1`,
         title: `New Zealand v India: Rohit Sharma becomes record T20 run-scorer`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/sports/newsMenuSports-1',
         img: `news-menu-sports-img-1`,
         article: `Rohit Sharma became the highest run-scorer in Twenty20 internationals as India beat New Zealand to level the three-match series at 1-1.
@@ -732,7 +732,7 @@ const allArticles = [
     {
         id: `newsMenuSports-2`,
         title: `Frank Robinson, Major League Baseball's first black manager, dies at 83`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/sports/newsMenuSports-2',
         img: `news-menu-sports-img-2`,
         article: `Legendary baseball Hall of Famer Frank Robinson - the first African-American to manage a professional team - has died aged 83, baseball officials say.
@@ -751,7 +751,7 @@ const allArticles = [
     {
         id: `newsMenuSports-3`,
         title: `Fed Cup 2019: Line judges criticised by Greek players in GB win`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/sports/newsMenuSports-3',
         img: `news-menu-sports-img-3`,
         article: `Greek player Maria Sakkari described the line judges as "the worst I have ever seen in my life" in her Fed Cup defeat by Britain's Johanna Konta.
@@ -767,7 +767,7 @@ const allArticles = [
     {
         id: `newsMenuSports-4`,
         title: `Lionel Messi: Barcelona president Josep Maria Bartomeu preparing the club for life without Argentine`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/sports/newsMenuSports-4',
         img: `news-menu-sports-img-4`,
         article: `Barcelona president Josep Maria Bartomeu says the club's transfer activity is an indication they are preparing for life after Lionel Messi.
@@ -786,7 +786,7 @@ const allArticles = [
     {
         id: `newsMenuSports-5`,
         title: `Naomi Ogbeta on the Edinburgh Festival, YouTube... and the triple jump`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/sports/newsMenuSports-5',
         img: `news-menu-sports-img-5`,
         article: `The triple jump was always going to suit Naomi Ogbeta.
@@ -805,7 +805,7 @@ const allArticles = [
     {
         id: `newsMenuSports-6`,
         title: `Liverpool announce world record £106m net profit`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/sports/newsMenuSports-6',
         img: `news-menu-sports-img-6`,
         article: `Liverpool have announced a world record profit of £106m.
@@ -825,7 +825,7 @@ const allArticles = [
     {
         id: `newsMenuTech-1`,
         title: `Huawei and 5G: Decision time`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/tech/newsMenuTech-1',
         img: `news-menu-tech-img-1`,
         article: `It's called the Supply Chain Review and sounds very dull but it could determine the UK's hi-tech future.
@@ -839,7 +839,7 @@ const allArticles = [
     {
         id: `newsMenuTech-2`,
         title: `Apple to pay teenager who found FaceTime bug`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/tech/newsMenuTech-2',
         img: `news-menu-tech-img-2`,
         article: `A US teenager who discovered a security flaw in Apple's FaceTime video-calling system has been given a bug bounty.
@@ -856,7 +856,7 @@ const allArticles = [
     {
         id: `newsMenuTech-3`,
         title: `Microsoft: What went right under Satya Nadella?`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/tech/newsMenuTech-3',
         img: `news-menu-tech-img-3`,
         article: `On Monday, it will be five years since Satya Nadella was announced as Microsoft's chief executive.
@@ -870,7 +870,7 @@ const allArticles = [
     {
         id: `newsMenuTech-4`,
         title: `Do money apps make us better or worse with our finances?`,
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/tech/newsMenuTech-4',
         img: `news-menu-tech-img-4`,
         article: `Finance apps are proving increasingly popular, but are they making us better at managing our money or encouraging us to spend more?
@@ -887,7 +887,7 @@ const allArticles = [
         title: `Self-harm, suicide and social media: Can you talk about them online safely?`,
         img: `news-menu-tech-img-5`,
         link: '/news-menu/tech/newsMenuTech-5',
-        description: `Sometexthere`,
+        description: ``,
         article: `The boss of Instagram is meeting England's Health Secretary to discuss ways of handling content about self-harm and suicide.
         Teenager Molly Russell took her own life in 2017 and links have been made between her death and content she was looking at on social media.
         The UK government is urging social media companies to take more responsibility for harmful online content.
@@ -899,13 +899,13 @@ const allArticles = [
         title: "France recalls ambassador to Italy as diplomatic row deepens",
         id: "newsMenuWorldNews_1",
         link: '/news-menu/world-news/newsMenuWorldNews_1',
-        description: `Sometexthere`,
+        description: ``,
         article: "A diplomatic row between France and Italy has deepened, with France complaining of 'unfounded attacks and outlandish claims' by Italian leaders. France recalled its ambassador to Italy for talks on Thursday, saying the situation was 'unprecedented' since the end of World War Two. It comes after Italian Deputy PM Luigi Di Maio met French 'yellow-vest' protesters near Paris on Tuesday. France warned him not to interfere in the country's politics. Relations between the two countries - both founding members of the EU - have been tense since Italy's populist Five Star Movement and right-wing League party formed a coalition government in June 2018. The two governments have clashed over a range of issues, including immigration."
     },
     {
         img: 'news-menu-world-news-img-2',
         title: "South Africa Gloria coal mine explosion 'kills six'",
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/world-news/newsMenuWorldNews_2',
         id: "newsMenuWorldNews_2",
         article: `Six people have been killed by a gas explosion in an abandoned coal mine in South Africa, the national broadcaster is reporting.
@@ -925,7 +925,7 @@ const allArticles = [
     {
         img: 'news-menu-world-news-img-3',
         title: "Black Saturday: The bushfire disaster that shook Australia",
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/world-news/newsMenuWorldNews_3',
         id: "newsMenuWorldNews_3",
         article: `Ten years ago, Australia experienced its worst-ever bushfire disaster when 173 people died across the state of Victoria. Immediately branded "one of the darkest days in Australia's peacetime history", Black Saturday has left a profound legacy. Sharon Verghis reports.
@@ -938,7 +938,7 @@ const allArticles = [
     {
         img: 'news-menu-world-news-img-4',
         title: "India man to sue parents for giving birth to him",
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/world-news/newsMenuWorldNews_4',
         id: "newsMenuWorldNews_4",
         article: `A 27-year-old Indian man plans to sue his parents for giving birth to him without his consent.
@@ -953,7 +953,7 @@ const allArticles = [
     {
         img: 'news-menu-world-news-img-5',
         title: "Saudi Arabia 'curtailed' Jamal Khashoggi murder probe: UN",
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/world-news/newsMenuWorldNews_5',
         id: "newsMenuWorldNews_5",
         article: `Saudi Arabia "seriously curtailed" Turkish access to the scene of Jamal Khashoggi's murder, a UN investigator has said.
@@ -971,7 +971,7 @@ const allArticles = [
     {
         img: 'news-menu-world-news-img-6',
         title: "Virginia's attorney general admits wearing blackface in college",
-        description: `Sometexthere`,
+        description: ``,
         link: '/news-menu/world-news/newsMenuWorldNews_6',
         id: "newsMenuWorldNews_6",
         article: `Virginia Attorney General Mark Herring has acknowledged wearing "brown makeup" to a party, days after the state governor admitting wearing blackface.
@@ -986,7 +986,7 @@ const allArticles = [
         id:'video-1',
         title: "Video shows Dartmoor Zoo staff in tiger tug-of-war",
         img: 'picture-of-video-1',
-        description: `Sometexthere`,
+        description: ``,
         article: `A video shows staff at Dartmoor Zoo demonstrating a tug-of-war with a tiger that animal rights groups has branded as disrespectful to animals.
         Visitors are charged £15 to try and pull a piece of meat out of the mouth of either a lion or a tiger.
         The zoo said visitor engagement is an "important part of developing empathy with and respect for zoo animals".
@@ -998,7 +998,7 @@ const allArticles = [
         id:'video-2',
         title: "Police have video of Robert Kraft 'receiving alleged acts'",
         img: 'picture-of-video-2',
-        description: `Sometexthere`,
+        description: ``,
         article: `The billionaire owner of the New England Patriots has been charged with soliciting prostitution in a Florida massage parlour, police say.
         Robert Kraft, 77, is accused of two misdemeanour charges in Jupiter. He has denied the allegation.
         The owner of the Super Bowl-winning franchise allegedly paid for sexual services at the Orchids of Asia Day Spa in the beach resort, police said.
@@ -1013,7 +1013,7 @@ const allArticles = [
         id:'video-3',
         title: "Alesha killer's YouTube video game channel removed",
         img: 'picture-of-video-3',
-        description: `Sometexthere`,
+        description: ``,
         article: `The YouTube channel set up by the teenager convicted of murdering Alesha MacPhail has been removed.
         YouTube said it has taken down videos created by Aaron Campbell as a mark of respect for his six-year-old victim and her family.
         The content on the channel was mainly 16-year-old Campbell playing and commentating on violent video games.
@@ -1029,7 +1029,7 @@ const allArticles = [
         id:'video-4',
         title: "Video games to tackle mental health stigma",
         img: 'picture-of-video-4',
-        description: `Sometexthere`,
+        description: ``,
         article: `Three video games featuring characters with mental health conditions have been created to fight the social stigma.
         Scientists, game developers and mental health advocates came together in Cardiff to tackle "prejudiced" mental health portrayal in gaming, said researcher Antonio Pardinas.
         Munzir Quraishy, who offered his own experience of OCD for one of the games, said it could help people empathise.

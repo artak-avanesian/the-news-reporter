@@ -15,7 +15,6 @@ export default ({
                     id,
                     title,
                     img,
-                    description,
                     article,
                     link
                 }) => (
@@ -23,7 +22,6 @@ export default ({
                         <SearchArticle
                             title={title}
                             img={img}
-                            description={description}
                             article={article}
                             link={link}
                         />
@@ -31,5 +29,8 @@ export default ({
                 ))
             }
         </div>
+    )
+    else return (
+        <div></div>
     )
 }
