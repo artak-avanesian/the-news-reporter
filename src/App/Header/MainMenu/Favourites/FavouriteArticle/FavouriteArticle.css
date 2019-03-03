@@ -1,5 +1,9 @@
 .favourites-articles div {
     width: 170px;
+    margin-bottom: 10px;
+}
+.favourites-articles div:not(:nth-child(4n)) {
+    margin-right: 40px;
 }
 .fav-world-news-img-1 {
     background: url(../../../../Main/MainContent/MainNewsContent/WorldNews/Articles/world-news-1.jpeg)
@@ -20,5 +24,5 @@
     text-decoration: none;
 }
 .description a:hover {
-    coloR: red;
+    color: red;
 }

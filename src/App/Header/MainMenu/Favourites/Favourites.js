@@ -25,7 +25,6 @@ const Favourites = ({
                     <FavouriteArticle
                         favouriteArticleImage={favouritesMap[likeId].favouriteClass}
                         favouriteArticleTitle={favouritesMap[likeId].title}
-                        favouriteArticleDescription={favouritesMap[likeId].description}
                         favouriteArticleLink={favouritesMap[likeId].link}
                     />
                 </div>)

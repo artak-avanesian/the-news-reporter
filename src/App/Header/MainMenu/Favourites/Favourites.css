@@ -2,6 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 800px;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-content: flex-start;
 }
