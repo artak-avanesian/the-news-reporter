@@ -18,14 +18,14 @@ export default ({
                     article,
                     link
                 }) => (
-                    <div key={id}>
+                    <React.Fragment key={id}>
                         <SearchArticle
                             title={title}
                             img={img}
                             article={article}
                             link={link}
                         />
-                    </div>
+                    </React.Fragment>
                 ))
             }
         </div>

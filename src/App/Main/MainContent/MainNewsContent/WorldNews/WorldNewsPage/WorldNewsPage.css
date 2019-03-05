@@ -22,5 +22,7 @@
 	width: 300px;
 	height: 200px;
 	float: left;
-	margin-right: 20px;
+}
+.world-news-item div, .latest-article-item div, .desk-article-item div, .editorial-item div {
+    margin-right: 20px;
 }
