@@ -35,6 +35,13 @@ class App extends Component {
 		})
     }
 
+    handlerKeyPress = event => {
+        if (event.key === 'Enter') {
+            this.onSearch(this.state.value)
+            window.location.href = '#search'
+        }
+    }
+
 	render() {
 
 		const filteredArticles = this.getFilteredArticles()
@@ -47,7 +54,8 @@ class App extends Component {
 							<Header
 								onSearch={this.onSearch}
 								value={this.state.value}
-								valueChangeHandler={this.valueChangeHandler}
+                                valueChangeHandler={this.valueChangeHandler}
+                                handlerKeyPress={this.handlerKeyPress}
 							/>
 							<Main
 								filteredArticles={filteredArticles}

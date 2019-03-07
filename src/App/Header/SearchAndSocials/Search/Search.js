@@ -5,15 +5,17 @@ import './Search.css'
 const Search = ({
     onSearch,
     value,
-    valueChangeHandler
+    valueChangeHandler,
+    handlerKeyPress
 }) => {
     return (
         <div className='search'>
             <input 
-                type='text' 
+                type='search' 
                 name='search' 
                 value={value}
                 onChange={valueChangeHandler}
+                onKeyPress={handlerKeyPress}
             />
             <Link to='/search'>
                 <button className='search-icon' 

@@ -7,6 +7,7 @@ const SearchAndSocials = ({
     onSearch,
     value,
     valueChangeHandler,
+    handlerKeyPress
 }) => {
     return (
         <div className="search-and-socials">
@@ -15,6 +16,7 @@ const SearchAndSocials = ({
                 onSearch={onSearch}
                 value={value}
                 valueChangeHandler={valueChangeHandler}
+                handlerKeyPress={handlerKeyPress}
             />    
         </div>
     )
