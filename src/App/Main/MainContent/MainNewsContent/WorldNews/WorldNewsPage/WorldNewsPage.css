@@ -5,6 +5,9 @@
 	text-indent: 25px;
 	font-family: serif;
 }
+.world-news-item h2, .latest-article-item h2, .tech-news-item h2, .popular-news-item h2, .desk-article-item h2 {
+    margin-right: 25px;
+}
 .world-news-img-1 {
 	background: url(../Articles/world-news-1.jpeg)
 }
