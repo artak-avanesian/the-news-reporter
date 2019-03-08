@@ -1,61 +1,61 @@
-.gallery-1, .modal-gallery-1 {
+.gallery-1, .modal-gallery-1, .slide-1 {
     background: url(galleryImg-1.jpg) no-repeat 50%;
 }
-.gallery-2 {
+.gallery-2, .slide-2 {
     background: url(galleryImg-2.jpg) no-repeat 50%;
 }
-.gallery-3 {
+.gallery-3, .slide-3 {
     background: url(galleryImg-3.jpg) no-repeat 50%;
 }
-.gallery-4 {
+.gallery-4, .slide-4 {
     background: url(galleryImg-4.jpg) no-repeat 50%;
 }
-.gallery-5 {
+.gallery-5, .slide-5 {
     background: url(galleryImg-5.jpg) no-repeat 50%;
 }
-.gallery-6 {
+.gallery-6, .slide-6 {
     background: url(galleryImg-6.jpg) no-repeat 50%;
 }
-.gallery-7 {
+.gallery-7, .slide-7 {
     background: url(galleryImg-7.jpg) no-repeat 50%;
 }
-.gallery-8 {
+.gallery-8, .slide-8 {
     background: url(galleryImg-8.jpg) no-repeat 50%;
 }
-.gallery-9 {
+.gallery-9, .slide-9 {
     background: url(galleryImg-9.jpg) no-repeat 50%;
 }
-.gallery-10 {
+.gallery-10, .slide-10 {
     background: url(galleryImg-10.jpg) no-repeat 50%;
 }
-.gallery-11 {
+.gallery-11, .slide-11 {
     background: url(galleryImg-11.jpg) no-repeat 50%;
 }
-.gallery-12 {
+.gallery-12, .slide-12 {
     background: url(galleryImg-12.jpg) no-repeat 50%;
 }
-.gallery-13 {
+.gallery-13, .slide-13 {
     background: url(galleryImg-13.jpg) no-repeat 50%;
 }
-.gallery-14 {
+.gallery-14, .slide-14 {
     background: url(galleryImg-14.jpg) no-repeat 50%;
 }
-.gallery-15 {
+.gallery-15, .slide-15 {
     background: url(galleryImg-15.jpg) no-repeat 50%;
 }
-.gallery-16 {
+.gallery-16, .slide-16 {
     background: url(galleryImg-16.jpg) no-repeat 50%;
 }
-.gallery-17 {
+.gallery-17, .slide-17 {
     background: url(galleryImg-17.jpg) no-repeat 50%;
 }
-.gallery-18 {
+.gallery-18, .slide-18 {
     background: url(galleryImg-18.jpg) no-repeat 50%;
 }
-.gallery-19 {
+.gallery-19, .slide-19 {
     background: url(galleryImg-19.jpg) no-repeat 50%;
 }
-.gallery-20 {
+.gallery-20, .slide-20 {
     background: url(galleryImg-20.jpg) no-repeat 50%;
 }
 .gal-image-wrapper {
@@ -81,13 +81,10 @@
     overflow: auto;
 }
 .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    height: 80%;
-    min-height: 400px;
-    background-size: cover;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
 .close {
     position: absolute;
@@ -103,17 +100,19 @@
     text-decoration: none;
     cursor: pointer;
 }
-.modal-content{
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
 @-webkit-keyframes zoom {
     from{-webkit-transform: scale(0)}
     to{-webkit-transform: scale(1)}
 }
 @keyframes zoom {
-    from{-webkit-transform: scale(0)}
-    to{-webkit-transform: scale(1)}
+    from{transform: scale(0)}
+    to{transform: scale(1)}
 }
+/* [class^='slide-'] {
+    animation-name: translate;
+    animation-direction: 1s;
+}
+@keyframes translate {
+    from{transform: translateX(0px)}
+    to{transform: translateX(700px)}
+} */

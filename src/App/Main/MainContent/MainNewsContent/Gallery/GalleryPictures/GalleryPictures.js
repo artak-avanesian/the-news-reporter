@@ -8,11 +8,13 @@ export default () => (
         {
             galleryList.map(({
                 galleryId,
-                galleryImg
+                galleryImg,
+                slideImg
             }) => (
                 <React.Fragment key={galleryId}>
                     <GalleryImage
                         galleryImg={galleryImg}
+                        slideImg={slideImg}
                     />
                 </React.Fragment>
             ))
