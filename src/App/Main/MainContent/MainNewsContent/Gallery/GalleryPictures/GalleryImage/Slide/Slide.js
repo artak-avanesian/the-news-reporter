@@ -2,11 +2,8 @@ import React from 'react'
 import './Slide.css'
 
 export default ({
-    translateValue,
-    currentIndex
+    currentIndex,
+    translateRight
 }) => (
-    <div className={`slide-${currentIndex} slide`} style={{
-        transform: `translateX(${translateValue}px)`,
-        transition: 'transform ease-out 0.45s',
-    }}></div>
+    <div className={`slide-${currentIndex} slide ${translateRight ? 'translateRight' : 'translateLeft'}`}></div>
 )

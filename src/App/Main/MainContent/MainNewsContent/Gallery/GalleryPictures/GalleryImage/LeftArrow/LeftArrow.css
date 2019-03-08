@@ -1,8 +1,3 @@
-.slider {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
 .backArrow, .nextArrow {
     cursor: pointer;
     position: absolute;

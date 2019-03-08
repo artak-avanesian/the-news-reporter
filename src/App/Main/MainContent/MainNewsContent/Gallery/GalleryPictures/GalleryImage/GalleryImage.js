@@ -10,7 +10,7 @@ class GalleryImage extends Component {
     state = {
         display: 'none',
         currentIndex: 1,
-        translateValue: 0
+        translateRight: true
     }
 
     modalChangeHandler() {
@@ -29,12 +29,12 @@ class GalleryImage extends Component {
         if(this.state.currentIndex === gallery_list.length) {
             return this.setState({
               currentIndex: 1,
-              translateValue: 0
+              translateRight: true
             })
         }
         this.setState(prevState => ({
             currentIndex: prevState.currentIndex + 1,
-            translateValue: prevState.translateValue - this.slideWidth()
+            translateRight: true
         }));
     }
 
@@ -42,17 +42,13 @@ class GalleryImage extends Component {
         if(this.state.currentIndex === 1) {
             return this.setState({
               currentIndex: gallery_list.length,
-              translateValue: 0
+              translateRight: false
             })
         }
         this.setState(prevState => ({
             currentIndex: prevState.currentIndex - 1,
-            translateValue: prevState.translateValue + this.slideWidth()
+            translateRight: false
         }));
-    }
-
-    slideWidth = () => {
-        return document.querySelector('.slide').clientWidth
     }
 
     getCurrentIndex = img => {
@@ -77,11 +73,11 @@ class GalleryImage extends Component {
                     <span className='close' onClick={() => this.close()}>&times;</span>
                     <div className='slider modal-content'>
                         <div className='slider-wrapper'>
-                                <Slide
-                                    key={this.state.currentIndex}
-                                    currentIndex={this.state.currentIndex}
-                                    translateValue={this.state.translateValue}
-                                />
+                            <Slide
+                                key={this.state.currentIndex}
+                                currentIndex={this.state.currentIndex}
+                                translateRight={this.state.translateRight}
+                            />
                         </div>
                         <LeftArrow
                             goToPrevSlide={this.goToPrevSlide}

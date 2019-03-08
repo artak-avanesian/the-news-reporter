@@ -108,11 +108,9 @@
     from{transform: scale(0)}
     to{transform: scale(1)}
 }
-/* [class^='slide-'] {
-    animation-name: translate;
-    animation-direction: 1s;
+.slider {
+    max-width: 1000px;
+    width: 80%;
+    position: relative;
+    margin: auto;
 }
-@keyframes translate {
-    from{transform: translateX(0px)}
-    to{transform: translateX(700px)}
-} */
