@@ -10,7 +10,11 @@ export default ({
         <article className='video-page'>
             <video src={videoMap[match.params.video_id].video_link} controls></video>
             <h2>{videoMap[match.params.video_id].video_title}</h2>
-            <p>{videoMap[match.params.video_id].video_article}</p>
+            {
+                videoMap[match.params.video_id].video_article.map((paragraph, i) => (
+                    <p key={i}>{paragraph}</p>
+                ))
+                }
         </article>
     )
 }

@@ -10,7 +10,11 @@ const DeskArticlePage = ({
         <article className='desk-article-item'>
             <div className={deskArticle[match.params.deskArticleId].desk_art_img}/>
             <h2>{deskArticle[match.params.deskArticleId].desk_art_title}</h2>
-            <p>{deskArticle[match.params.deskArticleId].desk_art_article}</p>
+            {
+                deskArticle[match.params.deskArticleId].desk_art_article.map((paragraph, i) => (
+                    <p key={i}>{paragraph}</p>
+                ))
+            }
         </article>
     )
 }

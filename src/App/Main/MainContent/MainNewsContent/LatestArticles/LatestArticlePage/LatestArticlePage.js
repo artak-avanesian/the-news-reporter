@@ -10,7 +10,11 @@ const LatestArticlePage = ({
         <article className='latest-article-item'>
             <div className={latestArticle[match.params.latestArticleId].lat_art_img}/>
             <h2>{latestArticle[match.params.latestArticleId].art_list_title}</h2>
-            <p>{latestArticle[match.params.latestArticleId].art_list_article}</p>
+            {
+                latestArticle[match.params.latestArticleId].art_list_article.map((paragraph, i) => (
+                    <p key={i}>{paragraph}</p>
+                ))
+            }
         </article>
     )
 }

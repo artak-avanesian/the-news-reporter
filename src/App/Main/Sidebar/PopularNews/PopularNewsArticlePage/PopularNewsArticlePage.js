@@ -8,7 +8,9 @@ const PopularNewsArticlePage = ({
     return (
         <article className='popular-news-item'>
             <h2>{popularNewsMap[match.params.popularNewsArticleId].popular_title}</h2>
-            <p>{popularNewsMap[match.params.popularNewsArticleId].popular_article}</p>
+            {
+                popularNewsMap[match.params.popularNewsArticleId].popular_article.map((paragraph, i) => (<p key={i}>{paragraph}</p>))
+                }
         </article>
     )
 }

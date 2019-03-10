@@ -8,7 +8,9 @@ const TechNewsArticlePage = ({
     return (
         <article className='tech-news-item'>
             <h2>{techArticleItem[match.params.techNewsArticleId].title_tech}</h2>
-            <p>{techArticleItem[match.params.techNewsArticleId].article_tech}</p>
+            {techArticleItem[match.params.techNewsArticleId].article_tech.map((paragraph, i) => (
+                <p key={i}>{paragraph}</p>
+            ))}
         </article>
     )
 }

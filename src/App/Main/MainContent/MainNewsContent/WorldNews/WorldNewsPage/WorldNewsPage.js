@@ -10,7 +10,9 @@ const WorldNewsPage = ({
         <article className='world-news-item'>
             <div className={articleItem[match.params.worldNewsArticleId].img}/>
             <h2>{articleItem[match.params.worldNewsArticleId].title}</h2>
-            <p>{articleItem[match.params.worldNewsArticleId].world_news_article}</p>
+            {
+                articleItem[match.params.worldNewsArticleId].world_news_article.map((paragraph, i) => (<p key={i}>{paragraph}</p>))
+            }
         </article>
     )
 }
