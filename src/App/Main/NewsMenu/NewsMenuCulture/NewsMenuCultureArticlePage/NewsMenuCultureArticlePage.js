@@ -9,7 +9,9 @@ const NewsMenuCultureArticlePage = ({
         <article className='news-menu-culture-article-page'>
             <div className={cultureMap[match.params.newsMenuCultureId].newsMenuCultureImg}></div>
             <h2>{cultureMap[match.params.newsMenuCultureId].newsMenuCultureTitle}</h2>
-            <p>{cultureMap[match.params.newsMenuCultureId].newsMenuCultureArticle}</p>
+            {
+                cultureMap[match.params.newsMenuCultureId].newsMenuCultureArticle.map((paragraph, i) => (<p key={i}>{paragraph}</p>))
+            }
         </article>
     )
 }
