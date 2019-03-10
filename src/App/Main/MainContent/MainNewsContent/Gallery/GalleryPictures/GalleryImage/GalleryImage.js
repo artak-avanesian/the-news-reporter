@@ -10,7 +10,6 @@ class GalleryImage extends Component {
     state = {
         display: 'none',
         currentIndex: 1,
-        translateRight: true
     }
 
     modalChangeHandler() {
@@ -29,12 +28,10 @@ class GalleryImage extends Component {
         if(this.state.currentIndex === gallery_list.length) {
             return this.setState({
               currentIndex: 1,
-              translateRight: true
             })
         }
         this.setState(prevState => ({
             currentIndex: prevState.currentIndex + 1,
-            translateRight: true
         }));
     }
 
@@ -42,12 +39,10 @@ class GalleryImage extends Component {
         if(this.state.currentIndex === 1) {
             return this.setState({
               currentIndex: gallery_list.length,
-              translateRight: false
             })
         }
         this.setState(prevState => ({
             currentIndex: prevState.currentIndex - 1,
-            translateRight: false
         }));
     }
 
@@ -76,7 +71,6 @@ class GalleryImage extends Component {
                             <Slide
                                 key={this.state.currentIndex}
                                 currentIndex={this.state.currentIndex}
-                                translateRight={this.state.translateRight}
                             />
                         </div>
                         <LeftArrow

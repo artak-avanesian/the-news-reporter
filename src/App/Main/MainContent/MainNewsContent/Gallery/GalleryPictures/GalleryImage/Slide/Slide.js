@@ -3,7 +3,4 @@ import './Slide.css'
 
 export default ({
     currentIndex,
-    translateRight
-}) => (
-    <div className={`slide-${currentIndex} slide ${translateRight ? 'translateRight' : 'translateLeft'}`}></div>
-)
+}) => (<div className={`slide-${currentIndex} slide`}></div>)

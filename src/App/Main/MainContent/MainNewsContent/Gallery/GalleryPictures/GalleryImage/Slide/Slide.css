@@ -6,31 +6,3 @@
     height: 80%;
     min-height: 400px;
 }
-.translateRight {
-    animation-name: right-translate;
-}
-.translateLeft {
-    animation-name: left-translate;
-}
-.translateRight, .translateLeft {
-    animation-duration: 0.5s;
-}
-
-@keyframes right-translate {
-    from{transform: translateX(0px)}
-    to{transform: translateX(700px)}
-}
-
-@keyframes left-translate {
-    from{transform: translateX(0px)}
-    to{transform: translateX(-700px)}
-}
-@-webkit-keyframes right-translate {
-    from{-webkit-transform: translateX(0px)}
-    to{-webkit-transform: translateX(700px)}
-}
-
-@-webkit-keyframes left-translate {
-    from{-webkit-transform: translateX(0px)}
-    to{-webkit-transform: translateX(-700px)}
-}
