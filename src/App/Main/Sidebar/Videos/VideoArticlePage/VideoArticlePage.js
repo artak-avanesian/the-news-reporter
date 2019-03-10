@@ -14,7 +14,7 @@ export default ({
                 videoMap[match.params.video_id].video_article.map((paragraph, i) => (
                     <p key={i}>{paragraph}</p>
                 ))
-                }
+            }
         </article>
     )
 }
