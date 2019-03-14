@@ -1,6 +1,13 @@
 h5 {
     font-family: Arial;
 }
+.description a:first-child {
+    text-decoration: none;
+    color: #202021;
+}
+.description a:first-child:hover {
+    color: #cf0000;
+}
 .description p, .descript, .author, .comments, [class^='desk-'] p {
     font-family: Arial;
     font-size: 12px;

@@ -24,7 +24,7 @@ class ArticleItem extends Component {
             <div className='article'>
                 <div className="image"></div>
                 <div className="description">
-                    <h5>{art_list_title}</h5>
+                    <Link to={`/latest-articles/${art_list_id}`}><h5>{art_list_title}</h5></Link>
                     <p>{art_list_description}</p>
                     <Link to={`/latest-articles/${art_list_id}`} className="read-more">Read more</Link>
                     <span className='like' onClick={() => this.onLikeClick()}>{isLiked ? <span className='glyph2 gold-fill'>E</span> : <span className='glyph2'>D</span>}</span>
@@ -33,6 +33,8 @@ class ArticleItem extends Component {
         )
     }
 }
+
+//css properties locate in WorldNewsArticle.css
 
 const mapStateToProps = (state, props) => {
     return {
