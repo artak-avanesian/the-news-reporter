@@ -16,7 +16,14 @@ const Favourites = ({
         if (isLiked[likeId] === true) return true;
         else return false;
     })
-    return (
+    if (isLikedProduct.length === 0) {
+        return (
+            <div className='no-chose'>
+                <p>You have not selected articles yet.</p>
+            </div>
+        )
+    }
+    else return (
         <div className='favourites-articles'>
         {
             isLikedProduct.map((likeId) => {
@@ -43,6 +50,7 @@ const Favourites = ({
         </div>
     )
 }
+    
 
 const mapStateToProps = (state) => {
     return {
